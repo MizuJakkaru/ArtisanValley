@@ -7,134 +7,40 @@
 			"Target": "Data/Machines",
 			"Entries": 
 				{
-					"MizuLeo.ArtisanValley_Alembic": 														//big craftable id
+					"(BC)MizuLeo.ArtisanValley_Alembic": 															// big craftable id
 						{
-							"Id": "MizuLeo.ArtisanValley_JalapenoExtract",									//name of item conversion rule
-							"Triggers": 
+							"OutputRules":
 								[{
-									"Trigger": "ItemPlacedInMachine",										// machine behavior
-									"RequiredItemId": "MizuLeo.FruitsVeggies_Jalapeno",						// input item
-									"RequiredTags": null,													// required item tags, negate a tag with !tag_name
-									"RequiredCount": 1														// required stack size
-								}],
-							"OutputItem":
-								[{
-									"ItemId": "MizuLeo.ArtisanValley_JalapenoExtract",						// output item
-									"MinStack": 1,															// minimum output
-									"MaxStack": 1,															// maximum output
+									"Id": "MizuLeo.ArtisanValley_JalapenoExtract",									// name of rule
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",										// machine behavior
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Jalapeno",					// input item
+											"RequiredTags": null,													// required item tags, negate a tag with !tag_name
+											"RequiredCount": 1														// required stack size
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_JalapenoExtract",					// output item
+											"MinStack": 1,															// minimum output
+											"MaxStack": 1,															// maximum output
 											"Quality": 0,													
 											"ModifyName": null,
 											"PreserveType": null,
 											"PreserveId": null,
 											"ModifyName": null,
 											"CopyColor": false,
-											"MultiplyPrice": 1.0,											//price multiplier
+											"MultiplyPrice": 1.0,													// price multiplier
 											"IncrementMachineParentSheetIndex": 0,
 											"Condition": null
-								}],
-							"UseFirstValidOutput": false,
-							"MinutesUntilReady": 1000,														//output timer
-							"DaysUntilReady": -1,
-							"InvalidCountMessage": null,
-							"RecalculateOnCollect": false													//return input item if no valid output
-						},
-						"AdditionalConsumedItems": 
-								[{
-									"ItemId": null,
-									"RequiredCount": null,
-									"InvalidCountMessage": null
-								}],
-						"ReadyTimeModifiers": null,
-						"ReadyTimeModifierMode": 0,
-						
-						//behavior tweaks
-						"PreventTimePass": null,
-						"AllowLoadWhenFull": false,
-						"ClearContentsOvernightCondition": false,
-						
-						//audio & visuals																	  
-						"LoadEffects": 
-								[{
-									"RequiredItemId": null,
-									"RequiredTags": null,
-									"Sound": "bubbles",
-									"DelayedSounds": 
-										[{
-											"Sound": "sipTea",
-											"Delay": 0
 										}],
-									"ShakeDuration": -1,
-									"Frames": null,
-									"Interval": 100,
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
-												{
-												  "X": 256,
-												  "Y": 1856,
-												  "Width": 64,
-												  "Height": 128
-												},
-											"Interval": 80.0,
-											"Frames": 6,
-											"Loops": 999999,
-											"PositionOffset": "0, -32",
-											"Flicker": false,
-											"Flip": false,
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": null
-										}],
-								}],
-						"WorkingEffects": 
-								[{
-									"RequiredItemId": null,
-									"RequiredTags": null,
-									"Sound": null,
-									"DelayedSounds": null,
-									"ShakeDuration": -1,
-									"Frames": null,
-									"Interval": 100,
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
-												{
-												  "X": 256,
-												  "Y": 1856,
-												  "Width": 64,
-												  "Height": 128
-												},
-											"Interval": 80.0,
-											"Frames": 6,
-											"Loops": 999999,
-											"PositionOffset": "0, -32",
-											"Flicker": false,
-											"Flip": false,
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": "White"
-										}],
-								}],
-						"WorkingEffectChance": 0.33,
-						"LightWhileWorking": null,
-						"WobbleWhileWorking": true,
-						"ShowNextIndexWhileWorking": false,
-						"ShowNextIndexWhenReady": false,
-						
-						//advanced logic
-						"IsIncubator": false,
-						"StatsToIncrementWhenLoaded": null,
-						"StatsToIncrementWhenHarvested": null
+									"UseFirstValidOutput": false,
+									"MinutesUntilReady": 10,														// output timer
+									"DaysUntilReady": -1,
+									"InvalidCountMessage": null,
+									"RecalculateOnCollect": false													// return input item if no valid output
+								}]
+						}
 				}
 			
 		}
