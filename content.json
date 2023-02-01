@@ -21,7 +21,6 @@
 				"MizuLeo.ArtisanValley_CookieButter": "Cookie Butter/250/-300/Artisan_Goods -26/Cookie Butter/Cookies ground into a smooth, delicious paste. Don't lie to yourself. Just use a spoon.////111/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GoatButter": "Goat Butter/325/-300/Artisan_Goods -26/Goat Butter/Soft butter made from goat’s milk.////106/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_HazelnutButter": "Hazelnut Butter/230/-300/Artisan_Goods -26/Hazelnut Butter/An irresistible, chocolate-flavored spread.////112/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_HoneyButter": "Honey Butter/200/-300/Artisan_Goods -26/Honey Butter/A sweet butter and honey mixture.////104/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Margarine": "Margarine/150/-300/Artisan_Goods -26/Margarine/You can't believe it's not butter!////107/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PeanutButter": "Peanut Butter/200/-300/Artisan_Goods -26/Peanut Butter/The classic staple. Do you like smooth or crunchy? ////113/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PecanButter": "Pecan Butter/250/-300/Artisan_Goods -26/Pecan Butter/A sweet butter with bits of pecan inside.////114/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -299,7 +298,7 @@
 				//custom forage & trees
 				"MizuLeo.ArtisanValley_ChicleRubber": "Chicle Rubber/100/-300/Artisan_Goods -27/Chicle Rubber/A sticky substance derived from a sopadilla tree. It can be used to make gum.////267/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Peppercorn": "Peppercorn/40/-300/Forage -81/Peppercorn/It's a fresh peppercorn!////218/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_RockSalt": "Rock Salt/60/-300/Mineral -12/Rock Salt/A clumb of salt gathered together as the tide drifted in and out.////219/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_SeaSalt": "Sea Salt/60/-300/Mineral -12/Sea Salt/A clumb of salt gathered together as the tide drifted in and out.////219/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SopadillaSeed": "Sopadilla Seed/50/-300/Basic -74/Sopadilla Seed/This can be planted to grow a sopadilla tree.////266/Mods\\MizuLeo.ArtisanValley\\Objects",
 			}
 		},
