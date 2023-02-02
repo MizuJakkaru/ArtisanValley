@@ -7,21 +7,21 @@
 			"Target": "Data/Machines",
 			"Entries": 
 				{
-					"(BC)MizuLeo.ArtisanValley_Alembic": 															// big craftable id
+					"(BC)MizuLeo.ArtisanValley_Alembic":
 						{
-							"OutputRules":																			// item conversion
+							"OutputRules":				
 								[{
-									"Id": "MizuLeo.ArtisanValley_HabaneroExtract",									// name of rule
+									"Id": "MizuLeo.ArtisanValley_HabaneroExtract",
 									"Triggers": 
 										[{
-											"Trigger": "ItemPlacedInMachine",										// machine behavior
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Habanero",					// input item
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Habanero",
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_HabaneroExtract",					// output item
+											"ItemId": "(O)MizuLeo.ArtisanValley_HabaneroExtract",
 										}],
-									"MinutesUntilReady": 100,														// output timer
+									"MinutesUntilReady": 100,
 								},{
 									"Id": "MizuLeo.ArtisanValley_JalapenoExtract",
 									"Triggers": 
@@ -58,9 +58,21 @@
 											"ItemId": "(O)MizuLeo.ArtisanValley_VanillaExtract",
 										}],
 									"MinutesUntilReady": 100,
+								},{
+									"Id": "MizuLeo.ArtisanValley_EssentialOil",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":["category_vegetable"],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM DROP_IN_ID Essential Oil",	
+										}],
+									"MinutesUntilReady": 100,
 								}],
 								
-							"LoadEffects": 																			// loading audio-visual effects
+							"LoadEffects":
 								[{
 									"Sound": "bubbles",
 									"DelayedSounds": 
@@ -78,7 +90,7 @@
 												  "Width": 64,
 												  "Height": 128
 												},
-												"Interval": 80.0,
+											"Interval": 80.0,
 											"Frames": 6,
 											"Loops": 999999,
 											"PositionOffset": "0, -32",
@@ -91,7 +103,7 @@
 											"Color": "White"
 										}],
 								}],
-							"WorkingEffects": 																		// working audio-visual effects
+							"WorkingEffects":
 								[{
 									"TemporarySprites": 
 										[{

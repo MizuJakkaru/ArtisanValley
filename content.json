@@ -21,6 +21,7 @@
 				"MizuLeo.ArtisanValley_CookieButter": "Cookie Butter/250/-300/Artisan_Goods -26/Cookie Butter/Cookies ground into a smooth, delicious paste. Don't lie to yourself. Just use a spoon.////111/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GoatButter": "Goat Butter/325/-300/Artisan_Goods -26/Goat Butter/Soft butter made from goat’s milk.////106/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_HazelnutButter": "Hazelnut Butter/230/-300/Artisan_Goods -26/Hazelnut Butter/An irresistible, chocolate-flavored spread.////112/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_HoneyButter": "Honey Butter/200/-300/Artisan_Goods -26/Honey Butter/A sweet butter and honey mixture.////104/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Margarine": "Margarine/150/-300/Artisan_Goods -26/Margarine/You can't believe it's not butter!////107/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PeanutButter": "Peanut Butter/200/-300/Artisan_Goods -26/Peanut Butter/The classic staple. Do you like smooth or crunchy? ////113/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PecanButter": "Pecan Butter/250/-300/Artisan_Goods -26/Pecan Butter/A sweet butter with bits of pecan inside.////114/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -126,7 +127,7 @@
 				"MizuLeo.ArtisanValley_GroundVegetable": "Ground Vegetable/100/-300/Artisan_Goods -26/Ground Vegetable/A jar of ground vegetables.////29/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GroundCumin": "Ground Cumin/150/-300/Artisan_Goods -26/Ground Cumin/A jar of ground cumin, it gives a distinct flavor.////70/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GroundNutmeg": "Ground Nutmeg/200/-300/Artisan_Goods -26/Ground Nutmeg/A jar of ground nutmeg, used in baked goods.////68/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_GroundTumeric": "Ground Tumeric/200/-300/Artisan_Goods -26/Ground Tumeric/A jar of ground turmeric, used in traditional dishes.////67/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_GroundTurmeric": "Ground Turmeric/200/-300/Artisan_Goods -26/Ground Turmeric/A jar of ground turmeric, used in traditional dishes.////67/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_LemonPeel": "Lemon Peel/100/-300/Basic/Lemon Peel/The zest of a lemon.////65/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_LimePeel": "Lime Peel/100/-300/Basic/Lime Peel/The zest of a lime.////64/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_OrangePeel": "Orange Peel/100/-300/Basic/Orange Peel/The zest of an orange.////66/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -399,7 +400,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "machines/alembic.json"
+			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json"
 		},
     ]
 }
