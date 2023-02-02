@@ -1,0 +1,121 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)MizuLeo.ArtisanValley_Extruder": 
+						{
+							"OutputRules":
+								[{
+									"Id": "MizuLeo.ArtisanValley_Beeswax",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)340",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Beeswax",
+										}],
+									"MinutesUntilReady": 300,
+								},{
+									"Id": "MizuLeo.ArtisanValley_BuckwheatPasta",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_BuckwheatFlour",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_BuckwheatPasta",
+										}],
+									"MinutesUntilReady": 360,
+								},{
+									"Id": "MizuLeo.ArtisanValley_ChewingGum",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_ChicleRubber",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_ChewingGum",
+										}],
+									"MinutesUntilReady": 1750,
+								},{
+									"Id": "MizuLeo.ArtisanValley_RicePasta",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "MizuLeo.ArtisanValley_RiceFlour",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_RicePasta",
+										}],
+									"MinutesUntilReady": 360,
+								},{
+									"Id": "MizuLeo.ArtisanValley_SemolinaPasta",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_SemolinaFlour",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_SemolinaPasta",
+										}],
+									"MinutesUntilReady": 360,
+								},{
+									"Id": "MizuLeo.ArtisanValley_TapiocaPearls",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_TapiocaFlour",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_TapiocaPearls",
+										}],
+									"MinutesUntilReady": 1750,
+								},{
+									"Id": "MizuLeo.ArtisanValley_WheatPasta",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)246",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_WheatPasta",
+										}],
+									"MinutesUntilReady": 360,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Zoodles",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Zucchini",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Zoodles",
+										}],
+									"MinutesUntilReady": 240,
+								}],
+								
+							"LoadEffects":
+								[{
+									"Sound": "woodchipper",
+								}],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

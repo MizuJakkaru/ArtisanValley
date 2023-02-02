@@ -1,0 +1,37 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)MizuLeo.ArtisanValley_CanningMachine":
+						{
+							"OutputRules":
+								[{
+									"Id": "MizuLeo.ArtisanValley_CannedTuna",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)130",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_CannedTuna",
+										}],
+									"MinutesUntilReady": 60,
+								}],
+								
+							"LoadEffects":
+								[{
+									"Sound": "trashcan",
+								}],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

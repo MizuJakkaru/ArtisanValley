@@ -1,0 +1,49 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)MizuLeo.ArtisanValley_Dehydrator":
+						{
+							"OutputRules":
+								[{
+									"Id": "MizuLeo.ArtisanValley_Prunes",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)406",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Prunes",
+										}],
+									"MinutesUntilReady": 2250,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Raisins",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)398",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Raisins",
+										}],
+									"MinutesUntilReady": 2250,
+								}],
+								
+							"LoadEffects":
+								[{
+									"Sound": "Ship",
+								}],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

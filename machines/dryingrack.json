@@ -1,0 +1,88 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)MizuLeo.ArtisanValley_DryingRack": 
+						{
+							"OutputRules":
+								[{
+									"Id": "MizuLeo.ArtisanValley_BarleyMalt",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Barley",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_BarleyMalt",
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_CornMalt",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)270",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_CornMalt",
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Hay",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)771",
+											"RequiredCount": 10,
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)178",
+											"MinStack": 3,
+											"MaxStack": 8,
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_MatchaPowder",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)815",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_MatchaPowder",
+										}],
+									"MinutesUntilReady": 4320,
+								},{
+									"Id": "MizuLeo.ArtisanValley_WheatMalt",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)262",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_WheatMalt",
+										}],
+									"MinutesUntilReady": 120,
+								}],
+								
+							"LoadEffects":
+								[{
+									"Sound": "Ship",
+								}],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

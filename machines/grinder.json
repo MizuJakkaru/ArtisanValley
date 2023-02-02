@@ -1,0 +1,181 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)MizuLeo.ArtisanValley_Grinder": 
+						{
+							"OutputRules":
+								[{
+									"Id": "MizuLeo.ArtisanValley_Applesauce",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)613",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Applesauce",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_ChiliPowder",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)260",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_ChiliPowder",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_GroundCumin",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Cumin",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_GroundCumin",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_GroundNutmeg",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "MizuLeo.HerbsFlowers_Nutmeg",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_GroundNutmeg",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_GroundTurmeric",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Turmeric",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_GroundTurmeric",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_LemonPeel",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Lemon",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_LemonPeel",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_LimePeel",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Lime",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_LimePeel",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_OrangePeel",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)635",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_OrangePeel",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Paprika",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_BellPepper",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Paprika",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Pepper",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Pepper",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Saffron",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)418",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Saffron",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Salt",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_SeaSalt",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Salt",
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_WasabiPaste",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_WasabiRoot",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_WasabiPaste",
+										}],
+									"MinutesUntilReady": 60,
+								}],
+								
+							"LoadEffects":
+								[{
+									"Sound": "woodchipper",
+								}],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

@@ -1,0 +1,218 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)MizuLeo.ArtisanValley_EspressoMachine":
+						{
+							"OutputRules":
+								[{
+									"Id": "MizuLeo.ArtisanValley_Affogato",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_VanillaIceCream",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Affogato",
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_CaffeLatte",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)186",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_CaffeLatte",
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_CaffeMocha",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "MizuLeo.FruitsVeggies_CocoaPod",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_CaffeMocha",
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_CaffePelicano",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)395",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_CaffePelicano",
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Cappuccino",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId":"(O)436",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "MizuLeo.ArtisanValley_Cappuccino",	
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_HotWhiskeyCoffee",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId":"MizuLeo.ArtisanValley_Whiskey",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "MizuLeo.ArtisanValley_HotWhiskeyCoffee",	
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Macchiato",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId":"(O)184",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "MizuLeo.ArtisanValley_Macchiato",	
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_MapleMacchiato",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId":"(O)724",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "MizuLeo.ArtisanValley_MapleMacchiato",	
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_PeppermintMocha",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId":"MizuLeo.HerbsFlowers_Mint",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "MizuLeo.ArtisanValley_PeppermintMocha",	
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_PumpkinSpiceLatte",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId":"(O)276",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "MizuLeo.ArtisanValley_PumpkinSpiceLatte",	
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_SaltedCaramelMocha",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId":"(O)MizuLeo.MoreRecipes_Caramel",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "MizuLeo.ArtisanValley_SaltedCaramelMocha",	
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_ToastedCoconutMocha",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId":"(O)88",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "MizuLeo.ArtisanValley_ToastedCoconutMocha",	
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_VanillaLatte",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId":"MizuLeo.HerbsFlowers_Vanilla",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "MizuLeo.ArtisanValley_VanillaLatte",	
+										}],
+									"MinutesUntilReady": 120,
+								}],
+								
+							"AdditionalConsumedItems":
+								[{
+									"ItemId": "(O)433",
+									"RequiredCount": 4,
+									"InvalidCountMessage": "Requires 4 Coffee Bean"
+								}],
+								
+							"LoadEffects":
+								[{
+									"Sound": "bubbles",
+									"DelayedSounds": 
+										[{
+											"Sound": "sipTea",
+											"Delay": 0
+										},{
+											"Sound": "steam",
+											"Delay": 200
+										}],
+									"TemporarySprites": 
+										[{
+											"Texture": "TileSheets\\animations",
+											"SourceRect":
+												{
+												  "X": 0,
+												  "Y": 1728,
+												  "Width": 64,
+												  "Height": 64
+												},
+											"Interval": 50.0,
+											"Frames": 4,
+											"Loops": 10,
+											"PositionOffset": "-4, -32",
+											"SortOffset": 0.0,
+											"AlphaFade": 0.005,
+											"Scale": 0.25,
+											"ScaleChange": 0.0,
+											"Rotation": 0.0,
+											"RotationChange": 0.0,
+											"Color": null
+										}],
+								}],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}
