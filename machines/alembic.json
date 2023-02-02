@@ -1,7 +1,7 @@
 {
 	"Changes":
 	[
-		// add crafting recipes
+		// add custom machines
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -9,37 +9,114 @@
 				{
 					"(BC)MizuLeo.ArtisanValley_Alembic": 															// big craftable id
 						{
-							"OutputRules":
+							"OutputRules":																			// item conversion
 								[{
-									"Id": "MizuLeo.ArtisanValley_JalapenoExtract",									// name of rule
+									"Id": "MizuLeo.ArtisanValley_HabaneroExtract",									// name of rule
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",										// machine behavior
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Jalapeno",					// input item
-											"RequiredTags": null,													// required item tags, negate a tag with !tag_name
-											"RequiredCount": 1														// required stack size
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Habanero",					// input item
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_JalapenoExtract",					// output item
-											"MinStack": 1,															// minimum output
-											"MaxStack": 1,															// maximum output
-											"Quality": 0,													
-											"ModifyName": null,
-											"PreserveType": null,
-											"PreserveId": null,
-											"ModifyName": null,
-											"CopyColor": false,
-											"MultiplyPrice": 1.0,													// price multiplier
-											"IncrementMachineParentSheetIndex": 0,
-											"Condition": null
+											"ItemId": "(O)MizuLeo.ArtisanValley_HabaneroExtract",					// output item
 										}],
-									"UseFirstValidOutput": false,
-									"MinutesUntilReady": 10,														// output timer
-									"DaysUntilReady": -1,
-									"InvalidCountMessage": null,
-									"RecalculateOnCollect": false													// return input item if no valid output
-								}]
+									"MinutesUntilReady": 100,														// output timer
+								},{
+									"Id": "MizuLeo.ArtisanValley_JalapenoExtract",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Jalapeno",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_JalapenoExtract",
+										}],
+									"MinutesUntilReady": 100,
+								},{
+									"Id": "MizuLeo.ArtisanValley_PrismaticExtract",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)74",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_PrismaticExtract",
+										}],
+									"MinutesUntilReady": 100,
+								},{
+									"Id": "MizuLeo.ArtisanValley_VanillaExtract",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Vanilla",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_VanillaExtract",
+										}],
+									"MinutesUntilReady": 100,
+								}],
+								
+							"LoadEffects": 																			// loading audio-visual effects
+								[{
+									"Sound": "bubbles",
+									"DelayedSounds": 
+										[{
+											"Sound": "sipTea",
+											"Delay": 0
+										}],
+									"TemporarySprites": 
+										[{
+											"Texture": "TileSheets\\animations",
+											"SourceRect":
+												{
+												  "X": 256,
+												  "Y": 1856,
+												  "Width": 64,
+												  "Height": 128
+												},
+												"Interval": 80.0,
+											"Frames": 6,
+											"Loops": 999999,
+											"PositionOffset": "0, -32",
+											"SortOffset": 0.0,
+											"AlphaFade": 0.005,
+											"Scale": 0.25,
+											"ScaleChange": 0.0,
+											"Rotation": 0.0,
+											"RotationChange": 0.0,
+											"Color": "White"
+										}],
+								}],
+							"WorkingEffects": 																		// working audio-visual effects
+								[{
+									"TemporarySprites": 
+										[{
+											"Texture": "TileSheets\\animations",
+											"SourceRect":
+												{
+												  "X": 256,
+												  "Y": 1856,
+												  "Width": 64,
+												  "Height": 128
+												},
+											"Interval": 80.0,
+											"Frames": 6,
+											"Loops": 999999,
+											"PositionOffset": "0, -32",
+											"SortOffset": 0.0,
+											"AlphaFade": 0.005,
+											"Scale": 0.25,
+											"ScaleChange": 0.0,
+											"Rotation": 0.0,
+											"RotationChange": 0.0,
+											"Color": "White"
+										}],
+								}],
+							"WobbleWhileWorking": true,
 						}
 				}
 			
