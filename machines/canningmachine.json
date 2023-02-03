@@ -31,7 +31,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Canned Fish DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_CannedFish",
+											"Name": "Canned {0}",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "CannedFish",
+													"Modification": "Multiply",
+													"Amount": 1.5,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -43,7 +51,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Canned Fruit DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_CannedFruit",
+											"Name": "Canned {0}",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "CannedFruit",
+													"Modification": "Multiply",
+													"Amount": 1.25,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -55,7 +71,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Canned Shellfish DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_CannedShellfish",
+											"Name": "Canned {0}",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "CannedShellfish",
+													"Modification": "Multiply",
+													"Amount": 1.5,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -67,7 +91,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Canned Vegetables DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_CannedVegetables",
+											"Name": "Canned {0}",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "CannedVegetables",
+													"Modification": "Multiply",
+													"Amount": 1.25,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								}],

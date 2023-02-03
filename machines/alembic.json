@@ -67,7 +67,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Essential Oil DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_EssentialOil",
+											"Name": "{0} Essential Oil",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "EssentialOil",
+													"Modification": "Multiply",
+													"Amount": 1.5,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -79,7 +87,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Essential Oil DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_EssentialOil",
+											"Name": "{0} Essential Oil",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "EssentialOil",
+													"Modification": "Multiply",
+													"Amount": 1.5,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -91,7 +107,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Essential Oil DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_EssentialOil",
+											"Name": "{0} Essential Oil",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "EssentialOil",
+													"Modification": "Multiply",
+													"Amount": 1.5,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								}],

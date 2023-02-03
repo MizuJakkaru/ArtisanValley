@@ -79,7 +79,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Smoked Fish DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_SmokedFish",
+											"Name": "Smoked {0}",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "SmokedFish",
+													"Modification": "Multiply",
+													"Amount": 2.0,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								}],

@@ -43,7 +43,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Dried Fruit DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_DriedFruit",
+											"Name": "Dried {0}",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "DriedFruit",
+													"Modification": "Multiply",
+													"Amount": 2.0,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -55,7 +63,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Dried Mushroom DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_DriedMushroom",
+											"Name": "Dried {0}",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "DriedMushroom",
+													"Modification": "Multiply",
+													"Amount": 1.75,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -67,7 +83,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Dried Vegetable DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_DriedVegetable",
+											"Name": "Dried {0}",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "DriedVegetable",
+													"Modification": "Multiply",
+													"Amount": 2.0,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								}],

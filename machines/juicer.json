@@ -55,7 +55,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Juice DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_FruitJuice",
+											"Name": "{0} Juice",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "FruitJuice",
+													"Modification": "Multiply",
+													"Amount": 2.25,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								}],

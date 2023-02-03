@@ -295,7 +295,8 @@
 				"MizuLeo.ArtisanValley_Yeast": "Yeast/20/-300/Basic/Yeast/A handful of yeast used in fermenting wine.////229/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_WineYeast": "Wine Yeast/30/-300/Basic/Wine Yeast/A handful of yeast used in fermenting.////228/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				//custom forage & trees
+				//custom forage, trees & misc
+				"MizuLeo.ArtisanValley_Caramel": "Caramel/100/-300/Cooking -7/Caramel/Buttery and sweet, it's commonly used in candies and treats.////0/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_ChicleRubber": "Chicle Rubber/100/-300/Artisan_Goods -27/Chicle Rubber/A sticky substance derived from a sopadilla tree. It can be used to make gum.////267/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Peppercorn": "Peppercorn/40/-300/Forage -81/Peppercorn/It's a fresh peppercorn!////218/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SeaSalt": "Sea Salt/60/-300/Mineral -12/Sea Salt/A clumb of salt gathered together as the tide drifted in and out.////219/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -338,6 +339,15 @@
 			"Entries": {
 				"Alembic": "390 10/Home/MizuLeo.ArtisanValley_Alembic/true/l 0",
 				"Butter Churn": "390 10/Home/MizuLeo.ArtisanValley_ButterChurn/true/l 0"
+			}
+		},
+		
+		// add cooking recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Caramel": "245 2 -6 1 (O)MizuLeo.ArtisanValley_Butter 1/10 10/MizuLeo.ArtisanValley_Caramel/l 0"
 			}
 		},
 	
@@ -399,7 +409,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/loom.json, machines/mayonnaisemachine.json, machines/oilmaker.json, machines/smoker.json"
+			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/loom.json, machines/mayonnaisemachine.json, machines/oilmaker.json, machines/smoker.json, machines/soappress.json"
 		},
     ]
 }

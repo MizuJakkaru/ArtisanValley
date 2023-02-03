@@ -175,7 +175,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Ground Herb DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_GroundHerb",
+											"Name": "Ground {0}",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "GroundHerb",
+													"Modification": "Multiply",
+													"Amount": 1.25,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -187,7 +195,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Ground Vegetable DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_GroundVegetable",
+											"Name": "Ground {0}",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "GroundVegetable",
+													"Modification": "Multiply",
+													"Amount": 1.25,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								}],

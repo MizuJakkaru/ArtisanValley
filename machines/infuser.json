@@ -80,7 +80,15 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM Schnapps DROP_IN_ID",	
+											"ItemId": "MizuLeo.ArtisanValley_Schnapps",
+											"Name": "{0} Schnapps",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "Schnapps",
+													"Modification": "Multiply",
+													"Amount": 2.0,
+												}],
 										}],
 									"MinutesUntilReady": 10,
 								}],
