@@ -51,7 +51,7 @@
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "MizuLeo.ArtisanValley_RiceFlour",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_RiceFlour",
 										}],
 									"OutputItem":
 										[{

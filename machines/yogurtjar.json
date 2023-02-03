@@ -7,100 +7,70 @@
 			"Target": "Data/Machines",
 			"Entries": 
 				{
-					"(BC)MizuLeo.ArtisanValley_Infuser":
+					"(BC)MizuLeo.ArtisanValley_YogurtJar":
 						{
 							"OutputRules":				
 								[{
-									"Id": "MizuLeo.ArtisanValley_AppleSchnapps",
+									"Id": "MizuLeo.ArtisanValley_GoatYogurt",
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)613",
+											"RequiredItemId": "(O)436",
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_AppleSchnapps",
+											"ItemId": "(O)MizuLeo.ArtisanValley_GoatYogurt",
 										}],
-									"MinutesUntilReady": 4320,
+									"MinutesUntilReady": 200,
 								},{
-									"Id": "MizuLeo.ArtisanValley_ChocolateLiqueur",
+									"Id": "MizuLeo.ArtisanValley_Skyr",
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CocoaPod",
+											"RequiredItemId": "(O)186",
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_ChocolateLiqueur",
+											"ItemId": "(O)MizuLeo.ArtisanValley_Skyr",
 										}],
-									"MinutesUntilReady": 4320,
+									"MinutesUntilReady": 360,
 								},{
-									"Id": "MizuLeo.ArtisanValley_CoffeeLiqueur",
+									"Id": "MizuLeo.ArtisanValley_Yogurt",
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)433",
-											"RequiredCount": 4,
+											"RequiredItemId": "(O)184",
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_CoffeeLiqueur",
+											"ItemId": "(O)MizuLeo.ArtisanValley_Yogurt",
 										}],
-									"MinutesUntilReady": 4320,
+									"MinutesUntilReady": 200,
 								},{
-									"Id": "MizuLeo.ArtisanValley_MintSchnapps",
+									"Id": "MizuLeo.ArtisanValley_FruitYogurt",
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Mint",
+											"RequiredTags":[ "category_fruits" ],
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_MintSchnapps",
-										}],
-									"MinutesUntilReady": 4320,
-								},{
-									"Id": "MizuLeo.ArtisanValley_PeachSchnapps",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)636",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_PeachSchnapps",
-										}],
-									"MinutesUntilReady": 4320,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Schnapps",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_fruits", "!id_o_613", "!id_o_636" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Schnapps",
-											"Name": "{0} Schnapps",
+											"ItemId": "(O)MizuLeo.ArtisanValley_FruitYogurt",
+											"Name": "{0} Yogurt",
 											"CopyPrice": true,
 											"PriceModifiers":
 												[{
-													"Id": "Schnapps",
+													"Id": "FruitYogurt",
 													"Modification": "Multiply",
-													"Amount": 2.0,
+													"Amount": 1.75,
 												}],
 										}],
-									"MinutesUntilReady": 10,
+									"MinutesUntilReady": 360,
 								}],
 								
 							"LoadEffects":
 								[{
-									"Sound": "bubbles",
-									"DelayedSounds": 
-										[{
-											"Sound": "sipTea",
-											"Delay": 0
-										}],
+									"Sound": "Ship",
 									"TemporarySprites": 
 										[{
 											"Texture": "TileSheets\\animations",
@@ -111,7 +81,7 @@
 												  "Width": 64,
 												  "Height": 128
 												},
-											"Interval": 80.0,
+												"Interval": 80.0,
 											"Frames": 6,
 											"Loops": 999999,
 											"PositionOffset": "0, -32",
@@ -121,7 +91,7 @@
 											"ScaleChange": 0.0,
 											"Rotation": 0.0,
 											"RotationChange": 0.0,
-											"Color": "LightBlue"
+											"Color": "Salmon"
 										}],
 								}],
 							"WorkingEffects":
@@ -146,7 +116,7 @@
 											"ScaleChange": 0.0,
 											"Rotation": 0.0,
 											"RotationChange": 0.0,
-											"Color": "LightBlue"
+											"Color": "Lavender"
 										}],
 								}],
 							"WobbleWhileWorking": true,

@@ -43,7 +43,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_DriedFruit",
+											"ItemId": "(O)MizuLeo.ArtisanValley_DriedFruit",
 											"Name": "Dried {0}",
 											"CopyPrice": true,
 											"PriceModifiers":
@@ -63,7 +63,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_DriedMushroom",
+											"ItemId": "(O)MizuLeo.ArtisanValley_DriedMushroom",
 											"Name": "Dried {0}",
 											"CopyPrice": true,
 											"PriceModifiers":
@@ -83,7 +83,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_DriedVegetable",
+											"ItemId": "(O)MizuLeo.ArtisanValley_DriedVegetable",
 											"Name": "Dried {0}",
 											"CopyPrice": true,
 											"PriceModifiers":

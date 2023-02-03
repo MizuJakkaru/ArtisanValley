@@ -82,7 +82,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_DriedFlower",
+											"ItemId": "(O)MizuLeo.ArtisanValley_DriedFlower",
 											"Name": "Dried {0}",
 											"CopyPrice": true,
 											"PriceModifiers":
@@ -102,7 +102,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_DriedHerb",
+											"ItemId": "(O)MizuLeo.ArtisanValley_DriedHerb",
 											"Name": "Dried {0}",
 											"CopyPrice": true,
 											"PriceModifiers":

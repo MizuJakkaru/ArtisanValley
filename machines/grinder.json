@@ -51,7 +51,7 @@
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "MizuLeo.HerbsFlowers_Nutmeg",
+											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Nutmeg",
 										}],
 									"OutputItem":
 										[{
@@ -171,11 +171,11 @@
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "herb_item" ],
+											"RequiredTags":[ "herb_item", "!id_o_mizuleo.herbsflowers_cumin", "!id_o_mizuleo.herbsflowers_nutmeg", "!id_o_mizuleo.herbsflowers_turmeric" ],
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_GroundHerb",
+											"ItemId": "(O)MizuLeo.ArtisanValley_GroundHerb",
 											"Name": "Ground {0}",
 											"CopyPrice": true,
 											"PriceModifiers":
@@ -191,11 +191,11 @@
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_vegetable" ],
+											"RequiredTags":[ "category_vegetable", "!herb_item" ],
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_GroundVegetable",
+											"ItemId": "(O)MizuLeo.ArtisanValley_GroundVegetable",
 											"Name": "Ground {0}",
 											"CopyPrice": true,
 											"PriceModifiers":

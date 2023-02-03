@@ -39,7 +39,7 @@
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "MizuLeo.FruitsVeggies_CocoaPod",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CocoaPod",
 										}],
 									"OutputItem":
 										[{
@@ -67,7 +67,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_Cappuccino",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_Cappuccino",	
 										}],
 									"MinutesUntilReady": 120,
 								},{
@@ -75,11 +75,11 @@
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId":"MizuLeo.ArtisanValley_Whiskey",
+											"RequiredItemId":"(O)MizuLeo.ArtisanValley_Whiskey",
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_HotWhiskeyCoffee",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_HotWhiskeyCoffee",	
 										}],
 									"MinutesUntilReady": 120,
 								},{
@@ -91,7 +91,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_Macchiato",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_Macchiato",	
 										}],
 									"MinutesUntilReady": 120,
 								},{
@@ -103,7 +103,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_MapleMacchiato",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_MapleMacchiato",	
 										}],
 									"MinutesUntilReady": 120,
 								},{
@@ -111,11 +111,11 @@
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId":"MizuLeo.HerbsFlowers_Mint",
+											"RequiredItemId":"(O)MizuLeo.HerbsFlowers_Mint",
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_PeppermintMocha",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_PeppermintMocha",	
 										}],
 									"MinutesUntilReady": 120,
 								},{
@@ -127,7 +127,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_PumpkinSpiceLatte",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_PumpkinSpiceLatte",	
 										}],
 									"MinutesUntilReady": 120,
 								},{
@@ -135,11 +135,11 @@
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId":"(O)MizuLeo.MoreRecipes_Caramel",
+											"RequiredItemId":"(O)MizuLeo.ArtisanValley_Caramel",
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_SaltedCaramelMocha",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_SaltedCaramelMocha",	
 										}],
 									"MinutesUntilReady": 120,
 								},{
@@ -151,7 +151,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_ToastedCoconutMocha",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_ToastedCoconutMocha",	
 										}],
 									"MinutesUntilReady": 120,
 								},{
@@ -159,11 +159,11 @@
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId":"MizuLeo.HerbsFlowers_Vanilla",
+											"RequiredItemId":"(O)MizuLeo.HerbsFlowers_Vanilla",
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_VanillaLatte",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_VanillaLatte",	
 										}],
 									"MinutesUntilReady": 120,
 								}],
@@ -199,7 +199,7 @@
 											"Interval": 50.0,
 											"Frames": 4,
 											"Loops": 10,
-											"PositionOffset": "-4, -32",
+											"PositionOffset": "-5, -32",
 											"SortOffset": 0.0,
 											"AlphaFade": 0.005,
 											"Scale": 0.25,

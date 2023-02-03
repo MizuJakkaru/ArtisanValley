@@ -1,0 +1,68 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)MizuLeo.ArtisanValley_WaxBarrel":
+						{
+							"OutputRules":
+								[{
+									"Id": "MizuLeo.ArtisanValley_Candles",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_Thread",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Candles",
+										}],
+									"MinutesUntilReady": 300,
+								},{
+									"Id": "MizuLeo.ArtisanValley_SnackCheeses",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)424",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_SnackCheeses",
+										}],
+									"MinutesUntilReady": 300,
+								},{
+									"Id": "MizuLeo.ArtisanValley_WaxMelts",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_WaxMelts",
+										}],
+									"MinutesUntilReady": 300,
+								}],
+								
+							"AdditionalConsumedItems":
+								[{
+									"ItemId": "(O)MizuLeo.ArtisanValley_Beeswax",
+									"RequiredCount": 1,
+									"InvalidCountMessage": "Requires 1 Beeswax"
+								}],
+								
+							"LoadEffects":
+								[{
+									"Sound": "Ship",
+								}],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

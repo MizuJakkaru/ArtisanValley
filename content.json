@@ -175,7 +175,6 @@
 				"MizuLeo.ArtisanValley_OrangeJuice": "Orange Juice/150/30/Artisan_Goods -26/Orange Juice/A tart, nutritious beverage.////222/Mods\\MizuLeo.ArtisanValley\\Objects",
 
 				//keg goods
-				"MizuLeo.ArtisanValley_AppleCider": "Apple Cider/200/30/Artisan_Goods -26/Apple Cider/A delicious refreshment that sparkles in the light.////132/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Cauim": "Cauim/175/20/Artisan_Goods -26/Cauim/Drink in moderation.////133/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_DarkAle": "Dark Ale/300/20/Artisan_Goods -26/Dark Ale/Drink in moderation.////134/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_FramboiseLambic": "FramboiseLambic/200/20/Artisan_Goods -26/Framboise Lambic/Drink in moderation.////135/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -295,8 +294,11 @@
 				"MizuLeo.ArtisanValley_Yeast": "Yeast/20/-300/Basic/Yeast/A handful of yeast used in fermenting wine.////229/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_WineYeast": "Wine Yeast/30/-300/Basic/Wine Yeast/A handful of yeast used in fermenting.////228/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
+				//cooking
+				"MizuLeo.ArtisanValley_AppleCider": "Apple Cider/200/30/Cooking -7/Apple Cider/A delicious refreshment that sparkles in the light.////132/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_Caramel": "Caramel/100/30/Cooking -7/Caramel/Buttery and sweet, it's commonly used in candies and treats.////0/Mods\\MizuLeo.ArtisanValley\\Objects",
+				
 				//custom forage, trees & misc
-				"MizuLeo.ArtisanValley_Caramel": "Caramel/100/-300/Cooking -7/Caramel/Buttery and sweet, it's commonly used in candies and treats.////0/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_ChicleRubber": "Chicle Rubber/100/-300/Artisan_Goods -27/Chicle Rubber/A sticky substance derived from a sopadilla tree. It can be used to make gum.////267/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Peppercorn": "Peppercorn/40/-300/Forage -81/Peppercorn/It's a fresh peppercorn!////218/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SeaSalt": "Sea Salt/60/-300/Mineral -12/Sea Salt/A clumb of salt gathered together as the tide drifted in and out.////219/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -313,20 +315,20 @@
 				"MizuLeo.ArtisanValley_ButterChurn": "Butter Churn/0/-300/Crafting -9/Turns milk or nuts into butter./true/true/0//Butter Churn/1/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_CanningMachine": "Canning Machine/0/-300/Crafting -9/Used for canning produce./true/true/0//Canning Machine/2/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_Dehydrator": "Dehydrator/0/-300/Crafting -9/Dehydrates fruits, mushrooms, and vegetables./true/true/0//Dehydrator/3/Mods\\MizuLeo.ArtisanValley\\Craftables",
-				"MizuLeo.ArtisanValley_DryingRack": "Drying Rack/0/-300/Crafting -9/Used to to dry out various flowers and herbs./true/true/0//Drying Rack/4/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_DryingRack": "Drying Rack/0/-300/Crafting -9/Used to to dry out various flowers and herbs./true/true/0//Drying Rack/20/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_EspressoMachine": "Espresso Machine/0/-300/Crafting -9/Infuse coffee into different beverages./true/true/0//Espresso Machine/5/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_Extruder": "Extruder/0/-300/Crafting -9/Turns flour into noodles and honey into wax!/true/true/0//Extruder/6/Mods\\MizuLeo.ArtisanValley\\Craftables",
-				"MizuLeo.ArtisanValley_ForeignJar": "Foreign Jar/0/-300/Crafting -9/This stone cask is of a foreign design. It's used for a different fermentation process./true/true/0//Foreign Jar/7/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_ForeignJar": "Foreign Jar/0/-300/Crafting -9/This stone jar is of a foreign design. It's used for a different fermentation process./true/true/0//Foreign Jar/7/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_GlassJar": "Glass Jar/0/-300/Crafting -9/A jar to ferment non-alcoholic beverages. Turns mushrooms and tea into kombucha./true/true/0//Glass Jar/8/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_Grinder": "Grinder/0/-300/Crafting -9/Use it to grind produce into valuable goods and spices./true/true/0//Grinder/9/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_IceCreamMachine": "Ice Cream Machine/0/-300/Crafting -9/A machine for making homemade ice cream./true/true/0//Ice Cream Machine/10/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_Infuser": "Infuser/0/-300/Crafting -9/A chemical apparatus for infusing liquers and schnapps./true/true/0//Infuser/11/Mods\\MizuLeo.ArtisanValley\\Craftables",
-				"MizuLeo.ArtisanValley_Juicer": "Juicer/0/-300/Crafting -9/Turns fruit into delicious juice!/true/true/0//Juicer/12/Mods\\MizuLeo.ArtisanValley\\Craftables",
-				"MizuLeo.ArtisanValley_Smoker": "Smoker/0/-300/Crafting -9/Use it to smoke meat and fish./true/true/0//Smoker/13/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_Juicer": "Juicer/0/-300/Crafting -9/Turns fruit into delicious juice!/true/true/0//Juicer/21/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_Smoker": "Smoker/0/-300/Crafting -9/Use it to smoke meat and fish./true/true/0//Smoker/12/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_SoapPress": "Soap Press/0/-300/Crafting -9/A machine that can be used to press soap blocks of various kinds./true/true/0//Soap Press/14/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_SorbetMachine": "Sorbet Machine/0/-300/Crafting -9/A machine for making homemade sorbet./true/true/0//Sorbet Machine/15/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_Still": "Still/0/-300/Crafting -9/A distillation system used to make liquor./true/true/0//Still/16/Mods\\MizuLeo.ArtisanValley\\Craftables",
-				"MizuLeo.ArtisanValley_VinegarCask": "Vinegar Cask/0/-300/Crafting -9/A smaller cask used to make tart vinegars./true/true/0//Vinegar Cask/17/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_VinegarKeg": "Vinegar Keg/0/-300/Crafting -9/A smaller keg used to make tart vinegars./true/true/0//Vinegar Keg/17/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_WaxBarrel": "Wax Barrel/0/-300/Crafting -9/A barrel for dipping candles./true/true/0//Wax Barrel/18/Mods\\MizuLeo.ArtisanValley\\Craftables",
 				"MizuLeo.ArtisanValley_YogurtJar": "Yogurt Jar/0/-300/Crafting -9/A jar to allow milk to ferment into yogurt./true/true/0//Yogurt Jar/19/Mods\\MizuLeo.ArtisanValley\\Craftables"
 			}
@@ -343,13 +345,13 @@
 		},
 		
 		// add cooking recipes
-		{
-			"Action": "EditData",
-			"Target": "Data/CraftingRecipes",
-			"Entries": {
-				"Caramel": "245 2 -6 1 (O)MizuLeo.ArtisanValley_Butter 1/10 10/MizuLeo.ArtisanValley_Caramel/l 0"
-			}
-		},
+		//{
+		//	"Action": "EditData",
+		//	"Target": "Data/CraftingRecipes",
+		//	"Entries": {
+		//		"Caramel": "245 2 -6 1 (O)MizuLeo.ArtisanValley_Butter 1/10 10/MizuLeo.ArtisanValley_Caramel/l 0"
+		//	}
+		//},
 	
 		// add shop data - saloon
 		{
@@ -409,7 +411,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/loom.json, machines/mayonnaisemachine.json, machines/oilmaker.json, machines/smoker.json, machines/soappress.json"
+			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/keg.json, machines/loom.json, machines/mayonnaisemachine.json, machines/oilmaker.json, machines/smoker.json, machines/soappress.json, machines/still.json, machines/vinegarkeg.json, machines/waxbarrel.json, machines/yogurtjar.json"
 		},
     ]
 }

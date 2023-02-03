@@ -5,99 +5,100 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"Entries": 
-				{
-					"(BC)19": 
-						{
-							"OutputRules":
-								[{
-									"Id": "MizuLeo.ArtisanValley_CoconutOil",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)88",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_CoconutOil",
-										}],
-									"MinutesUntilReady": 960,
-								},{
-									"Id": "MizuLeo.ArtisanValley_CottonseedOil",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CottonBoll",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_CottonseedOil",
-										}],
-									"MinutesUntilReady": 960,
-								},{
-									"Id": "MizuLeo.ArtisanValley_FishOil",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_fish", "!fish_crab_pot" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_FishOil",
-										}],
-									"MinutesUntilReady": 960,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Oil",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CanolaFlower",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)247",
-										}],
-									"MinutesUntilReady": 60,
-								},{
-									"Id": "MizuLeo.ArtisanValley_OliveOil",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Olive",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_OliveOil",
-										}],
-									"MinutesUntilReady": 960,
-								},{
-									"Id": "MizuLeo.ArtisanValley_PeanutOil",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Peanut",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_PeanutOil",
-										}],
-									"MinutesUntilReady": 960,
-								},{
-									"Id": "MizuLeo.ArtisanValley_SesameOil",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.ArtisanValley_SesameSeeds",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_SesameOil",
-										}],
-									"MinutesUntilReady": 2880,
-								}]
-						}
+			"TargetField": [ "(BC)19", "OutputRules" ],
+			"Entries": {
+				"MizuLeo.MizuLeo.ArtisanValley_CoconutOil": {
+					"Id": "MizuLeo.ArtisanValley_CoconutOil",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)88",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_CoconutOil",
+						}],
+					"MinutesUntilReady": 960,
+				},
+				"MizuLeo.ArtisanValley_CottonseedOil": {
+					"Id": "MizuLeo.ArtisanValley_CottonseedOil",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CottonBoll",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_CottonseedOil",
+						}],
+					"MinutesUntilReady": 960,
+				},
+				"MizuLeo.ArtisanValley_FishOil": {
+					"Id": "MizuLeo.ArtisanValley_FishOil",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredTags":[ "category_fish", "!fish_crab_pot" ],
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_FishOil",
+						}],
+					"MinutesUntilReady": 960,
+				},
+				"MizuLeo.ArtisanValley_Oil": {
+					"Id": "MizuLeo.ArtisanValley_Oil",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CanolaFlower",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)247",
+						}],
+					"MinutesUntilReady": 60,
+				},
+				"MizuLeo.ArtisanValley_OliveOil": {
+					"Id": "MizuLeo.ArtisanValley_OliveOil",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Olive",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_OliveOil",
+						}],
+					"MinutesUntilReady": 960,
+				},
+				"MizuLeo.ArtisanValley_PeanutOil": {
+					"Id": "MizuLeo.ArtisanValley_PeanutOil",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Peanut",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_PeanutOil",
+						}],
+					"MinutesUntilReady": 960,
+				},
+				"MizuLeo.ArtisanValley_SesameOil": {
+					"Id": "MizuLeo.ArtisanValley_SesameOil",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.ArtisanValley_SesameSeeds",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_SesameOil",
+						}],
+					"MinutesUntilReady": 2880,
 				}
-			
+			}
 		}
     ]
 }

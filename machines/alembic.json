@@ -21,7 +21,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_HabaneroExtract",
 										}],
-									"MinutesUntilReady": 100,
+									"MinutesUntilReady": 360,
 								},{
 									"Id": "MizuLeo.ArtisanValley_JalapenoExtract",
 									"Triggers": 
@@ -33,7 +33,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_JalapenoExtract",
 										}],
-									"MinutesUntilReady": 100,
+									"MinutesUntilReady": 360,
 								},{
 									"Id": "MizuLeo.ArtisanValley_PrismaticExtract",
 									"Triggers": 
@@ -45,7 +45,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_PrismaticExtract",
 										}],
-									"MinutesUntilReady": 100,
+									"MinutesUntilReady": 1750,
 								},{
 									"Id": "MizuLeo.ArtisanValley_VanillaExtract",
 									"Triggers": 
@@ -57,7 +57,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_VanillaExtract",
 										}],
-									"MinutesUntilReady": 100,
+									"MinutesUntilReady": 360,
 								},{
 									"Id": "MizuLeo.ArtisanValley_EssentialOilFlowers",
 									"Triggers": 
@@ -67,7 +67,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_EssentialOil",
+											"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
 											"Name": "{0} Essential Oil",
 											"CopyPrice": true,
 											"PriceModifiers":
@@ -87,7 +87,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_EssentialOil",
+											"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
 											"Name": "{0} Essential Oil",
 											"CopyPrice": true,
 											"PriceModifiers":
@@ -107,7 +107,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_EssentialOil",
+											"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
 											"Name": "{0} Essential Oil",
 											"CopyPrice": true,
 											"PriceModifiers":

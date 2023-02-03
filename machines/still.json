@@ -1,0 +1,325 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)MizuLeo.ArtisanValley_Still":
+						{
+							"OutputRules":				
+								[{
+									"Id": "MizuLeo.ArtisanValley_Absinthe",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Wormwood",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Absinthe",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Amaretto",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Almond",
+											"RequiredCount": 2,
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Amaretto",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Bourbon",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_CornMalt",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Bourbon",
+										}],
+									"MinutesUntilReady": 1750,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Chambord",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Raspberry",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Chambord",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Cointreau",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)635",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Cointreau",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_CremedeCacao",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CocoaPod",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_CremedeCacao",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Frangelico",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)408",
+											"RequiredCount": 2,
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Frangelico",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Gin",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_JuniperBerries",
+											"RequiredCount": 4,
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Gin",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Mezcal",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Agave",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Mezcal",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Moonshine",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)270",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Moonshine",
+										}],
+									"MinutesUntilReady": 1750,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Rum",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_SugarCane",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Rum",
+										}],
+									"MinutesUntilReady": 6000,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Scotch",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_BarleyMalt",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Scotch",
+										}],
+									"MinutesUntilReady": 1750,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Shochu",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_SweetPotato",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Shochu",
+										}],
+									"MinutesUntilReady": 6000,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Tequila",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_BlueAgave",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Tequila",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Vermouth",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)398",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Vermouth",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Vodka",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)192",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Vodka",
+										}],
+									"MinutesUntilReady": 6000,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Whiskey",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_WheatMalt",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Whiskey",
+										}],
+									"MinutesUntilReady": 7200,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Bitter",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "category_flowers" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Bitter",
+											"Name": "{0} Bitter",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "Bitter",
+													"Modification": "Multiply",
+													"Amount": 2.25,
+												}],
+										}],
+									"MinutesUntilReady": 6000,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Brandy",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "wine_item" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Brandy",
+											"Name": "{0} Brandy",
+											"CopyPrice": true,
+											"PriceModifiers":
+												[{
+													"Id": "Brandy",
+													"Modification": "Multiply",
+													"Amount": 1.50,
+												}],
+										}],
+									"MinutesUntilReady": 6000,
+								}],
+								
+							"LoadEffects":
+								[{
+									"Sound": "Ship",
+									"DelayedSounds": 
+										[{
+											"Sound": "bubbles",
+											"Delay": 0
+										}],
+									"TemporarySprites": 
+										[{
+											"Texture": "TileSheets\\animations",
+											"SourceRect":
+												{
+												  "X": 256,
+												  "Y": 1856,
+												  "Width": 64,
+												  "Height": 128
+												},
+											"Interval": 80.0,
+											"Frames": 6,
+											"Loops": 999999,
+											"PositionOffset": "0, -32",
+											"SortOffset": 0.0,
+											"AlphaFade": 0.005,
+											"Scale": 0.25,
+											"ScaleChange": 0.0,
+											"Rotation": 0.0,
+											"RotationChange": 0.0,
+											"Color": "White"
+										}],
+								}],
+							"WorkingEffects":
+								[{
+									"Sound": "bubbles",
+									"TemporarySprites": 
+										[{
+											"Texture": "TileSheets\\animations",
+											"SourceRect":
+												{
+												  "X": 256,
+												  "Y": 1856,
+												  "Width": 64,
+												  "Height": 128
+												},
+											"Interval": 80.0,
+											"Frames": 6,
+											"Loops": 999999,
+											"PositionOffset": "0, -32",
+											"SortOffset": 0.0,
+											"AlphaFade": 0.005,
+											"Scale": 0.25,
+											"ScaleChange": 0.0,
+											"Rotation": 0.0,
+											"RotationChange": 0.0,
+											"Color": "White"
+										}],
+								}],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}

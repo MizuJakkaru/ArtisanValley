@@ -1,0 +1,225 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)12", "OutputRules" ],
+			"Entries": {
+				"MizuLeo.ArtisanValley_Cauim": {
+					"Id": "MizuLeo.ArtisanValley_Cauim",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Cassava",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_Cauim",
+						}],
+					"MinutesUntilReady": 6000,
+				},
+				"MizuLeo.ArtisanValley_DarkAle": {
+					"Id": "MizuLeo.ArtisanValley_DarkAle",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Durum",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_DarkAle",
+						}],
+					"MinutesUntilReady": 2250,
+				},
+				"MizuLeo.ArtisanValley_FramboiseLambic": {
+					"Id": "MizuLeo.ArtisanValley_FramboiseLambic",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Raspberry",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_FramboiseLambic",
+						}],
+					"MinutesUntilReady": 7200,
+				},
+				"MizuLeo.ArtisanValley_HardAppleCider": {
+					"Id": "MizuLeo.ArtisanValley_HardAppleCider",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.ArtisanValley_AppleCider",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_HardAppleCider",
+						}],
+					"MinutesUntilReady": 2250,
+				},
+				"MizuLeo.ArtisanValley_Kefir": {
+					"Id": "MizuLeo.ArtisanValley_Kefir",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)436",
+						},{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)438",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_Kefir",
+						}],
+					"MinutesUntilReady": 600,
+				},
+				"MizuLeo.ArtisanValley_Kumis": {
+					"Id": "MizuLeo.ArtisanValley_Kumis",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)184",
+						},{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)186",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_Kumis",
+						}],
+					"MinutesUntilReady": 600,
+				},
+				"MizuLeo.ArtisanValley_Lassi": {
+					"Id": "MizuLeo.ArtisanValley_Lassi",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.ArtisanValley_Yogurt",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_Lassi",
+						}],
+					"MinutesUntilReady": 600,
+				},
+				"MizuLeo.ArtisanValley_Perry": {
+					"Id": "MizuLeo.ArtisanValley_Perry",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Pear",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_Perry",
+						}],
+					"MinutesUntilReady": 7200,
+				},
+				"MizuLeo.ArtisanValley_Porter": {
+					"Id": "MizuLeo.ArtisanValley_Porter",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.ArtisanValley_WheatMalt",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_Porter",
+						}],
+					"MinutesUntilReady": 1750,
+				},
+				"MizuLeo.ArtisanValley_PrismaticWine": {
+					"Id": "MizuLeo.ArtisanValley_PrismaticWine",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)74",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_PrismaticWine",
+						}],
+					"MinutesUntilReady": 10000,
+				},
+				"MizuLeo.ArtisanValley_Pulque": {
+					"Id": "MizuLeo.ArtisanValley_Pulque",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Agave",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_Pulque",
+						}],
+					"MinutesUntilReady": 6000,
+				},
+				"MizuLeo.ArtisanValley_Sake": {
+					"Id": "MizuLeo.ArtisanValley_Sake",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)271",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_Sake",
+						}],
+					"MinutesUntilReady": 10000,
+				},
+				"MizuLeo.ArtisanValley_SparklingWine": {
+					"Id": "MizuLeo.ArtisanValley_SparklingWine",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_WhiteGrape",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_SparklingWine",
+						}],
+					"MinutesUntilReady": 6000,
+				},
+				"MizuLeo.ArtisanValley_Stout": {
+					"Id": "MizuLeo.ArtisanValley_Stout",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.ArtisanValley_BarleyMalt",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_Stout",
+						}],
+					"MinutesUntilReady": 1750,
+				},
+				"MizuLeo.ArtisanValley_Umeshu": {
+					"Id": "MizuLeo.ArtisanValley_Umeshu",
+					"Triggers": 
+						[{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Ume",
+						}],
+					"OutputItem":
+						[{
+							"ItemId": "(O)MizuLeo.ArtisanValley_Umeshu",
+						}],
+					"MinutesUntilReady": 7200,
+				}
+			},
+			"MoveEntries": 
+				[
+					{ "Id": "MizuLeo.ArtisanValley_Cauim", "BeforeId": "Default_Juice" },
+					{ "Id": "MizuLeo.ArtisanValley_DarkAle", "BeforeId": "Default_Juice" },
+					{ "Id": "MizuLeo.ArtisanValley_FramboiseLambic", "BeforeId": "Default_Wine" },
+					{ "Id": "MizuLeo.ArtisanValley_Perry", "BeforeId": "Default_Wine" },
+					{ "Id": "MizuLeo.ArtisanValley_Pulque", "BeforeId": "Default_Juice" },
+					{ "Id": "MizuLeo.ArtisanValley_Sake", "BeforeId": "Default_Juice" },
+					{ "Id": "MizuLeo.ArtisanValley_SparklingWine", "BeforeId": "Default_Wine" },
+					{ "Id": "MizuLeo.ArtisanValley_Umeshu", "BeforeId": "Default_Wine" }
+				]
+		}
+    ]
+}

@@ -105,7 +105,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_BarleyKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_BerryFusionKombucha",
 									"Triggers": 
@@ -117,7 +117,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_BerryFusionKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_BlackKombucha",
 									"Triggers": 
@@ -129,7 +129,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_BlackKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_BlueMistKombucha",
 									"Triggers": 
@@ -141,7 +141,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_BlueMistKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_BreakfastKombucha",
 									"Triggers": 
@@ -153,7 +153,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_BreakfastKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_CamelliaKombucha",
 									"Triggers": 
@@ -165,7 +165,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_CamelliaKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_ChaiKombucha",
 									"Triggers": 
@@ -177,7 +177,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_ChaiKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_ChamomileKombucha",
 									"Triggers": 
@@ -189,7 +189,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_ChamomileKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_CranberryPomegranateKombucha",
 									"Triggers": 
@@ -201,7 +201,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_CranberryPomegranateKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_DandelionKombucha",
 									"Triggers": 
@@ -213,7 +213,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_DandelionKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_EarlGrayKombucha",
 									"Triggers": 
@@ -225,7 +225,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_EarlGrayKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_JasmineKombucha",
 									"Triggers": 
@@ -237,7 +237,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_JasmineKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_LemonKombucha",
 									"Triggers": 
@@ -249,7 +249,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_LemonKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_MatchaKombucha",
 									"Triggers": 
@@ -261,7 +261,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_MatchaKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_MintKombucha",
 									"Triggers": 
@@ -273,7 +273,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_MintKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_OolongKombucha",
 									"Triggers": 
@@ -285,7 +285,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_OolongKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_RoseKombucha",
 									"Triggers": 
@@ -297,7 +297,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_RoseKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_SpicedKombucha",
 									"Triggers": 
@@ -309,7 +309,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_SpicedKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_StrawberryGrapefruitKombucha",
 									"Triggers": 
@@ -321,7 +321,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_StrawberryGrapefruitKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								},{
 									"Id": "MizuLeo.ArtisanValley_WhiteKombucha",
 									"Triggers": 
@@ -333,7 +333,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_WhiteKombucha",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 10,
 								}],
 								
 							"LoadEffects":

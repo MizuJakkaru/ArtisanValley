@@ -43,7 +43,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_SmokedCheese",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_SmokedCheese",	
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -55,7 +55,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_SmokedSalmon",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_SmokedSalmon",	
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -67,7 +67,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_SmokedEgg",	
+											"ItemId": "(O)MizuLeo.ArtisanValley_SmokedEgg",	
 										}],
 									"MinutesUntilReady": 10,
 								},{
@@ -120,7 +120,7 @@
 											"Interval": 50.0,
 											"Frames": 4,
 											"Loops": 10,
-											"PositionOffset": "-4, -32",
+											"PositionOffset": "-4, -30",
 											"SortOffset": 0.0,
 											"AlphaFade": 0.005,
 											"Scale": 0.25,
@@ -131,6 +131,7 @@
 										}],
 								}],
 							"WobbleWhileWorking": true,
+							"ShowNextIndexWhileWorking": true,
 						}
 				}
 			

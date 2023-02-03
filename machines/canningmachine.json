@@ -31,7 +31,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_CannedFish",
+											"ItemId": "(O)MizuLeo.ArtisanValley_CannedFish",
 											"Name": "Canned {0}",
 											"CopyPrice": true,
 											"PriceModifiers":
@@ -51,7 +51,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_CannedFruit",
+											"ItemId": "(O)MizuLeo.ArtisanValley_CannedFruit",
 											"Name": "Canned {0}",
 											"CopyPrice": true,
 											"PriceModifiers":
@@ -71,7 +71,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_CannedShellfish",
+											"ItemId": "(O)MizuLeo.ArtisanValley_CannedShellfish",
 											"Name": "Canned {0}",
 											"CopyPrice": true,
 											"PriceModifiers":
@@ -91,7 +91,7 @@
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "MizuLeo.ArtisanValley_CannedVegetables",
+											"ItemId": "(O)MizuLeo.ArtisanValley_CannedVegetables",
 											"Name": "Canned {0}",
 											"CopyPrice": true,
 											"PriceModifiers":
