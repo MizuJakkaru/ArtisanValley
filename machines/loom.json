@@ -1,0 +1,122 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)17": 
+						{
+							"OutputRules":
+								[{
+									"Id": "MizuLeo.ArtisanValley_CopperThread",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)334",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_CopperThread",
+										}],
+									"MinutesUntilReady": 180,
+								},{
+									"Id": "MizuLeo.ArtisanValley_GoldThread",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)336",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_GoldThread",
+										}],
+									"MinutesUntilReady": 240,
+								},{
+									"Id": "MizuLeo.ArtisanValley_IridiumThread",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)337",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_IridiumThread",
+										}],
+									"MinutesUntilReady": 6000,
+								},{
+									"Id": "MizuLeo.ArtisanValley_SilveryThread",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)335",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_SilveryThread",
+										}],
+									"MinutesUntilReady": 180,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Thread",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CottonBoll",
+											"RequiredCount": 2,	
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Thread",
+											"MinStack": 1,
+											"MaxStack": 2,
+										}],
+									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_TwineFiber",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)771",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Twine",
+											"MinStack": 2,
+											"MaxStack": 4,
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_TwineHay",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)178",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Twine",
+											"MinStack": 2,
+											"MaxStack": 4,
+										}],
+									"MinutesUntilReady": 60,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Yarn",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_Thread",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_Yarn",
+										}],
+									"MinutesUntilReady": 120,
+								}]
+						}
+				}
+			
+		}
+    ]
+}

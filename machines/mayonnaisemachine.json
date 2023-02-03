@@ -1,0 +1,127 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)24": 
+						{
+							"OutputRules":
+								[{
+									"Id": "MizuLeo.ArtisanValley_AvocadoMayonnaise",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Avocado",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_AvocadoMayonnaise",
+										}],
+									"MinutesUntilReady": 180,
+								},{
+									"Id": "MizuLeo.ArtisanValley_BlackPepperMayonnaise",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_Pepper",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_BlackPepperMayonnaise",
+										}],
+									"MinutesUntilReady": 180,
+								},{
+									"Id": "MizuLeo.ArtisanValley_DillMayonnaise",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Dill",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_DillMayonnaise",
+										}],
+									"MinutesUntilReady": 180,
+								},{
+									"Id": "MizuLeo.ArtisanValley_GarlicMayonnaise",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)248",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_GarlicMayonnaise",
+										}],
+									"MinutesUntilReady": 180,
+								},{
+									"Id": "MizuLeo.ArtisanValley_OliveOilMayonnaise",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_OliveOil",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_OliveOilMayonnaise",
+										}],
+									"MinutesUntilReady": 180,
+								},{
+									"Id": "MizuLeo.ArtisanValley_SpicyMayonnaiseHabanero",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Habanero",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_SpicyMayonnaise",
+										}],
+									"MinutesUntilReady": 180,
+								},{
+									"Id": "MizuLeo.ArtisanValley_SpicyMayonnaiseHotPepper",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)260",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_SpicyMayonnaise",
+										}],
+									"MinutesUntilReady": 180,
+								},{
+									"Id": "MizuLeo.ArtisanValley_ThunderMayonnaise",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)558",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_ThunderMayonnaise",
+										}],
+									"MinutesUntilReady": 1750,
+								},{
+									"Id": "MizuLeo.ArtisanValley_WasabiMayonnaise",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.ArtisanValley_WasabiPaste",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_WasabiMayonnaise",
+										}],
+									"MinutesUntilReady": 180,
+								}]
+						}
+				}
+			
+		}
+    ]
+}

@@ -1,0 +1,150 @@
+{
+	"Changes":
+	[
+		// add custom machines
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+				{
+					"(BC)MizuLeo.ArtisanValley_Infuser":
+						{
+							"OutputRules":				
+								[{
+									"Id": "MizuLeo.ArtisanValley_AppleSchnapps",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)613",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_AppleSchnapps",
+										}],
+									"MinutesUntilReady": 4320,
+								},{
+									"Id": "MizuLeo.ArtisanValley_ChocolateLiqueur",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CocoaPod",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_ChocolateLiqueur",
+										}],
+									"MinutesUntilReady": 4320,
+								},{
+									"Id": "MizuLeo.ArtisanValley_CoffeeLiqueur",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)433",
+											"RequiredCount": 4,
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_CoffeeLiqueur",
+										}],
+									"MinutesUntilReady": 4320,
+								},{
+									"Id": "MizuLeo.ArtisanValley_MintSchnapps",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Mint",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_MintSchnapps",
+										}],
+									"MinutesUntilReady": 4320,
+								},{
+									"Id": "MizuLeo.ArtisanValley_PeachSchnapps",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredItemId": "(O)636",
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "(O)MizuLeo.ArtisanValley_PeachSchnapps",
+										}],
+									"MinutesUntilReady": 4320,
+								},{
+									"Id": "MizuLeo.ArtisanValley_Schnapps",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "category_fruits", "!id_o_mizuleo.fruitsveggies_cocoapod", "!id_o_mizuleo.herbsflowers_mint", "!id_o_433", "!id_o_613", "!id_o_636" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM Schnapps DROP_IN_ID",	
+										}],
+									"MinutesUntilReady": 10,
+								}],
+								
+							"LoadEffects":
+								[{
+									"Sound": "bubbles",
+									"DelayedSounds": 
+										[{
+											"Sound": "sipTea",
+											"Delay": 0
+										}],
+									"TemporarySprites": 
+										[{
+											"Texture": "TileSheets\\animations",
+											"SourceRect":
+												{
+												  "X": 256,
+												  "Y": 1856,
+												  "Width": 64,
+												  "Height": 128
+												},
+											"Interval": 80.0,
+											"Frames": 6,
+											"Loops": 999999,
+											"PositionOffset": "0, -32",
+											"SortOffset": 0.0,
+											"AlphaFade": 0.005,
+											"Scale": 0.25,
+											"ScaleChange": 0.0,
+											"Rotation": 0.0,
+											"RotationChange": 0.0,
+											"Color": "LightBlue"
+										}],
+								}],
+							"WorkingEffects":
+								[{
+									"TemporarySprites": 
+										[{
+											"Texture": "TileSheets\\animations",
+											"SourceRect":
+												{
+												  "X": 256,
+												  "Y": 1856,
+												  "Width": 64,
+												  "Height": 128
+												},
+											"Interval": 80.0,
+											"Frames": 6,
+											"Loops": 999999,
+											"PositionOffset": "0, -32",
+											"SortOffset": 0.0,
+											"AlphaFade": 0.005,
+											"Scale": 0.25,
+											"ScaleChange": 0.0,
+											"Rotation": 0.0,
+											"RotationChange": 0.0,
+											"Color": "LightBlue"
+										}],
+								}],
+							"WobbleWhileWorking": true,
+						}
+				}
+			
+		}
+    ]
+}
