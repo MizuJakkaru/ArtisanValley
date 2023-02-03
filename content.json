@@ -41,7 +41,6 @@
 				//dehydrator goods
 				"MizuLeo.ArtisanValley_DriedFruit": "Dried Fruit/100/-300/Artisan_Goods -26/Dried Fruit/A box of dehydrated fruit.////24/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_DriedMushrooms": "Dried Mushroom/100/-300/Artisan_Goods -26/Dried Mushroom/A jar of dried mushrooms.////26/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_DriedTeaLeaves": "Dried Tea Leaves/100/-300/Artisan_Goods -26/Dried Tea Leaves/A satchet of dried tea leaves.////13/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_DriedVegetable": "Dried Vegetable/100/-300/Artisan_Goods -26/Dried Vegetable/A sack of dried vegetables.////25/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Prunes": "Prunes/160/10/Artisan_Goods -26/Prunes/These help promote regularity.////12/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Raisins": "Raisins/160/15/Artisan_Goods -26/Raisins/Dried grapes that make for a tasty snack!////11/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -198,7 +197,7 @@
 				"MizuLeo.ArtisanValley_GoldThread": "Gold Thread/300/-300/Artisan_Goods -26/Gold Thread/A spool of gold thread. It sparkles in the light.////82/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_IridiumThread": "Iridium Thread/1250/-300/Artisan_Goods -26/Iridium Thread/A spool of purple thread. It sparkles in the light.////83/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SilveryThread": "Silvery Thread/170/-300/Artisan_Goods -26/Silvery Thread/A spool of silvery thread. It sparkles in the light.////81/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_Thread": "Thread/125/-300/Artisan_Goods -26/Thread/A spool of fine cotton thread.////60/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_Thread": "Thread/175/-300/Artisan_Goods -26/Thread/A spool of fine cotton thread.////60/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Twine": "Twine/20/-300/Artisan_Goods -26/Twine/A spool of rough twine.////58/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Yarn": "Yarn/250/-300/Artisan_Goods -26/Yarn/A ball of soft yarn made from many threads spun together.////59/Mods\\MizuLeo.ArtisanValley\\Objects",
 
@@ -232,7 +231,7 @@
 				"MizuLeo.ArtisanValley_RoastedGarlic": "Roasted Garlic/150/15/Artisan_Goods -26/Roasted Garlic/Garlic that's been roasted and smoked. Spread it on toast or crackers!////198/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_RoastedSunflowerSeeds": "Roasted Sunflower Seeds/250/20/Artisan_Goods -26/Roasted Sunflower Seeds/A bag of roasted sunflower seeds.////34/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SmokedCheese": "Smoked Cheese/400/36/Artisan_Goods -26/Smoked Cheese/A wheel of smoked cheese.////216/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_SmokedEgg": "Smoked Egg/100/18/Artisan_Goods -26/Smoked Egg/A whole egg that's been smoked. It has a savory flavor.////199/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_SmokedEgg": "Smoked Egg/150/18/Artisan_Goods -26/Smoked Egg/A whole egg that's been smoked. It has a savory flavor.////199/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SmokedFish": "Smoked Fish/150/30/Artisan_Goods -26/Smoked Fish/A whole smoked fish.////197/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SmokedSalmon": "Smoked Salmon/250/30/Artisan_Goods -26/Smoked Salmon/A packaged smoked salmon filet.////196/Mods\\MizuLeo.ArtisanValley\\Objects",
 
@@ -400,7 +399,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json"
+			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/loom.json, machines/mayonnaisemachine.json, machines/oilmaker.json, machines/smoker.json"
 		},
     ]
 }

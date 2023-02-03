@@ -34,6 +34,42 @@
 											"ItemId": "(O)MizuLeo.ArtisanValley_Raisins",
 										}],
 									"MinutesUntilReady": 2250,
+								},{
+									"Id": "MizuLeo.ArtisanValley_DriedFruit",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "category_fruits", "!id_o_398", "!id_o_406" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM Dried Fruit DROP_IN_ID",	
+										}],
+									"MinutesUntilReady": 10,
+								},{
+									"Id": "MizuLeo.ArtisanValley_DriedMushroom",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "forage_item_mines" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM Dried Mushroom DROP_IN_ID",	
+										}],
+									"MinutesUntilReady": 10,
+								},{
+									"Id": "MizuLeo.ArtisanValley_DriedVegetable",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "category_vegetable" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM Dried Vegetable DROP_IN_ID",	
+										}],
+									"MinutesUntilReady": 10,
 								}],
 								
 							"LoadEffects":

@@ -73,6 +73,30 @@
 											"ItemId": "(O)MizuLeo.ArtisanValley_WheatMalt",
 										}],
 									"MinutesUntilReady": 120,
+								},{
+									"Id": "MizuLeo.ArtisanValley_DriedFlower",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "category_flowers" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM Dried Flower DROP_IN_ID",	
+										}],
+									"MinutesUntilReady": 10,
+								},{
+									"Id": "MizuLeo.ArtisanValley_DriedHerb",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "herb_item" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM Dried Herb DROP_IN_ID",	
+										}],
+									"MinutesUntilReady": 10,
 								}],
 								
 							"LoadEffects":

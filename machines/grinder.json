@@ -21,7 +21,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_Applesauce",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 360,
 								},{
 									"Id": "MizuLeo.ArtisanValley_ChiliPowder",
 									"Triggers": 
@@ -33,7 +33,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_ChiliPowder",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 120,
 								},{
 									"Id": "MizuLeo.ArtisanValley_GroundCumin",
 									"Triggers": 
@@ -45,7 +45,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_GroundCumin",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 120,
 								},{
 									"Id": "MizuLeo.ArtisanValley_GroundNutmeg",
 									"Triggers": 
@@ -57,7 +57,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_GroundNutmeg",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 120,
 								},{
 									"Id": "MizuLeo.ArtisanValley_GroundTurmeric",
 									"Triggers": 
@@ -69,7 +69,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_GroundTurmeric",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 120,
 								},{
 									"Id": "MizuLeo.ArtisanValley_LemonPeel",
 									"Triggers": 
@@ -117,7 +117,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_Paprika",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 120,
 								},{
 									"Id": "MizuLeo.ArtisanValley_Pepper",
 									"Triggers": 
@@ -129,7 +129,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_Pepper",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 180,
 								},{
 									"Id": "MizuLeo.ArtisanValley_Saffron",
 									"Triggers": 
@@ -141,7 +141,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_Saffron",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 600,
 								},{
 									"Id": "MizuLeo.ArtisanValley_Salt",
 									"Triggers": 
@@ -153,7 +153,7 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_Salt",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 180,
 								},{
 									"Id": "MizuLeo.ArtisanValley_WasabiPaste",
 									"Triggers": 
@@ -165,7 +165,31 @@
 										[{
 											"ItemId": "(O)MizuLeo.ArtisanValley_WasabiPaste",
 										}],
-									"MinutesUntilReady": 60,
+									"MinutesUntilReady": 360,
+								},{
+									"Id": "MizuLeo.ArtisanValley_GroundHerb",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "herb_item" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM Ground Herb DROP_IN_ID",	
+										}],
+									"MinutesUntilReady": 10,
+								},{
+									"Id": "MizuLeo.ArtisanValley_GroundVegetable",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "category_vegetable" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM Ground Vegetable DROP_IN_ID",	
+										}],
+									"MinutesUntilReady": 10,
 								}],
 								
 							"LoadEffects":

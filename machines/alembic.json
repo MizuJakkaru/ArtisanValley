@@ -59,17 +59,41 @@
 										}],
 									"MinutesUntilReady": 100,
 								},{
-									"Id": "MizuLeo.ArtisanValley_EssentialOil",
+									"Id": "MizuLeo.ArtisanValley_EssentialOilFlowers",
 									"Triggers": 
 										[{
 											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":["category_vegetable"],
+											"RequiredTags":[ "category_flowers", "!id_o_mizuleo.herbsflowers_vanilla" ],
 										}],
 									"OutputItem":
 										[{
-											"ItemId": "FLAVORED_ITEM DROP_IN_ID Essential Oil",	
+											"ItemId": "FLAVORED_ITEM Essential Oil DROP_IN_ID",	
 										}],
-									"MinutesUntilReady": 100,
+									"MinutesUntilReady": 10,
+								},{
+									"Id": "MizuLeo.ArtisanValley_EssentialOilFruits",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "category_fruits", "!id_o_mizuleo.fruitsveggies_habanero", "!id_o_mizuleo.fruitsveggies_jalapeno" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM Essential Oil DROP_IN_ID",	
+										}],
+									"MinutesUntilReady": 10,
+								},{
+									"Id": "MizuLeo.ArtisanValley_EssentialOilVegetables",
+									"Triggers": 
+										[{
+											"Trigger": "ItemPlacedInMachine",
+											"RequiredTags":[ "category_vegetable" ],
+										}],
+									"OutputItem":
+										[{
+											"ItemId": "FLAVORED_ITEM Essential Oil DROP_IN_ID",	
+										}],
+									"MinutesUntilReady": 10,
 								}],
 								
 							"LoadEffects":
