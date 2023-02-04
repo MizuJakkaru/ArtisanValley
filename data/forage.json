@@ -1,0 +1,27 @@
+{
+    "Changes": [
+        // Add Sea Salt (Beach, All Seasons)
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Locations", "Beach", "Forage" ],
+            "Entries": {
+                "(O)MizuLeo.ArtisanValley_SeaSalt": {
+                    "ItemId": "(O)MizuLeo.ArtisanValley_SeaSalt"
+                }
+            }
+        },
+        // Add Peppercorn (Location, Summer)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Locations", "Default", "Forage" ],
+        	"Entries": {
+                "(O)MizuLeo.ArtisanValley_Peppercorn": {
+                	"ItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
+                	"Season": "summer"
+                }
+        	}
+        }
+    ]
+}
