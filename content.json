@@ -7,6 +7,8 @@
 			"Target": "Data/ObjectInformation",
 			"Entries": {
 				// alembic goods
+				"MizuLeo.ArtisanValley_AlmondExtract": "Almond Extract/200/-300/Artisan_Goods -26/Almond Extract/Commonly used in baking, it imparts a rich almond flavor.////7/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_CocoaButter": "Cocoa Butter/250/-300/Artisan_Goods -26/Cocoa Butter/Commonly used in baking, it's oils from a cocoa pod seperated out.////257/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_EssentialOil": "Essential Oil/100/-300/Artisan_Goods -26/Essential Oil/A liquid containing concentrated aroma compounds.////0/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_HabaneroExtract": "Habanero Extract/240/-300/Artisan_Goods -26/Habanero Extract/The extract from a habanero, it's incredibly potent and spicy.////4/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_JalapenoExtract": "Jalapeño Extract/100/-300/Artisan_Goods -26/Jalapeño Extract/The extract from a jalapeño, good for adding a kick to recipes.////5/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -81,6 +83,8 @@
 
 				//foreign jar goods
 				"MizuLeo.ArtisanValley_CucumberKimchi": "Cucumber Kimchi/250/-300/Artisan_Goods -26/Cucumber Kimchi/A combination of sliced cucumbers and spicy seasonings.////85/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_FishSauce": "Fish Sauce/200/-300/Artisan_Goods -26/Fish Sauce/It's the king of flavor!////254/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_Garum": "Garum/300/-300/Artisan_Goods -26/Garum/An ancient recipe, it has a rich and savory flavor.////256/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Kimchi": "Kimchi/300/-300/Artisan_Goods -26/Kimchi/Most commonly made from cabbage mixed with spicy seasonings.////84/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_MisoPaste": "Miso Paste/275/-300/Artisan_Goods -26/Miso Paste/A paste made from soybeans. Used to make soup.////87/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Natto": "Natto/200/80/Artisan_Goods -26/Natto/A sticky, fermented snack often eaten for breakfast.////89/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -134,6 +138,7 @@
 				"MizuLeo.ArtisanValley_Pepper": "Pepper/180/-300/Artisan_Goods -26/Pepper/A grinder filled with peppercorns.////194/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Saffron": "Saffron/400/-300/Artisan_Goods -26/Saffron/A rare and valued spice.////62/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Salt": "Salt/180/-300/Artisan_Goods -26/Salt/A grinder filled with salt crystals.////195/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_ShrimpPaste": "Shrimp Paste/150/-300/Artisan_Goods -26/Shrimp Paste/This pungent paste is used to give an umami taste to food.////255/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_WasabiPaste": "Wasabi Paste/330/-300/Artisan_Goods -26/Wasabi Paste/When made fresh, it doesn't last for long.////63/Mods\\MizuLeo.ArtisanValley\\Objects",
 
 				//ice cream machine goods
@@ -219,6 +224,8 @@
 				"MizuLeo.ArtisanValley_TaroFlour": "Taro Flour/150/5/Basic/Taro Flour/A cooking ingredient made from crushed taro root.////204/Mods\\MizuLeo.ArtisanValley\\Objects",
 
 				//oil maker goods
+				"MizuLeo.ArtisanValley_AvocadoOil": "Avocado Oil/400/5/Artisan_Goods -26/Avocado Oil/The oil of the avocado has a high burning point.////32/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_ChiliOil": "Chili Oil/160/5/Artisan_Goods -26/Chili Oil/A spicy oil used to give a kick to food or as a topping.////31/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CoconutOil": "Coconut Oil/200/5/Artisan_Goods -26/Coconut Oil/A multi-purpose oil used in cooking and household products.////38/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CottonseedOil": "Cottonseed Oil/130/5/Artisan_Goods -26/Cottonseed Oil/An oil of cotton seeds often used as a substitution to vegetable oils. ////36/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_FishOil": "Fish Oil/250/5/Artisan_Goods -26/Fish Oil/Oil rendered from a fish.////33/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -283,6 +290,7 @@
 
 				//yogurt jar goods
 				"MizuLeo.ArtisanValley_FruitYogurt": "Fruit Yogurt/100/15/Artisan_Goods -26/Fruit Yogurt/Yogurt with the flavor of a fruit.////45/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_GoatSkyr": "Goat Skyr/300/25/Artisan_Goods -26/Goat Skyr/Similar to yogurt, it's strained to give it an extremely tart flavor and creamy consistency.////95/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GoatYogurt": "Goat Yogurt/300/25/Artisan_Goods -26/Goat Yogurt/A tart yogurt that's favored in some lands.////44/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Skyr": "Skyr/400/27/Artisan_Goods -26/Skyr/Similar to yogurt, it's strained to give it a very tart flavor and creamy consistency.////46/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Yogurt": "Yogurt/175/15/Artisan_Goods -26/Yogurt/Yogurt made from cow's milk. It's plain, with a slightly sweet flavor.////43/Mods\\MizuLeo.ArtisanValley\\Objects",
