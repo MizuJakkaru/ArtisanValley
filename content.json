@@ -291,12 +291,6 @@
 				"MizuLeo.ArtisanValley_MisoStarter": "Miso Starter/50/-300/Basic/Miso Starter/A bacteria starter culture used to encourage miso production.////88/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_NattoStarter": "Natto Starter/50/-300/Basic/Natto Starter/A bacteria starter culture used to encourage natto production.////90/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SesameSeeds": "Sesame Seeds/20/20/Artisan_Goods -26/Sesame Seeds/A bag of sesame seeds.////35/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_Yeast": "Yeast/20/-300/Basic/Yeast/A handful of yeast used in fermenting wine.////229/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_WineYeast": "Wine Yeast/30/-300/Basic/Wine Yeast/A handful of yeast used in fermenting.////228/Mods\\MizuLeo.ArtisanValley\\Objects",
-				
-				//cooking
-				"MizuLeo.ArtisanValley_AppleCider": "Apple Cider/200/30/Cooking -7/Apple Cider/A delicious refreshment that sparkles in the light.////132/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_Caramel": "Caramel/100/30/Cooking -7/Caramel/Buttery and sweet, it's commonly used in candies and treats.////0/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
 				//custom forage, trees & misc
 				"MizuLeo.ArtisanValley_ChicleRubber": "Chicle Rubber/100/-300/Artisan_Goods -27/Chicle Rubber/A sticky substance derived from a sopadilla tree. It can be used to make gum.////267/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -374,12 +368,6 @@
 				"MizuLeo.ArtisanValley_SesameSeeds": {
 					"Id": "MizuLeo.ArtisanValley_SesameSeeds",
 					"ItemId": "MizuLeo.ArtisanValley_SesameSeeds",
-					"Price": 1,
-					"IgnoreShopPriceModifiers": true
-				},
-				"MizuLeo.ArtisanValley_WineYeast": {
-					"Id": "MizuLeo.ArtisanValley_WineYeast",
-					"ItemId": "MizuLeo.ArtisanValley_WineYeast",
 					"Price": 1,
 					"IgnoreShopPriceModifiers": true
 				}
