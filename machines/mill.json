@@ -1,0 +1,140 @@
+{
+	"Changes":
+	[
+		// add custom mill recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [ "Mill", "ItemConversions" ],
+			"Entries": 
+				{
+					"MizuLeo.ArtisanValley_BuckwheatFlour": 
+						{
+							"Id": "MizuLeo.ArtisanValley_BuckwheatFlour",
+							"RequiredTags": 
+								[
+									"id_o_mizuleo.fruitsveggies_buckwheat"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)MizuLeo.ArtisanValley_BuckwheatFlour"
+									}
+								]
+						}
+				},
+				{
+					"MizuLeo.ArtisanValley_CornFlour": 
+						{
+							"Id": "MizuLeo.ArtisanValley_CornFlour",
+							"RequiredTags": 
+								[
+									"id_o_270"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)MizuLeo.ArtisanValley_CornFlour"
+									}
+								]
+						}
+				},
+				{
+					"MizuLeo.ArtisanValley_RiceFlour": 
+						{
+							"Id": "MizuLeo.ArtisanValley_RiceFlour",
+							"RequiredTags": 
+								[
+									"id_o_423"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)MizuLeo.ArtisanValley_RiceFlour"
+									}
+								]
+						}
+				},
+				{
+					"MizuLeo.ArtisanValley_SemolinaFlour": 
+						{
+							"Id": "MizuLeo.ArtisanValley_SemolinaFlour",
+							"RequiredTags": 
+								[
+									"id_o_mizuleo.fruitsveggies_durum"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)MizuLeo.ArtisanValley_SemolinaFlour"
+									}
+								]
+						}
+				},
+				{
+					"MizuLeo.ArtisanValley_SugarBeetSugar": 
+						{
+							"Id": "MizuLeo.ArtisanValley_SugarBeetSugar",
+							"RequiredTags": 
+								[
+									"id_o_mizuleo.fruitsveggies_sugarbeet"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)245"
+									}
+								]
+						}
+				},
+				{
+					"MizuLeo.ArtisanValley_SugarCaneSugar": 
+						{
+							"Id": "MizuLeo.ArtisanValley_SugarCaneSugar",
+							"RequiredTags": 
+								[
+									"id_o_mizuleo.fruitsveggies_sugarcane"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)245"
+									}
+								]
+						}
+				},
+				{
+					"MizuLeo.ArtisanValley_TapiocaFlour": 
+						{
+							"Id": "MizuLeo.ArtisanValley_TapiocaFlour",
+							"RequiredTags": 
+								[
+									"id_o_mizuleo.fruitsveggies_cassava"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)MizuLeo.ArtisanValley_TapiocaFlour"
+									}
+								]
+						}
+				},
+				{
+					"MizuLeo.ArtisanValley_TaroFlour": 
+						{
+							"Id": "MizuLeo.ArtisanValley_TaroFlour",
+							"RequiredTags": 
+								[
+									"id_o_830"
+								],
+							"ProducedItems":
+								[
+									{
+										"ItemId": "(O)MizuLeo.ArtisanValley_TaroFlour"
+									}
+								]
+						}
+				}
+		}
+	]
+}
