@@ -12,6 +12,39 @@
 							"OutputRules":				
 								[
 									{
+										"Id": "MizuLeo.ArtisanValley_AlmondExtract",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Almond",
+													"RequiredCount": 2,
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_AlmondExtract",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_CocoaButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CocoaPod",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.MizuLeo.ArtisanValley_CocoaButter",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
 										"Id": "MizuLeo.ArtisanValley_HabaneroExtract",
 										"Triggers": 
 											[

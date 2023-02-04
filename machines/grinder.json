@@ -204,6 +204,22 @@
 										"MinutesUntilReady": 180,
 									},
 									{
+										"Id": "MizuLeo.ArtisanValley_ShrimpPaste",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)720",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_ShrimpPaste",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
 										"Id": "MizuLeo.ArtisanValley_WasabiPaste",
 										"Triggers": 
 											[

@@ -12,6 +12,22 @@
 							"OutputRules":				
 								[
 									{
+										"Id": "MizuLeo.ArtisanValley_GoatSkyr",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)438",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_GoatSkyr",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
 										"Id": "MizuLeo.ArtisanValley_GoatYogurt",
 										"Triggers": 
 											[

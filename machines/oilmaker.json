@@ -7,6 +7,39 @@
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)19", "OutputRules" ],
 			"Entries": {
+				"MizuLeo.MizuLeo.ArtisanValley_AvocadoOil": {
+					"Id": "MizuLeo.ArtisanValley_AvocadoOil",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Avocado",
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)MizuLeo.ArtisanValley_AvocadoOil",
+							}
+						],
+					"MinutesUntilReady": 960,
+				},
+				"MizuLeo.MizuLeo.ArtisanValley_ChiliOil": {
+					"Id": "MizuLeo.ArtisanValley_ChiliOil",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)260",
+								"RequiredCount": 2,
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)MizuLeo.ArtisanValley_ChiliOil",
+							}
+						],
+					"MinutesUntilReady": 960,
+				},
 				"MizuLeo.MizuLeo.ArtisanValley_CoconutOil": {
 					"Id": "MizuLeo.ArtisanValley_CoconutOil",
 					"Triggers": 
