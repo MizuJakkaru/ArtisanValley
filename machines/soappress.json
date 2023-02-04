@@ -35,7 +35,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_FruitSoap",
@@ -61,7 +61,7 @@
 													],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_HerbalSoap",								//herbal soap, naming pattern unchanged
@@ -87,7 +87,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_HerbalSoapCamphor",						//naming pattern for camphor leaves
@@ -113,7 +113,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_HerbalSoapEucalyptus",						//naming pattern for eucalyptus leaves
@@ -139,7 +139,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_HerbalSoapMelaleuca",						//naming pattern for melaleuca leaves
@@ -165,7 +165,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_NuttySoap",								//nutty soap, naming pattern unchanged
@@ -191,7 +191,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_NuttySoapCinnamon",						//naming pattern for cinnamon sticks
@@ -217,7 +217,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_NuttySoapCocoa",							//naming pattern for cocoa pod
@@ -243,7 +243,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_NuttySoapOat",								//naming pattern for oats
@@ -270,7 +270,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_PrismaticSoap",

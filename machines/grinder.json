@@ -259,7 +259,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_GroundVegetable",
@@ -285,7 +285,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									}
 								],
 							"LoadEffects":

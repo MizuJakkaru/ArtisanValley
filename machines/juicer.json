@@ -83,7 +83,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 6000,
 									}
 								],
 							"LoadEffects":

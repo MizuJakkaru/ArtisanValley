@@ -67,7 +67,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 1440,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_DriedMushroom",
@@ -93,7 +93,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 1440,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_DriedVegetable",
@@ -119,10 +119,9 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 1440,
 									}
 								],
-								
 							"LoadEffects":
 								[
 									{

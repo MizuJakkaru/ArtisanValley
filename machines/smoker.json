@@ -25,7 +25,7 @@
 													"ItemId": "(O)MizuLeo.ArtisanValley_RoastedGarlic",
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 270,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_RoastedSunflowerSeeds",
@@ -41,7 +41,7 @@
 													"ItemId": "(O)MizuLeo.ArtisanValley_RoastedSunflowerSeeds",
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 120,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_SmokedCheese",
@@ -57,7 +57,7 @@
 													"ItemId": "(O)MizuLeo.ArtisanValley_SmokedCheese",	
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 720,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_SmokedSalmon",
@@ -73,7 +73,7 @@
 													"ItemId": "(O)MizuLeo.ArtisanValley_SmokedSalmon",	
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 1440,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_SmokedEgg",
@@ -89,7 +89,7 @@
 													"ItemId": "(O)MizuLeo.ArtisanValley_SmokedEgg",	
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 720,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_SmokedFish",
@@ -115,7 +115,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 1440,
 									}
 								],
 							"AdditionalConsumedItems":

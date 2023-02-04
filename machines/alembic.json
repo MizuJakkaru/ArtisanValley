@@ -116,7 +116,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_EssentialOilFruits",
@@ -142,7 +142,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_EssentialOilVegetables",
@@ -168,10 +168,9 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 360,
 									}
 								],
-								
 							"LoadEffects":
 								[
 									{

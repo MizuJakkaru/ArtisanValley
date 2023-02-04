@@ -25,7 +25,7 @@
 													"ItemId": "(O)MizuLeo.ArtisanValley_CannedTuna",
 												}
 											],
-										"MinutesUntilReady": 60,
+										"MinutesUntilReady": 150,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_CannedFish",
@@ -51,7 +51,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 150,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_CannedFruit",
@@ -77,7 +77,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 90,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_CannedShellfish",
@@ -104,7 +104,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 150,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_CannedVegetables",
@@ -131,7 +131,7 @@
 														],
 												}
 											],
-										"MinutesUntilReady": 10,
+										"MinutesUntilReady": 90,
 									}
 								],
 							"LoadEffects":
