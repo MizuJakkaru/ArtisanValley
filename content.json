@@ -8,7 +8,6 @@
 			"Entries": {
 				// alembic goods
 				"MizuLeo.ArtisanValley_AlmondExtract": "Almond Extract/200/-300/Artisan_Goods -26/Almond Extract/Commonly used in baking, it imparts a rich almond flavor.////7/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_CocoaButter": "Cocoa Butter/250/-300/Artisan_Goods -26/Cocoa Butter/Commonly used in baking, it's oils from a cocoa pod seperated out.////257/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_EssentialOil": "Essential Oil/100/-300/Artisan_Goods -26/Essential Oil/A liquid containing concentrated aroma compounds.////0/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_HabaneroExtract": "Habanero Extract/240/-300/Artisan_Goods -26/Habanero Extract/The extract from a habanero, it's incredibly potent and spicy.////4/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_JalapenoExtract": "Jalapeño Extract/100/-300/Artisan_Goods -26/Jalapeño Extract/The extract from a jalapeño, good for adding a kick to recipes.////5/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -19,6 +18,7 @@
 				"MizuLeo.ArtisanValley_AlmondButter": "Almond Butter/230/-300/Artisan_Goods -26/Almond Butter/A gritty butter with bits of almond inside.////108/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Butter": "Butter/200/-300/Artisan_Goods -26/Butter/I can't believe it's not- Oh, wait, yes it is.////105/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CashewButter": "Cashew Butter/250/-300/Artisan_Goods -26/Cashew Butter/A warm butter with bits of cashew inside.////109/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_CocoaButter": "Cocoa Butter/250/-300/Artisan_Goods -26/Cocoa Butter/Commonly used in baking, it's oils from a cocoa pod seperated out.////257/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CoconutButter": "Coconut Butter/250/-300/Artisan_Goods -26/Coconut Butter/A light butter with a tropical scent.////110/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CookieButter": "Cookie Butter/250/-300/Artisan_Goods -26/Cookie Butter/Cookies ground into a smooth, delicious paste. Don't lie to yourself. Just use a spoon.////111/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GoatButter": "Goat Butter/325/-300/Artisan_Goods -26/Goat Butter/Soft butter made from goat’s milk.////106/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -406,7 +406,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/keg.json, machines/loom.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/smoker.json, machines/soappress.json, machines/still.json, machines/vinegarkeg.json, machines/waxbarrel.json, machines/yogurtjar.json"
+			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/keg.json, machines/loom.json, machines/mayonnaisemachine.json, machines/oilmaker.json, machines/smoker.json, machines/soappress.json, machines/still.json, machines/vinegarkeg.json, machines/waxbarrel.json, machines/yogurtjar.json"
 		},
     ]
 }
