@@ -23,7 +23,6 @@
 				"MizuLeo.ArtisanValley_CookieButter": "Cookie Butter/250/-300/Artisan_Goods -26/Cookie Butter/Cookies ground into a smooth, delicious paste. Don't lie to yourself. Just use a spoon.////111/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GoatButter": "Goat Butter/325/-300/Artisan_Goods -26/Goat Butter/Soft butter made from goat’s milk.////106/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_HazelnutButter": "Hazelnut Butter/230/-300/Artisan_Goods -26/Hazelnut Butter/An irresistible, chocolate-flavored spread.////112/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_HoneyButter": "Honey Butter/200/-300/Artisan_Goods -26/Honey Butter/A sweet butter and honey mixture.////104/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Margarine": "Margarine/150/-300/Artisan_Goods -26/Margarine/You can't believe it's not butter!////107/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PeanutButter": "Peanut Butter/200/-300/Artisan_Goods -26/Peanut Butter/The classic staple. Do you like smooth or crunchy? ////113/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PecanButter": "Pecan Butter/250/-300/Artisan_Goods -26/Pecan Butter/A sweet butter with bits of pecan inside.////114/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -166,7 +165,7 @@
 				"MizuLeo.ArtisanValley_VanillaIceCream": "Vanilla Ice Cream/400/-300/Artisan_Goods -26/Vanilla Ice Cream/Refreshingly simple homemade vanilla ice cream.////100/Mods\\MizuLeo.ArtisanValley\\Objects",
 
 				//infuser goods
-				"MizuLeo.ArtisanValley_FruitSchnapps": "Schnapps/150/5/Artisan_Goods -26/Schnapps/Add to beverages to give it a splash of fruit flavor.////128/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_Schnapps": "Schnapps/150/5/Artisan_Goods -26/Schnapps/Add to beverages to give it a splash of fruit flavor.////128/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_AppleSchnapps": "Apple Schnapps/250/5/Artisan_Goods -26/Apple Schnapps/Add to beverages to give it a splash of apple flavor.////129/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_ChocolateLiqueur": "Chocolate Liqueur/250/5/Artisan_Goods -26/Chocolate Liqueur/Add to beverages to give it a splash of chocolate flavor.////175/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CoffeeLiqueur": "Coffee Liqueur/250/5/Artisan_Goods -26/Coffee Liqueur/Add to beverages to give it a splash of coffee flavor.////174/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -290,7 +289,7 @@
 
 				//yogurt jar goods
 				"MizuLeo.ArtisanValley_FruitYogurt": "Fruit Yogurt/100/15/Artisan_Goods -26/Fruit Yogurt/Yogurt with the flavor of a fruit.////45/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_GoatSkyr": "Goat Skyr/300/25/Artisan_Goods -26/Goat Skyr/Similar to yogurt, it's strained to give it an extremely tart flavor and creamy consistency.////95/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_GoatSkyr": "Goat Skyr/300/29/Artisan_Goods -26/Goat Skyr/Similar to yogurt, it's strained to give it an extremely tart flavor and creamy consistency.////95/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GoatYogurt": "Goat Yogurt/300/25/Artisan_Goods -26/Goat Yogurt/A tart yogurt that's favored in some lands.////44/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Skyr": "Skyr/400/27/Artisan_Goods -26/Skyr/Similar to yogurt, it's strained to give it a very tart flavor and creamy consistency.////46/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Yogurt": "Yogurt/175/15/Artisan_Goods -26/Yogurt/Yogurt made from cow's milk. It's plain, with a slightly sweet flavor.////43/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -407,7 +406,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/keg.json, machines/loom.json, machines/mayonnaisemachine.json, machines/oilmaker.json, machines/smoker.json, machines/soappress.json, machines/still.json, machines/vinegarkeg.json, machines/waxbarrel.json, machines/yogurtjar.json"
+			"FromFile": "machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/keg.json, machines/loom.json, machines/mayonnaisemachine.json, machines/mill.json, machines/oilmaker.json, machines/smoker.json, machines/soappress.json, machines/still.json, machines/vinegarkeg.json, machines/waxbarrel.json, machines/yogurtjar.json"
 		},
     ]
 }

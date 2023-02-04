@@ -77,6 +77,22 @@
 										"MinutesUntilReady": 180,
 									},
 									{
+										"Id": "MizuLeo.ArtisanValley_CocoaButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CocoaPod",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_CocoaButter",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
 										"Id": "MizuLeo.ArtisanValley_CoconutButter",
 										"Triggers": 
 											[
