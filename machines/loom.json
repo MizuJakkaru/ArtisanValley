@@ -10,100 +10,122 @@
 				"MizuLeo.MizuLeo.ArtisanValley_CopperThread": {
 					"Id": "MizuLeo.ArtisanValley_CopperThread",
 					"Triggers": 
-						[{
-							"Trigger": "ItemPlacedInMachine",
-							"RequiredItemId": "(O)334",
-						}],
+						[
+							{
+								"RequiredItemId": "(O)334",
+							}
+						],
 					"OutputItem":
-						[{
-							"ItemId": "(O)MizuLeo.ArtisanValley_CopperThread",
-						}],
+						[
+							{
+								"ItemId": "(O)MizuLeo.ArtisanValley_CopperThread",
+							}
+						],
 					"MinutesUntilReady": 180,
 				},
 				"MizuLeo.ArtisanValley_GoldThread": {
 					"Id": "MizuLeo.ArtisanValley_GoldThread",
 					"Triggers": 
-						[{
-							"Trigger": "ItemPlacedInMachine",
-							"RequiredItemId": "(O)336",
-						}],
+						[
+							{
+								"RequiredItemId": "(O)336",
+							}
+						],
 					"OutputItem":
-						[{
-							"ItemId": "(O)MizuLeo.ArtisanValley_GoldThread",
-						}],
+						[
+							{
+								"ItemId": "(O)MizuLeo.ArtisanValley_GoldThread",
+							}
+						],
 					"MinutesUntilReady": 240,
 				},
 				"MizuLeo.ArtisanValley_IridiumThread": {
 					"Id": "MizuLeo.ArtisanValley_IridiumThread",
 					"Triggers": 
-						[{
-							"Trigger": "ItemPlacedInMachine",
-							"RequiredItemId": "(O)337",
-						}],
+						[
+							{
+								"RequiredItemId": "(O)337",
+							}
+						],
 					"OutputItem":
-						[{
-							"ItemId": "(O)MizuLeo.ArtisanValley_IridiumThread",
-						}],
+						[
+							{
+								"ItemId": "(O)MizuLeo.ArtisanValley_IridiumThread",
+							}
+						],
 					"MinutesUntilReady": 6000,
 				},
 				"MizuLeo.ArtisanValley_SilveryThread": {
 					"Id": "MizuLeo.ArtisanValley_SilveryThread",
 					"Triggers": 
-						[{
-							"Trigger": "ItemPlacedInMachine",
-							"RequiredItemId": "(O)335",
-						}],
+						[
+							{
+								"RequiredItemId": "(O)335",
+							}
+						],
 					"OutputItem":
-						[{
-							"ItemId": "(O)MizuLeo.ArtisanValley_SilveryThread",
-						}],
+						[
+							{
+								"ItemId": "(O)MizuLeo.ArtisanValley_SilveryThread",
+							}
+						],
 					"MinutesUntilReady": 180,
 				},
 				"MizuLeo.ArtisanValley_Thread": {
 					"Id": "MizuLeo.ArtisanValley_Thread",
 					"Triggers": 
-						[{
-							"Trigger": "ItemPlacedInMachine",
-							"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CottonBoll",
-							"RequiredCount": 2,	
-						}],
+						[
+							{
+								"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CottonBoll",
+								"RequiredCount": 2,	
+							}
+						],
 					"OutputItem":
-						[{
-							"ItemId": "(O)MizuLeo.ArtisanValley_Thread",
-							"MinStack": 1,
-							"MaxStack": 2,
-						}],
+						[
+							{
+								"ItemId": "(O)MizuLeo.ArtisanValley_Thread",
+								"MinStack": 1,
+								"MaxStack": 2,
+							}
+						],
 					"MinutesUntilReady": 120,
 				},
 				"MizuLeo.ArtisanValley_Twine": {
-				"Id": "MizuLeo.ArtisanValley_Twine",
-					"Triggers": 
-						[{
-							"Trigger": "ItemPlacedInMachine",
-							"RequiredItemId": "(O)771",
-						},{
-							"Trigger": "ItemPlacedInMachine",
-							"RequiredItemId": "(O)178",
-						}],
-					"OutputItem":
-						[{
-							"ItemId": "(O)MizuLeo.ArtisanValley_Twine",
-							"MinStack": 2,
-							"MaxStack": 4,
-						}],
-					"MinutesUntilReady": 60,
+					"Id": "MizuLeo.ArtisanValley_Twine",
+						"Triggers": 
+							[
+								{
+									"RequiredItemId": "(O)771",
+								},
+								{
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O)178",
+								}
+							],
+						"OutputItem":
+							[
+								{
+									"ItemId": "(O)MizuLeo.ArtisanValley_Twine",
+									"MinStack": 2,
+									"MaxStack": 4,
+								}
+							],
+						"MinutesUntilReady": 60,
 				},
 				"MizuLeo.ArtisanValley_Yarn": {
 					"Id": "MizuLeo.ArtisanValley_Yarn",
 					"Triggers": 
-						[{
-							"Trigger": "ItemPlacedInMachine",
-							"RequiredItemId": "(O)MizuLeo.ArtisanValley_Thread",
-						}],
+						[
+							{
+								"RequiredItemId": "(O)MizuLeo.ArtisanValley_Thread",
+							}
+						],
 					"OutputItem":
-						[{
-							"ItemId": "(O)MizuLeo.ArtisanValley_Yarn",
-						}],
+						[
+							{
+								"ItemId": "(O)MizuLeo.ArtisanValley_Yarn",
+							}
+						],
 					"MinutesUntilReady": 120,
 				}
 			}

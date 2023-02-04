@@ -10,172 +10,217 @@
 					"(BC)MizuLeo.ArtisanValley_Alembic":
 						{
 							"OutputRules":				
-								[{
-									"Id": "MizuLeo.ArtisanValley_HabaneroExtract",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Habanero",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_HabaneroExtract",
-										}],
-									"MinutesUntilReady": 360,
-								},{
-									"Id": "MizuLeo.ArtisanValley_JalapenoExtract",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Jalapeno",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_JalapenoExtract",
-										}],
-									"MinutesUntilReady": 360,
-								},{
-									"Id": "MizuLeo.ArtisanValley_PrismaticExtract",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)74",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_PrismaticExtract",
-										}],
-									"MinutesUntilReady": 1750,
-								},{
-									"Id": "MizuLeo.ArtisanValley_VanillaExtract",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Vanilla",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_VanillaExtract",
-										}],
-									"MinutesUntilReady": 360,
-								},{
-									"Id": "MizuLeo.ArtisanValley_EssentialOilFlowers",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_flowers", "!id_o_mizuleo.herbsflowers_vanilla" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
-											"Name": "{0} Essential Oil",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "EssentialOil",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_EssentialOilFruits",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_fruits", "!id_o_mizuleo.fruitsveggies_habanero", "!id_o_mizuleo.fruitsveggies_jalapeno" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
-											"Name": "{0} Essential Oil",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "EssentialOil",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_EssentialOilVegetables",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_vegetable" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
-											"Name": "{0} Essential Oil",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "EssentialOil",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								}],
+								[
+									{
+										"Id": "MizuLeo.ArtisanValley_HabaneroExtract",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Habanero",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_HabaneroExtract",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_JalapenoExtract",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Jalapeno",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_JalapenoExtract",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_PrismaticExtract",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)74",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_PrismaticExtract",
+												}
+											],
+										"MinutesUntilReady": 1750,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_VanillaExtract",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Vanilla",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_VanillaExtract",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_EssentialOilFlowers",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_flowers", "!id_o_mizuleo.herbsflowers_vanilla" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
+													"Name": "{0} Essential Oil",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "EssentialOil",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_EssentialOilFruits",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_fruits", "!id_o_mizuleo.fruitsveggies_habanero", "!id_o_mizuleo.fruitsveggies_jalapeno" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
+													"Name": "{0} Essential Oil",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "EssentialOil",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_EssentialOilVegetables",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_vegetable" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
+													"Name": "{0} Essential Oil",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "EssentialOil",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									}
+								],
 								
 							"LoadEffects":
-								[{
-									"Sound": "bubbles",
-									"DelayedSounds": 
-										[{
-											"Sound": "sipTea",
-											"Delay": 0
-										}],
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
+								[
+									{
+										"Sound": "bubbles",
+										"DelayedSounds": 
+											[
 												{
-												  "X": 256,
-												  "Y": 1856,
-												  "Width": 64,
-												  "Height": 128
-												},
-											"Interval": 80.0,
-											"Frames": 6,
-											"Loops": 999999,
-											"PositionOffset": "0, -32",
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": "White"
-										}],
-								}],
+													"Sound": "sipTea",
+													"Delay": 0
+												}
+											],
+										"TemporarySprites": 
+											[
+												{
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "White"
+												}
+											],
+									}
+								],
 							"WorkingEffects":
-								[{
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
+								[
+									{
+										"TemporarySprites": 
+											[
 												{
-												  "X": 256,
-												  "Y": 1856,
-												  "Width": 64,
-												  "Height": 128
-												},
-											"Interval": 80.0,
-											"Frames": 6,
-											"Loops": 999999,
-											"PositionOffset": "0, -32",
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": "White"
-										}],
-								}],
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "White"
+												}
+											],
+									}
+								],
 							"WobbleWhileWorking": true,
 						}
 				}

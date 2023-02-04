@@ -10,126 +10,159 @@
 					"(BC)MizuLeo.ArtisanValley_Smoker":
 						{
 							"OutputRules":
-								[{
-									"Id": "MizuLeo.ArtisanValley_RoastedGarlic",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)248",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_RoastedGarlic",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_RoastedSunflowerSeeds",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)431",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_RoastedSunflowerSeeds",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_SmokedCheese",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)424",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_SmokedCheese",	
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_SmokedSalmon",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)139",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_SmokedSalmon",	
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_SmokedEgg",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_egg", "!id_o_289", "!id_o_305", "!id_o_928", "!id_o_107" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_SmokedEgg",	
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_SmokedFish",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_fish", "!fish_crab_pot", "!id_o_139" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "MizuLeo.ArtisanValley_SmokedFish",
-											"Name": "Smoked {0}",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "SmokedFish",
-													"Modification": "Multiply",
-													"Amount": 2.0,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								}],
-								
-							"AdditionalConsumedItems":
-								[{
-									"ItemId": "(O)388",
-									"RequiredCount": 5,
-									"InvalidCountMessage": "Requires 5 Wood"
-								}],
-								
-							"LoadEffects":
-								[{
-									"Sound": "openBox",
-									"DelayedSounds":
-										[{
-											"Sound": "fireball",
-											"Delay": 50
-										}],
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
+								[
+									{
+										"Id": "MizuLeo.ArtisanValley_RoastedGarlic",
+										"Triggers": 
+											[
 												{
-												  "X": 0,
-												  "Y": 1728,
-												  "Width": 64,
-												  "Height": 64
-												},
-											"Interval": 50.0,
-											"Frames": 4,
-											"Loops": 10,
-											"PositionOffset": "-4, -30",
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": null
-										}],
-								}],
+													"RequiredItemId": "(O)248",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_RoastedGarlic",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_RoastedSunflowerSeeds",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)431",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_RoastedSunflowerSeeds",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_SmokedCheese",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)424",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_SmokedCheese",	
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_SmokedSalmon",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)139",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_SmokedSalmon",	
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_SmokedEgg",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_egg", "!id_o_289", "!id_o_305", "!id_o_928", "!id_o_107" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_SmokedEgg",	
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_SmokedFish",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_fish", "!fish_crab_pot", "!id_o_139" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "MizuLeo.ArtisanValley_SmokedFish",
+													"Name": "Smoked {0}",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "SmokedFish",
+																"Modification": "Multiply",
+																"Amount": 2.0,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									}
+								],
+							"AdditionalConsumedItems":
+								[
+									{
+										"ItemId": "(O)388",
+										"RequiredCount": 5,
+										"InvalidCountMessage": "Requires 5 Wood"
+									}
+								],
+							"LoadEffects":
+								[
+									{
+										"Sound": "openBox",
+										"DelayedSounds":
+											[
+												{
+													"Sound": "fireball",
+													"Delay": 50
+												}
+											],
+										"TemporarySprites": 
+											[
+												{
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 0,
+														  "Y": 1728,
+														  "Width": 64,
+														  "Height": 64
+														},
+													"Interval": 50.0,
+													"Frames": 4,
+													"Loops": 10,
+													"PositionOffset": "-4, -30",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": null
+												}
+											],
+									}
+								],
 							"WobbleWhileWorking": true,
 							"ShowNextIndexWhileWorking": true,
 						}

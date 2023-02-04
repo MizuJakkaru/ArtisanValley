@@ -10,218 +10,290 @@
 					"(BC)MizuLeo.ArtisanValley_ButterChurn": 
 						{
 							"OutputRules":
-								[{
+								[
+									{
 									"Id": "MizuLeo.ArtisanValley_AlmondButter",
 									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Almond",
-										}],
+										[
+											{
+												"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Almond",
+											}
+										],
 									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_AlmondButter",
-										}],
+										[
+											{
+												"ItemId": "(O)MizuLeo.ArtisanValley_AlmondButter",
+											}
+										],
 									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Butter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)184",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Butter",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Butter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)186",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Butter",
-											"Quality": 2,
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_CashewButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Cashew",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_CashewButter",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_CoconutButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)88",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_CoconutButter",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_CookieButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)223",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_CookieButter",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_GoatButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)436",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_GoatButter",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_GoatButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)438",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_GoatButter",
-											"Quality": 2,
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_HazelnutButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)408",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_HazelnutButter",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Margarine",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)247",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Margarine",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_PeanutButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Peanut",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_PeanutButter",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_PecanButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Pecan",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_PecanButter",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_PistachioButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Pistachio",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_PistachioButter",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_SlimeButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)766",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_SlimeButter",
-										}],
-									"MinutesUntilReady": 360,
-								},{
-									"Id": "MizuLeo.ArtisanValley_SoynutButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Soybean",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_SoynutButter",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_SunflowerButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)421",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_SunflowerButter",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_WalnutButter",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Walnut",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_WalnutButter",
-										}],
-									"MinutesUntilReady": 180,
-								}],
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Butter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)184",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Butter",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Butter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)186",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Butter",
+													"Quality": 2,
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_CashewButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Cashew",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_CashewButter",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_CoconutButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)88",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_CoconutButter",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_CookieButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)223",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_CookieButter",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_GoatButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)436",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_GoatButter",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_GoatButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)438",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_GoatButter",
+													"Quality": 2,
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_HazelnutButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)408",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_HazelnutButter",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Margarine",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)247",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Margarine",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_PeanutButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Peanut",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_PeanutButter",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_PecanButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Pecan",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_PecanButter",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_PistachioButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Pistachio",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_PistachioButter",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_SlimeButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)766",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_SlimeButter",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_SoynutButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Soybean",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_SoynutButter",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_SunflowerButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)421",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_SunflowerButter",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_WalnutButter",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Walnut",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_WalnutButter",
+												}
+											],
+										"MinutesUntilReady": 180,
+									}
+								],
 								
 							"LoadEffects":
-								[{
+								[
+									{
+									
 									"Sound": "Ship",
-								}],
+									}
+								],
 							"WobbleWhileWorking": true,
 						}
 				}

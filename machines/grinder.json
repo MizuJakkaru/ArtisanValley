@@ -10,208 +10,274 @@
 					"(BC)MizuLeo.ArtisanValley_Grinder": 
 						{
 							"OutputRules":
-								[{
-									"Id": "MizuLeo.ArtisanValley_Applesauce",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)613",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Applesauce",
-										}],
-									"MinutesUntilReady": 360,
-								},{
-									"Id": "MizuLeo.ArtisanValley_ChiliPowder",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)260",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_ChiliPowder",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_GroundCumin",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Cumin",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_GroundCumin",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_GroundNutmeg",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Nutmeg",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_GroundNutmeg",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_GroundTurmeric",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Turmeric",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_GroundTurmeric",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_LemonPeel",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Lemon",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_LemonPeel",
-										}],
-									"MinutesUntilReady": 60,
-								},{
-									"Id": "MizuLeo.ArtisanValley_LimePeel",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Lime",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_LimePeel",
-										}],
-									"MinutesUntilReady": 60,
-								},{
-									"Id": "MizuLeo.ArtisanValley_OrangePeel",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)635",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_OrangePeel",
-										}],
-									"MinutesUntilReady": 60,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Paprika",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_BellPepper",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Paprika",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Pepper",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Pepper",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Saffron",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)418",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Saffron",
-										}],
-									"MinutesUntilReady": 600,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Salt",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.ArtisanValley_SeaSalt",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Salt",
-										}],
-									"MinutesUntilReady": 180,
-								},{
-									"Id": "MizuLeo.ArtisanValley_WasabiPaste",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_WasabiRoot",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_WasabiPaste",
-										}],
-									"MinutesUntilReady": 360,
-								},{
-									"Id": "MizuLeo.ArtisanValley_GroundHerb",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "herb_item", "!id_o_mizuleo.herbsflowers_cumin", "!id_o_mizuleo.herbsflowers_nutmeg", "!id_o_mizuleo.herbsflowers_turmeric" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_GroundHerb",
-											"Name": "Ground {0}",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "GroundHerb",
-													"Modification": "Multiply",
-													"Amount": 1.25,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_GroundVegetable",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_vegetable", "!herb_item" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_GroundVegetable",
-											"Name": "Ground {0}",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "GroundVegetable",
-													"Modification": "Multiply",
-													"Amount": 1.25,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								}],
-								
+								[
+									{
+										"Id": "MizuLeo.ArtisanValley_Applesauce",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)613",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Applesauce",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_ChiliPowder",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)260",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_ChiliPowder",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_GroundCumin",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Cumin",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_GroundCumin",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_GroundNutmeg",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Nutmeg",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_GroundNutmeg",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_GroundTurmeric",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.HerbsFlowers_Turmeric",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_GroundTurmeric",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_LemonPeel",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Lemon",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_LemonPeel",
+												}
+											],
+										"MinutesUntilReady": 60,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_LimePeel",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Lime",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_LimePeel",
+												}
+											],
+										"MinutesUntilReady": 60,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_OrangePeel",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)635",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_OrangePeel",
+												}
+											],
+										"MinutesUntilReady": 60,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Paprika",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_BellPepper",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Paprika",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Pepper",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Pepper",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Saffron",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)418",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Saffron",
+												}
+											],
+										"MinutesUntilReady": 600,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Salt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.ArtisanValley_SeaSalt",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Salt",
+												}
+											],
+										"MinutesUntilReady": 180,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_WasabiPaste",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_WasabiRoot",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_WasabiPaste",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_GroundHerb",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "herb_item", "!id_o_mizuleo.herbsflowers_cumin", "!id_o_mizuleo.herbsflowers_nutmeg", "!id_o_mizuleo.herbsflowers_turmeric" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_GroundHerb",
+													"Name": "Ground {0}",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "GroundHerb",
+																"Modification": "Multiply",
+																"Amount": 1.25,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_GroundVegetable",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_vegetable", "!herb_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_GroundVegetable",
+													"Name": "Ground {0}",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "GroundVegetable",
+																"Modification": "Multiply",
+																"Amount": 1.25,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									}
+								],
 							"LoadEffects":
-								[{
-									"Sound": "woodchipper",
-								}],
+								[
+									{
+										"Sound": "woodchipper",
+									}
+								],
 							"WobbleWhileWorking": true,
 						}
 				}

@@ -10,115 +10,149 @@
 					"(BC)MizuLeo.ArtisanValley_DryingRack": 
 						{
 							"OutputRules":
-								[{
-									"Id": "MizuLeo.ArtisanValley_BarleyMalt",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Barley",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_BarleyMalt",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_CornMalt",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)270",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_CornMalt",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Hay",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)771",
-											"RequiredCount": 10,
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)178",
-											"MinStack": 3,
-											"MaxStack": 8,
-										}],
-									"MinutesUntilReady": 60,
-								},{
-									"Id": "MizuLeo.ArtisanValley_MatchaPowder",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)815",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_MatchaPowder",
-										}],
-									"MinutesUntilReady": 4320,
-								},{
-									"Id": "MizuLeo.ArtisanValley_WheatMalt",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)262",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_WheatMalt",
-										}],
-									"MinutesUntilReady": 120,
-								},{
-									"Id": "MizuLeo.ArtisanValley_DriedFlower",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_flowers" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_DriedFlower",
-											"Name": "Dried {0}",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "DriedFlower",
-													"Modification": "Multiply",
-													"Amount": 1.75,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_DriedHerb",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "herb_item" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_DriedHerb",
-											"Name": "Dried {0}",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "DriedHerb",
-													"Modification": "Multiply",
-													"Amount": 1.75,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								}],
-								
+								[
+									{
+										"Id": "MizuLeo.ArtisanValley_BarleyMalt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Barley",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_BarleyMalt",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_CornMalt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)270",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_CornMalt",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Hay",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)771",
+													"RequiredCount": 10,
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)178",
+													"MinStack": 3,
+													"MaxStack": 8,
+												}
+											],
+										"MinutesUntilReady": 60,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_MatchaPowder",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)815",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_MatchaPowder",
+												}
+											],
+										"MinutesUntilReady": 4320,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_WheatMalt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)262",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_WheatMalt",
+												}
+											],
+										"MinutesUntilReady": 120,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_DriedFlower",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_flowers" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_DriedFlower",
+													"Name": "Dried {0}",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "DriedFlower",
+																"Modification": "Multiply",
+																"Amount": 1.75,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_DriedHerb",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "herb_item" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_DriedHerb",
+													"Name": "Dried {0}",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "DriedHerb",
+																"Modification": "Multiply",
+																"Amount": 1.75,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									}
+								],
 							"LoadEffects":
-								[{
-									"Sound": "Ship",
-								}],
+								[
+									{
+										"Sound": "Ship",
+									}
+								],
 							"WobbleWhileWorking": true,
 						}
 				}

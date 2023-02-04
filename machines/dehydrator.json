@@ -10,96 +10,125 @@
 					"(BC)MizuLeo.ArtisanValley_Dehydrator":
 						{
 							"OutputRules":
-								[{
-									"Id": "MizuLeo.ArtisanValley_Prunes",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)406",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Prunes",
-										}],
-									"MinutesUntilReady": 2250,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Raisins",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)398",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Raisins",
-										}],
-									"MinutesUntilReady": 2250,
-								},{
-									"Id": "MizuLeo.ArtisanValley_DriedFruit",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_fruits", "!id_o_398", "!id_o_406" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_DriedFruit",
-											"Name": "Dried {0}",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "DriedFruit",
-													"Modification": "Multiply",
-													"Amount": 2.0,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_DriedMushroom",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "forage_item_mines" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_DriedMushroom",
-											"Name": "Dried {0}",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "DriedMushroom",
-													"Modification": "Multiply",
-													"Amount": 1.75,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_DriedVegetable",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_vegetable" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_DriedVegetable",
-											"Name": "Dried {0}",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "DriedVegetable",
-													"Modification": "Multiply",
-													"Amount": 2.0,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								}],
+								[
+									{
+										"Id": "MizuLeo.ArtisanValley_Prunes",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)406",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Prunes",
+												}
+											],
+										"MinutesUntilReady": 2250,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Raisins",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)398",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Raisins",
+												}
+											],
+										"MinutesUntilReady": 2250,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_DriedFruit",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_fruits", "!id_o_398", "!id_o_406" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_DriedFruit",
+													"Name": "Dried {0}",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "DriedFruit",
+																"Modification": "Multiply",
+																"Amount": 2.0,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_DriedMushroom",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "forage_item_mines" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_DriedMushroom",
+													"Name": "Dried {0}",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "DriedMushroom",
+																"Modification": "Multiply",
+																"Amount": 1.75,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_DriedVegetable",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_vegetable" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_DriedVegetable",
+													"Name": "Dried {0}",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "DriedVegetable",
+																"Modification": "Multiply",
+																"Amount": 2.0,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									}
+								],
 								
 							"LoadEffects":
-								[{
-									"Sound": "Ship",
-								}],
+								[
+									{
+										"Sound": "Ship",
+									}
+								],
 							"WobbleWhileWorking": true,
 						}
 				}

@@ -10,121 +10,149 @@
 					"(BC)MizuLeo.ArtisanValley_Juicer":
 						{
 							"OutputRules":				
-								[{
-									"Id": "MizuLeo.ArtisanValley_Lemonade",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Lemon",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Lemonade",
-										}],
-									"MinutesUntilReady": 6000,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Limeade",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Lime",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Limeade",
-										}],
-									"MinutesUntilReady": 6000,
-								},{
-									"Id": "MizuLeo.ArtisanValley_OrangeJuice",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)635",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_OrangeJuice",
-										}],
-									"MinutesUntilReady": 6000,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Juice",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_fruits", "!id_o_mizuleo.fruitsveggies_lime", "!id_o_mizuleo.fruitsveggies_lemon", "!id_o_635" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "MizuLeo.ArtisanValley_FruitJuice",
-											"Name": "{0} Juice",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "FruitJuice",
-													"Modification": "Multiply",
-													"Amount": 2.25,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								}],
-								
+								[
+									{
+										"Id": "MizuLeo.ArtisanValley_Lemonade",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Lemon",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Lemonade",
+												}
+											],
+										"MinutesUntilReady": 6000,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Limeade",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Lime",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Limeade",
+												}
+											],
+										"MinutesUntilReady": 6000,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_OrangeJuice",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)635",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_OrangeJuice",
+												}
+											],
+										"MinutesUntilReady": 6000,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Juice",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_fruits", "!id_o_mizuleo.fruitsveggies_lime", "!id_o_mizuleo.fruitsveggies_lemon", "!id_o_635" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "MizuLeo.ArtisanValley_FruitJuice",
+													"Name": "{0} Juice",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "FruitJuice",
+																"Modification": "Multiply",
+																"Amount": 2.25,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									}
+								],
 							"LoadEffects":
-								[{
-									"Sound": "Ship",
-									"DelayedSounds": 
-										[{
-											"Sound": "bubbles",
-											"Delay": 0
-										}],
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
+								[
+									{
+										"Sound": "Ship",
+										"DelayedSounds": 
+											[
 												{
-												  "X": 256,
-												  "Y": 1856,
-												  "Width": 64,
-												  "Height": 128
-												},
-											"Interval": 80.0,
-											"Frames": 6,
-											"Loops": 999999,
-											"PositionOffset": "0, -32",
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": "White"
-										}],
-								}],
+													"Sound": "bubbles",
+													"Delay": 0
+												}
+											],
+										"TemporarySprites": 
+											[
+												{
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "White"
+												}
+											],
+									}
+								],
 							"WorkingEffects":
-								[{
-									"Sound": "bubbles",
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
+								[
+									{
+										"Sound": "bubbles",
+										"TemporarySprites": 
+											[
 												{
-												  "X": 256,
-												  "Y": 1856,
-												  "Width": 64,
-												  "Height": 128
-												},
-											"Interval": 80.0,
-											"Frames": 6,
-											"Loops": 999999,
-											"PositionOffset": "0, -32",
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": "White"
-										}],
-								}],
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "White"
+												}
+											],
+									}
+								],
 							"WobbleWhileWorking": true,
 						}
 				}

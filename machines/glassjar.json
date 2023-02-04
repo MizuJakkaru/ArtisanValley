@@ -10,383 +10,499 @@
 					"(BC)MizuLeo.ArtisanValley_GlassJar":
 						{
 							"OutputRules":				
-								[{																				//requires artisan valley
-									"Id": "MizuLeo.ArtisanValley_ChanterelleKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)281",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_ChanterelleKombucha",
-										}],
-									"MinutesUntilReady": 1600,
-								},{
-									"Id": "MizuLeo.ArtisanValley_GreenKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)614",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_GreenKombucha",
-										}],
-									"MinutesUntilReady": 1600,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Kombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)404",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Kombucha",
-										}],
-									"MinutesUntilReady": 1600,
-								},{
-									"Id": "MizuLeo.ArtisanValley_MagmaKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)851",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_MagmaKombucha",
-										}],
-									"MinutesUntilReady": 1600,
-								},{
-									"Id": "MizuLeo.ArtisanValley_MorelKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)257",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_MorelKombucha",
-										}],
-									"MinutesUntilReady": 1600,
-								},{
-									"Id": "MizuLeo.ArtisanValley_PurpleKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)422",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_PurpleKombucha",
-										}],
-									"MinutesUntilReady": 1600,
-								},{
-									"Id": "MizuLeo.ArtisanValley_RedKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)420",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_RedKombucha",
-										}],
-									"MinutesUntilReady": 1600,
-								},{																				//requires more recipes
-									"Id": "MizuLeo.ArtisanValley_BarleyKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_BarleyTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_BarleyKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_BerryFusionKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_BerryFusionTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_BerryFusionKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_BlackKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_BlackTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_BlackKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_BlueMistKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_BlueMistTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_BlueMistKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_BreakfastKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_BreakfastTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_BreakfastKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_CamelliaKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_CamelliaTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_CamelliaKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_ChaiKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_ChaiTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_ChaiKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_ChamomileKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_ChamomileTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_ChamomileKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_CranberryPomegranateKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_CranberryPomegranateTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_CranberryPomegranateKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_DandelionKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_DandelionTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_DandelionKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_EarlGrayKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_EarlGrayTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_EarlGrayKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_JasmineKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_JasmineTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_JasmineKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_LemonKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_LemonTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_LemonKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_MatchaKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_Matcha",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_MatchaKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_MintKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_MintTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_MintKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_OolongKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_OolongTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_OolongKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_RoseKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_RoseTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_RoseKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_SpicedKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_SpicedTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_SpicedKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_StrawberryGrapefruitKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_StrawberryGrapefruitTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_StrawberryGrapefruitKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_WhiteKombucha",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.MoreRecipes_WhiteTea",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_WhiteKombucha",
-										}],
-									"MinutesUntilReady": 10,
-								}],
-								
+								[
+									{
+										"Id": "MizuLeo.ArtisanValley_ChanterelleKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)281",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_ChanterelleKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_GreenKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)614",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_GreenKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Kombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)404",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Kombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_MagmaKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)851",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_MagmaKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_MorelKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)257",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_MorelKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_PurpleKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)422",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_PurpleKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_RedKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)420",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_RedKombucha",
+												}
+											],
+										"MinutesUntilReady": 1600,
+									},
+									{																				//requires more recipes
+										"Id": "MizuLeo.ArtisanValley_BarleyKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_BarleyTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_BarleyKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_BerryFusionKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_BerryFusionTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_BerryFusionKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_BlackKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_BlackTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_BlackKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_BlueMistKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_BlueMistTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_BlueMistKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_BreakfastKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_BreakfastTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_BreakfastKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_CamelliaKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_CamelliaTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_CamelliaKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_ChaiKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_ChaiTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_ChaiKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_ChamomileKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_ChamomileTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_ChamomileKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_CranberryPomegranateKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_CranberryPomegranateTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_CranberryPomegranateKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_DandelionKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_DandelionTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_DandelionKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_EarlGrayKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_EarlGrayTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_EarlGrayKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_JasmineKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_JasmineTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_JasmineKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_LemonKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_LemonTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_LemonKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_MatchaKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_Matcha",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_MatchaKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_MintKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_MintTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_MintKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_OolongKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_OolongTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_OolongKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_RoseKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_RoseTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_RoseKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_SpicedKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_SpicedTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_SpicedKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_StrawberryGrapefruitKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_StrawberryGrapefruitTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_StrawberryGrapefruitKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_WhiteKombucha",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.MoreRecipes_WhiteTea",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_WhiteKombucha",
+												}
+											],
+										"MinutesUntilReady": 10,
+									}
+								],
 							"LoadEffects":
-								[{
-									"Sound": "Ship",
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
+								[
+									{
+										"Sound": "Ship",
+										"TemporarySprites": 
+											[
 												{
-												  "X": 256,
-												  "Y": 1856,
-												  "Width": 64,
-												  "Height": 128
-												},
-												"Interval": 80.0,
-											"Frames": 6,
-											"Loops": 999999,
-											"PositionOffset": "0, -32",
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": "Salmon"
-										}],
-								}],
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "Salmon"
+												}
+											],
+									}
+								],
 							"WorkingEffects":
-								[{
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
+								[
+									{
+										"TemporarySprites": 
+											[
 												{
-												  "X": 256,
-												  "Y": 1856,
-												  "Width": 64,
-												  "Height": 128
-												},
-											"Interval": 80.0,
-											"Frames": 6,
-											"Loops": 999999,
-											"PositionOffset": "0, -32",
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": "Salmon"
-										}],
-								}],
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "Salmon"
+												}
+											],
+									}
+								],
 							"WobbleWhileWorking": true,
 						}
 				}

@@ -10,115 +10,141 @@
 					"(BC)MizuLeo.ArtisanValley_YogurtJar":
 						{
 							"OutputRules":				
-								[{
-									"Id": "MizuLeo.ArtisanValley_GoatYogurt",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)436",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_GoatYogurt",
-										}],
-									"MinutesUntilReady": 200,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Skyr",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)186",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Skyr",
-										}],
-									"MinutesUntilReady": 360,
-								},{
-									"Id": "MizuLeo.ArtisanValley_Yogurt",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)184",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_Yogurt",
-										}],
-									"MinutesUntilReady": 200,
-								},{
-									"Id": "MizuLeo.ArtisanValley_FruitYogurt",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_fruits" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_FruitYogurt",
-											"Name": "{0} Yogurt",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "FruitYogurt",
-													"Modification": "Multiply",
-													"Amount": 1.75,
-												}],
-										}],
-									"MinutesUntilReady": 360,
-								}],
-								
+								[
+									{
+										"Id": "MizuLeo.ArtisanValley_GoatYogurt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)436",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_GoatYogurt",
+												}
+											],
+										"MinutesUntilReady": 200,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Skyr",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)186",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Skyr",
+												}
+											],
+										"MinutesUntilReady": 360,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Yogurt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)184",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Yogurt",
+												}
+											],
+										"MinutesUntilReady": 200,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_FruitYogurt",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_fruits" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_FruitYogurt",
+													"Name": "{0} Yogurt",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "FruitYogurt",
+																"Modification": "Multiply",
+																"Amount": 1.75,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 360,
+									}
+								],
 							"LoadEffects":
-								[{
-									"Sound": "Ship",
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
+								[
+									{
+										"Sound": "Ship",
+										"TemporarySprites": 
+											[
 												{
-												  "X": 256,
-												  "Y": 1856,
-												  "Width": 64,
-												  "Height": 128
-												},
-												"Interval": 80.0,
-											"Frames": 6,
-											"Loops": 999999,
-											"PositionOffset": "0, -32",
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": "Salmon"
-										}],
-								}],
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+														"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "Salmon"
+												}
+											],
+									}
+								],
 							"WorkingEffects":
-								[{
-									"TemporarySprites": 
-										[{
-											"Texture": "TileSheets\\animations",
-											"SourceRect":
+								[
+									{
+										"TemporarySprites": 
+											[
 												{
-												  "X": 256,
-												  "Y": 1856,
-												  "Width": 64,
-												  "Height": 128
-												},
-											"Interval": 80.0,
-											"Frames": 6,
-											"Loops": 999999,
-											"PositionOffset": "0, -32",
-											"SortOffset": 0.0,
-											"AlphaFade": 0.005,
-											"Scale": 0.25,
-											"ScaleChange": 0.0,
-											"Rotation": 0.0,
-											"RotationChange": 0.0,
-											"Color": "Lavender"
-										}],
-								}],
+													"Texture": "TileSheets\\animations",
+													"SourceRect":
+														{
+														  "X": 256,
+														  "Y": 1856,
+														  "Width": 64,
+														  "Height": 128
+														},
+													"Interval": 80.0,
+													"Frames": 6,
+													"Loops": 999999,
+													"PositionOffset": "0, -32",
+													"SortOffset": 0.0,
+													"AlphaFade": 0.005,
+													"Scale": 0.25,
+													"ScaleChange": 0.0,
+													"Rotation": 0.0,
+													"RotationChange": 0.0,
+													"Color": "Lavender"
+												}
+											],
+									}
+								],
 							"WobbleWhileWorking": true,
 						}
 				}

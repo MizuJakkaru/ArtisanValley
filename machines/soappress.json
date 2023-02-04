@@ -10,243 +10,315 @@
 					"(BC)MizuLeo.ArtisanValley_SoapPress":
 						{
 							"OutputRules":
-								[{
-									"Id": "MizuLeo.ArtisanValley_FloralSoap",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_flowers" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_FloralSoap",
-											"Name": "{0} Soap",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "FloralSoap",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_FruitSoap",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "category_fruits" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_FruitSoap",
-											"Name": "{0} Soap",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "FloralSoap",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_HerbalSoap",								//herbal soap, naming pattern unchanged
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "herb_soap_item", "!id_o_mizuleo.herbsflowers_camphorleaves", "!id_o_mizuleo.herbsflowers_eucalyptusleaves", "!id_o_mizuleo.herbsflowers_melaleucaleaves" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
-											"Name": "{0} Soap",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "HerbalSoap",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_HerbalSoapCamphor",						//naming pattern for camphor leaves
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_CamphorLeaves"
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
-											"Name": "Camphor Soap",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "HerbalSoap",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_HerbalSoapEucalyptus",						//naming pattern for eucalyptus leaves
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_EucalyptusLeaves"
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
-											"Name": "Eucalyptus Soap",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "HerbalSoap",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_HerbalSoapMelaleuca",						//naming pattern for melaleuca leaves
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.HerbsFlowers_MelaleucaLeaves"
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
-											"Name": "Melaleuca Soap",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "HerbalSoap",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_NuttySoap",								//nutty soap, naming pattern unchanged
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredTags":[ "nut_soap_item", "!id_o_mizuleo.fruitsveggies_cinnamonsticks", "!id_o_mizuleo.fruitsveggies_cocoapod", "!id_o_mizuleo.fruitsveggies_oats" ],
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
-											"Name": "{0} Soap",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "NuttySoap",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_NuttySoapCinnamon",						//naming pattern for cinnamon sticks
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CinnamonSticks"
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
-											"Name": "Cinnamon Soap",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "NuttySoap",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_NuttySoapCocoa",							//naming pattern for cocoa pod
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CocoaPod"
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
-											"Name": "Cocoa Soap",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "NuttySoap",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_NuttySoapOat",								//naming pattern for oats
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Oats"
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
-											"Name": "Oat Soap",
-											"CopyPrice": true,
-											"PriceModifiers":
-												[{
-													"Id": "NuttySoap",
-													"Modification": "Multiply",
-													"Amount": 1.5,
-												}],
-										}],
-									"MinutesUntilReady": 10,
-								},{
-									"Id": "MizuLeo.ArtisanValley_PrismaticSoap",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)74",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_PrismaticSoap",
-										}],
-									"MinutesUntilReady": 720,
-								},{
-									"Id": "MizuLeo.ArtisanValley_TeaSoap",
-									"Triggers": 
-										[{
-											"Trigger": "ItemPlacedInMachine",
-											"RequiredItemId": "(O)815",
-										}],
-									"OutputItem":
-										[{
-											"ItemId": "(O)MizuLeo.ArtisanValley_TeaSoap",
-										}],
-									"MinutesUntilReady": 360,
-								}],
-								
+								[
+									{
+										"Id": "MizuLeo.ArtisanValley_FloralSoap",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_flowers" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_FloralSoap",
+													"Name": "{0} Soap",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "FloralSoap",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_FruitSoap",
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "category_fruits" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+												"ItemId": "(O)MizuLeo.ArtisanValley_FruitSoap",
+												"Name": "{0} Soap",
+												"CopyPrice": true,
+												"PriceModifiers":
+													[
+														{
+															"Id": "FloralSoap",
+															"Modification": "Multiply",
+															"Amount": 1.5,
+														}
+													],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_HerbalSoap",								//herbal soap, naming pattern unchanged
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "herb_soap_item", "!id_o_mizuleo.herbsflowers_camphorleaves", "!id_o_mizuleo.herbsflowers_eucalyptusleaves", "!id_o_mizuleo.herbsflowers_melaleucaleaves" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
+													"Name": "{0} Soap",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "HerbalSoap",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_HerbalSoapCamphor",						//naming pattern for camphor leaves
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.HerbsFlowers_CamphorLeaves"
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
+													"Name": "Camphor Soap",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "HerbalSoap",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_HerbalSoapEucalyptus",						//naming pattern for eucalyptus leaves
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.HerbsFlowers_EucalyptusLeaves"
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
+													"Name": "Eucalyptus Soap",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "HerbalSoap",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_HerbalSoapMelaleuca",						//naming pattern for melaleuca leaves
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.HerbsFlowers_MelaleucaLeaves"
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
+													"Name": "Melaleuca Soap",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "HerbalSoap",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_NuttySoap",								//nutty soap, naming pattern unchanged
+										"Triggers": 
+											[
+												{
+													"RequiredTags":[ "nut_soap_item", "!id_o_mizuleo.fruitsveggies_cinnamonsticks", "!id_o_mizuleo.fruitsveggies_cocoapod", "!id_o_mizuleo.fruitsveggies_oats" ],
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
+													"Name": "{0} Soap",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "NuttySoap",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_NuttySoapCinnamon",						//naming pattern for cinnamon sticks
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CinnamonSticks"
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
+													"Name": "Cinnamon Soap",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "NuttySoap",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_NuttySoapCocoa",							//naming pattern for cocoa pod
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_CocoaPod"
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
+													"Name": "Cocoa Soap",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "NuttySoap",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_NuttySoapOat",								//naming pattern for oats
+										"Triggers": 
+											[
+												{
+													"Trigger": "ItemPlacedInMachine",
+													"RequiredItemId": "(O)MizuLeo.FruitsVeggies_Oats"
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
+													"Name": "Oat Soap",
+													"CopyPrice": true,
+													"PriceModifiers":
+														[
+															{
+																"Id": "NuttySoap",
+																"Modification": "Multiply",
+																"Amount": 1.5,
+															}
+														],
+												}
+											],
+										"MinutesUntilReady": 10,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_PrismaticSoap",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)74",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_PrismaticSoap",
+												}
+											],
+										"MinutesUntilReady": 720,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_TeaSoap",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)815",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_TeaSoap",
+												}
+											],
+										"MinutesUntilReady": 360,
+									}
+								],
 							"AdditionalConsumedItems":
-								[{
-									"ItemId": "(O)247",
-									"RequiredCount": 1,
-									"InvalidCountMessage": "Requires 1 Oil"
-								}],
-								
+								[
+									{
+										"ItemId": "(O)247",
+										"RequiredCount": 1,
+										"InvalidCountMessage": "Requires 1 Oil"
+									}
+								],
 							"LoadEffects":
-								[{
-									"Sound": "trashcan",
-								}],
+								[
+									{
+										"Sound": "trashcan",
+									}
+								],
 							"WobbleWhileWorking": true,
 						}
 				}
