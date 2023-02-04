@@ -365,8 +365,8 @@
 			"Action": "EditData",
 			"Target": "Data/ObjectInformation",
 			"When": {
-				"HasMod": "MizuLeo.FruitsVeggies", 
-				"HasMod": "MizuLeo.HerbsFlowers"
+					"HasMod |contains=MizuLeo.FruitsVeggies": true,
+					"HasMod |contains=MizuLeo.HerbsFlowers": true
 			},
 			"Entries": {
 				// Foreign Jar Goods
