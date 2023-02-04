@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		// add crafting recipes
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Alembic": "390 10/Home/MizuLeo.ArtisanValley_Alembic/true/l 0",
+				"Butter Churn": "390 10/Home/MizuLeo.ArtisanValley_ButterChurn/true/l 0"
+			}
+		},
+    ]
+}

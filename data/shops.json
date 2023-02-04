@@ -1,0 +1,45 @@
+{
+	"Changes": [
+		// add shop data - saloon
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Saloon", "Items" ],
+			"Entries": {
+				"MizuLeo.ArtisanValley_MisoStarter": {
+					"Id": "MizuLeo.ArtisanValley_MisoStarter",
+					"ItemId": "MizuLeo.ArtisanValley_MisoStarter",
+					"Price": 1,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.ArtisanValley_NattoStarter": {
+					"Id": "MizuLeo.ArtisanValley_NattoStartert",
+					"ItemId": "MizuLeo.ArtisanValley_NattoStarter",
+					"Price": 1,
+					"IgnoreShopPriceModifiers": true
+				},
+				"MizuLeo.ArtisanValley_SesameSeeds": {
+					"Id": "MizuLeo.ArtisanValley_SesameSeeds",
+					"ItemId": "MizuLeo.ArtisanValley_SesameSeeds",
+					"Price": 1,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+		
+		// add shop data - dwarf's shop
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Dwarf", "Items" ],
+			"Entries": {
+				"MizuLeo.ArtisanValley_SopadillaSeed": {
+					"Id": "ArtisanValley_SopadillaSeed",
+					"ItemId": "ArtisanValley_SopadillaSeed",
+					"Price": 100,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		},
+    ]
+}
