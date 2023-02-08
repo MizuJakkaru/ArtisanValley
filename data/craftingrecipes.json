@@ -5,8 +5,25 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Entries": {
-				"Alembic": "390 10/Home/MizuLeo.ArtisanValley_Alembic/true/l 0",
-				"Butter Churn": "390 10/Home/MizuLeo.ArtisanValley_ButterChurn/true/l 0"
+				"Alembic": "709 10 766 50 334 5/Home/MizuLeo.ArtisanValley_Alembic/true/default",
+				"Butter Churn": "388 40 726 1/Home/MizuLeo.ArtisanValley_ButterChurn/true/default",
+				"Canning Machine": "335 3/Home/MizuLeo.ArtisanValley_CanningMachine/true/default",
+				"Dehydrator": "390 45 766 20/Home/MizuLeo.ArtisanValley_Dehydrator/true/default",
+				"Drying Rack": "388 40 771 20/Home/MizuLeo.ArtisanValley_DryingRack/true/default",
+				"Espresso Machine": "334 2 336 1 253 2/Home/MizuLeo.ArtisanValley_EspressoMachine/true/default",
+				"Extruder": "709 5 335 2 787 1/Home/MizuLeo.ArtisanValley_Extruder/true/default",
+				"Glass Jar": "766 100 390 40/Home/MizuLeo.ArtisanValley_GlassJar/true/default",
+				"Grinder": "338 1 335 3 787 1 390 10/Home/MizuLeo.ArtisanValley_Grinder/true/default",
+				"Ice Cream Machine": "335 1 787 1 84 2/Home/MizuLeo.ArtisanValley_IceCreamMachine/true/default",
+				"Infuser": "338 1 388 40 62 1 MizuLeo.ArtisanValley_Vodka 3/Home/MizuLeo.ArtisanValley_Infuser/true/default",
+				"Juicer": "335 1 390 20/Home/MizuLeo.ArtisanValley_Juicer/true/default",
+				"Smoker": "335 1 388 50 382 10/Home/MizuLeo.ArtisanValley_Smoker/true/default",
+				"Soap Press": "335 2 336 1/Home/MizuLeo.ArtisanValley_SoapPress/true/default",
+				"Sorbet Machine": "335 1 787 1 84 1/Home/MizuLeo.ArtisanValley_SorbetMachine/true/default",
+				"Still": "336 1 334 5/Home/MizuLeo.ArtisanValley_Still/true/default",
+				"Vinegar Keg": "388 20 335 1 725 1/Home/MizuLeo.ArtisanValley_VinegarKeg/true/default",
+				"Wax Barrel": "MizuLeo.ArtisanValley_Beeswax 3 388 50 335 1/Home/MizuLeo.ArtisanValley_WaxBarrel/true/default",
+				"Yogurt Jar": "390 40 550 1 184 5/Home/MizuLeo.ArtisanValley_YogurtJar/true/default"
 			}
 		},
     ]

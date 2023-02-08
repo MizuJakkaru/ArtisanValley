@@ -12,22 +12,6 @@
 							"OutputRules":				
 								[
 									{
-										"Id": "MizuLeo.ArtisanValley_GoatSkyr",
-										"Triggers": 
-											[
-												{
-													"RequiredItemId": "(O)438",
-												}
-											],
-										"OutputItem":
-											[
-												{
-													"ItemId": "(O)MizuLeo.ArtisanValley_GoatSkyr",
-												}
-											],
-										"MinutesUntilReady": 360,
-									},
-									{
 										"Id": "MizuLeo.ArtisanValley_GoatYogurt",
 										"Triggers": 
 											[
@@ -44,17 +28,18 @@
 										"MinutesUntilReady": 200,
 									},
 									{
-										"Id": "MizuLeo.ArtisanValley_Skyr",
+										"Id": "MizuLeo.ArtisanValley_GoatYogurt",
 										"Triggers": 
 											[
 												{
-													"RequiredItemId": "(O)186",
+													"RequiredItemId": "(O)438",
 												}
 											],
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)MizuLeo.ArtisanValley_Skyr",
+													"ItemId": "(O)MizuLeo.ArtisanValley_GoatYogurt",
+													"Quality": 2,
 												}
 											],
 										"MinutesUntilReady": 360,
@@ -74,6 +59,23 @@
 												}
 											],
 										"MinutesUntilReady": 200,
+									},
+									{
+										"Id": "MizuLeo.ArtisanValley_Yogurt",
+										"Triggers": 
+											[
+												{
+													"RequiredItemId": "(O)186",
+												}
+											],
+										"OutputItem":
+											[
+												{
+													"ItemId": "(O)MizuLeo.ArtisanValley_Yogurt",
+													"Quality": 2,
+												}
+											],
+										"MinutesUntilReady": 360,
 									},
 									{
 										"Id": "MizuLeo.ArtisanValley_FruitYogurt",

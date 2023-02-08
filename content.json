@@ -1,16 +1,16 @@
 {
 	"Format": "1.28.0",
 	"Changes": [
-		// Add Items (Base Game)
+		// add items (base game)
 		{
 			"Action": "EditData",
 			"Target": "Data/ObjectInformation",
 			"Entries": {
-				// Alembic Goods
+				// alembic goods
 				"MizuLeo.ArtisanValley_EssentialOil": "Essential Oil/100/-300/Artisan_Goods -26/Essential Oil/A liquid containing concentrated aroma compounds.////0/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PrismaticExtract": "Prismatic Extract/3500/-300/Artisan_Goods -26/Prismatic Extract/A bottle of pure prismatic color!////6/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Butter Churn Goods
+				// butter churn goods
 				"MizuLeo.ArtisanValley_Butter": "Butter/200/-300/Artisan_Goods -26/Butter/I can't believe it's not- Oh, wait, yes it is.////105/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CoconutButter": "Coconut Butter/250/-300/Artisan_Goods -26/Coconut Butter/A light butter with a tropical scent.////110/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CookieButter": "Cookie Butter/250/-300/Artisan_Goods -26/Cookie Butter/Cookies ground into a smooth, delicious paste. Don't lie to yourself. Just use a spoon.////111/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -20,28 +20,28 @@
 				"MizuLeo.ArtisanValley_SlimeButter": "Slime Butter/100/-300/Artisan_Goods -26/Slime Butter/A green butter made from slime...////116/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SunflowerButter": "Sunflower Butter/230/-300/Artisan_Goods -26/Sunflower Butter/A peanut butter substitute with a sunny flavor.////118/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Canning Machine Goods
+				// canning machine goods
 				"MizuLeo.ArtisanValley_CannedFish": "Canned Fish/100/-300/Artisan_Goods -26/Canned Fish/A tin can of fish.////147/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CannedFruit": "Canned Fruit/100/-300/Artisan_Goods -26/Canned Fruit/A can of preserved fruit.////151/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CannedMollusc": "Canned Mollusc/100/-300/Artisan_Goods -26/Canned Mollusc/A tin can of shellfish.////149/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CannedTuna": "Canned Tuna/200/-300/Artisan_Goods -26/Canned Tuna/A tin can of tuna.////148/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CannedVegetables": "Canned Vegetables/100/-300/Artisan_Goods -26/Canned Vegetables/A can of preserved vegetables.////150/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Dehydrator Goods
+				// dehydrator goods
 				"MizuLeo.ArtisanValley_DriedFruit": "Dried Fruit/100/-300/Artisan_Goods -26/Dried Fruit/A box of dehydrated fruit.////24/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_DriedMushrooms": "Dried Mushroom/100/-300/Artisan_Goods -26/Dried Mushroom/A jar of dried mushrooms.////26/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_DriedVegetable": "Dried Vegetable/100/-300/Artisan_Goods -26/Dried Vegetable/A sack of dried vegetables.////25/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Prunes": "Prunes/160/10/Artisan_Goods -26/Prunes/These help promote regularity.////12/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Raisins": "Raisins/160/15/Artisan_Goods -26/Raisins/Dried grapes that make for a tasty snack!////11/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Drying Rack Goods
+				// drying rack goods
 				"MizuLeo.ArtisanValley_CornMalt": "Corn Malt/80/-300/Artisan_Goods -26/Corn Malt/A roasted cereal grain that's used in processing alcohol.////10/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_DriedFlower": "Dried Flower/100/-300/Artisan_Goods -26/Dried Flower/A bundle of dried flowers.////27/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_MatchaPowder": "Matcha Powder/300/-300/Artisan_Goods -26/Matcha Powder/A laquered jar and scoop filled with fine matcha powder used to make tea.////14/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Potpourri": "Potpourri/400/-300/Artisan_Goods -26/Potpourri/A bag of potpurri tied up with a bow.////15/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_WheatMalt": "Wheat Malt/80/-300/Artisan_Goods -26/Wheat Malt/A roasted cereal grain that's used in processing alcohol.////9/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Espresso Machine Goods
+				// espresso machine goods
 				"MizuLeo.ArtisanValley_CaffeLatte": "Caffè Latte/400/1/Artisan_Goods -26/Caffè Latte/Made by steaming milk and mixing it with espresso.////242/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CaffePelicano": "Caffè Pelicano/300/2/Artisan_Goods -26/Caffè Pelicano/Espresso diluted in water, making it taste similar to standard coffee.////241/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Cappuccino": "Cappuccino/450/1/Artisan_Goods -26/Cappuccino/This drink is like a latte, but uses richer milk or cream instead.////244/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -51,18 +51,18 @@
 				"MizuLeo.ArtisanValley_PumpkinSpiceLatte": "Pumpkin Spice Latte/500/1/Artisan_Goods -26/Pumpkin Spice Latte/A fall sensation! It has pumpkin and cinnamon-like flavor notes.////249/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_ToastedCoconutMocha": "Toasted Coconut Mocha/450/1/Artisan_Goods -26/Toasted Coconut Mocha/A moccachino with coconut flavor notes.////251/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Extruder Goods
+				// extruder goods
 				"MizuLeo.ArtisanValley_Beeswax": "Beeswax/200/-300/Artisan_Goods -26/Beeswax/Wax used to bind goods and make numerous products.////56/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_ChewingGum": "Chewing Gum/250/40/Artisan_Goods -26/Chewing Gum/The worldwide phenomenon.////57/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_RicePasta": "Rice Pasta/300/-300/Artisan_Goods -26/Rice Pasta/A bag of thin, rice-flavored noodles.////225/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_WheatPasta": "Wheat Pasta/150/-300/Artisan_Goods -26/Wheat Pasta/A bag of robust noodles used throughout the world for a multitude of meals.////223/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Foreign Jar Goods
+				// foreign jar goods
 				"MizuLeo.ArtisanValley_FishSauce": "Fish Sauce/200/-300/Artisan_Goods -26/Fish Sauce/It's the king of flavor!////254/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Garum": "Garum/300/-300/Artisan_Goods -26/Garum/An ancient recipe, it has a rich and savory flavor.////256/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_RedSauerkraut": "Red Sauerkraut/570/-300/Artisan_Goods -26/Red Sauerkraut/Shredded red cabbage with a distinct sour flavor.////93/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Glass Jar Goods
+				// glass jar goods
 				"MizuLeo.ArtisanValley_ChanterelleKombucha": "Chanterelle Kombucha/0/30/Artisan_Goods -26/Chanterelle Kombucha/A fruity, slightly peppery tea-like drink made from fermented mushrooms. ////183/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GreenKombucha": "Green Kombucha/0/30/Artisan_Goods -26/Green Kombucha/A tea-flavored kombucha drink.////236/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Kombucha": "Kombucha/0/30/Artisan_Goods -26/Kombucha/A tea-like drink made from fermented mushrooms. ////182/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -71,7 +71,7 @@
 				"MizuLeo.ArtisanValley_PurpleKombucha": "Purple Kombucha/0/30/Artisan_Goods -26/Purple Kombucha/A purple tea-like drink made from fermented mushrooms.////186/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_RedKombucha": "Red Kombucha/0/30/Artisan_Goods -26/Red Kombucha/A cautionary tale in kombucha recipes. ////185/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Grinder Goods
+				// grinder goods
 				"MizuLeo.ArtisanValley_Applesauce": "Applesauce/250/-300/Artisan_Goods -26/Applesauce/Apples that have been ground into a sweet sauce.////41/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_ChiliPowder": "Chili Powder/150/-300/Artisan_Goods -26/Chili Powder/A jar of ground peppers, commonly used in cooking.////69/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GroundVegetable": "Ground Vegetable/100/-300/Artisan_Goods -26/Ground Vegetable/A jar of ground vegetables.////29/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -81,7 +81,7 @@
 				"MizuLeo.ArtisanValley_Salt": "Salt/180/-300/Artisan_Goods -26/Salt/A grinder filled with salt crystals.////195/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_ShrimpPaste": "Shrimp Paste/150/-300/Artisan_Goods -26/Shrimp Paste/This pungent paste is used to give an umami taste to food.////255/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Ice Cream Machine Goods
+				// ice cream machine goods
 				"MizuLeo.ArtisanValley_CherryIceCream": "Cherry Ice Cream/300/-300/Artisan_Goods -26/Cherry Ice Cream/Sweet cherry ice cream with cherry bits mixed throughout.////51/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CherryYogurtIceCream": "Cherry Yogurt Ice Cream/400/-300/Artisan_Goods -26/Cherry Yogurt Ice Cream/Sweet cherry ice cream with frozen yogurt mixed throughout.////52/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_HazelnutIceCream": "Hazelnut Ice Cream/400/-300/Artisan_Goods -26/Hazelnut Ice Cream/Rich hazelnut ice cream with hazelnut butter swirled throughout.////55/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -91,17 +91,17 @@
 				"MizuLeo.ArtisanValley_PrismaticIceCream": "Prismatic Ice Cream/2500/-300/Artisan_Goods -26/Prismatic Ice Cream/Rainbow ice cream that glows in every color!////97/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_StrawberryIceCream": "Strawberry Ice Cream/250/-300/Artisan_Goods -26/Strawberry Ice Cream/Sweet strawberry ice cream.////99/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Infuser Goods
+				// infuser goods
 				"MizuLeo.ArtisanValley_Schnapps": "Schnapps/150/5/Artisan_Goods -26/Schnapps/Add to beverages to give it a splash of fruit flavor.////128/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_AppleSchnapps": "Apple Schnapps/250/5/Artisan_Goods -26/Apple Schnapps/Add to beverages to give it a splash of apple flavor.////129/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CoffeeLiqueur": "Coffee Liqueur/250/5/Artisan_Goods -26/Coffee Liqueur/Add to beverages to give it a splash of coffee flavor.////174/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PeachSchnapps": "Peach Schnapps/300/5/Artisan_Goods -26/Peach Schnapps/Add to beverages to give it a splash of peach flavor.////130/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Juicer Goods
+				// juicer goods
 				"MizuLeo.ArtisanValley_FruitJuice": "Juice/150/30/Artisan_Goods -26/Juice/A sweet, nutritious beverage.////16/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_OrangeJuice": "Orange Juice/150/30/Artisan_Goods -26/Orange Juice/A tart, nutritious beverage.////222/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Keg Goods
+				// keg goods
 				"MizuLeo.ArtisanValley_Kefir": "Kefir/250/20/Artisan_Goods -26/Kefir/Made from sheep or goat milk and a kefir yeast. It's creamy.////137/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Kumis": "Kumis/250/20/Artisan_Goods -26/Kumis/A fermented milk beverage usually made from mare’s milk.////138/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Lassi": "Lassi/300/20/Artisan_Goods -26/Lassi/A creamy and frothy beverage made from fermented yogurt.////139/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -109,31 +109,31 @@
 				"MizuLeo.ArtisanValley_PrismaticWine": "Prismatic Wine/5500/20/Artisan_Goods -26/Prismatic Wine/Drink in moderation. It glows with every color!////191/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Sake": "Saké/400/20/Artisan_Goods -26/Saké/Drink in moderation.////143/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Loom Goods
+				// loom goods
 				"MizuLeo.ArtisanValley_CopperThread": "Copper Thread/110/-300/Artisan_Goods -26/Copper Thread/A spool of copper thread. It sparkles in the light.////80/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GoldThread": "Gold Thread/300/-300/Artisan_Goods -26/Gold Thread/A spool of gold thread. It sparkles in the light.////82/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_IridiumThread": "Iridium Thread/1250/-300/Artisan_Goods -26/Iridium Thread/A spool of purple thread. It sparkles in the light.////83/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SilveryThread": "Silvery Thread/170/-300/Artisan_Goods -26/Silvery Thread/A spool of silvery thread. It sparkles in the light.////81/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Twine": "Twine/20/-300/Artisan_Goods -26/Twine/A spool of rough twine.////58/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Mayonnaise Machine Goods
+				// mayonnaise machine goods
 				"MizuLeo.ArtisanValley_BlackPepperMayonnaise": "Black Pepper Mayonnaise/220/-300/Artisan_Goods -26/Black Pepper Mayonnaise/It's a peppery mayonnaise.////20/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GarlicMayonnaise": "Garlic Mayonnaise/240/-300/Artisan_Goods -26/Garlic Mayonnaise/It's a pungent, yellow mayonnaise.////19/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SpicyMayonnaise": "Spicy Mayonnaise/240/-300/Artisan_Goods -26/Spicy Mayonnaise/It's a mayonnaise with a kick!////22/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_ThunderMayonnaise": "Thunder Mayonnaise/500/-300/Artisan_Goods -26/Thunder Mayonnaise/A thick, purple paste that smells like the air during a storm.////47/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Mill Goods
+				// mill goods
 				"MizuLeo.ArtisanValley_CornFlour": "Corn Flour/100/5/Basic/Corn Flour/A cooking ingredient made from milled corn.////205/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_RiceFlour": "Rice Flour/150/5/Basic/Rice Flour/A cooking ingredient made from milled rice.////201/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_TaroFlour": "Taro Flour/150/5/Basic/Taro Flour/A cooking ingredient made from crushed taro root.////204/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Oil Maker Goods
+				// oil maker goods
 				"MizuLeo.ArtisanValley_ChiliOil": "Chili Oil/160/5/Artisan_Goods -26/Chili Oil/A spicy oil used to give a kick to food or as a topping.////31/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CoconutOil": "Coconut Oil/200/5/Artisan_Goods -26/Coconut Oil/A multi-purpose oil used in cooking and household products.////38/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_FishOil": "Fish Oil/250/5/Artisan_Goods -26/Fish Oil/Oil rendered from a fish.////33/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SesameOil": "Sesame Oil/120/15/Artisan_Goods -26/Sesame Oil/A bottle of oil made from sesame seeds.////37/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Smoker Goods
+				// smoker goods
 				"MizuLeo.ArtisanValley_RoastedGarlic": "Roasted Garlic/150/15/Artisan_Goods -26/Roasted Garlic/Garlic that's been roasted and smoked. Spread it on toast or crackers!////198/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_RoastedSunflowerSeeds": "Roasted Sunflower Seeds/75/20/Artisan_Goods -26/Roasted Sunflower Seeds/A bag of roasted sunflower seeds.////34/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SmokedCheese": "Smoked Cheese/400/36/Artisan_Goods -26/Smoked Cheese/A wheel of smoked cheese.////216/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -141,13 +141,13 @@
 				"MizuLeo.ArtisanValley_SmokedFish": "Smoked Fish/150/30/Artisan_Goods -26/Smoked Fish/A whole smoked fish.////197/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SmokedSalmon": "Smoked Salmon/250/30/Artisan_Goods -26/Smoked Salmon/A packaged smoked salmon filet.////196/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Soap Press Goods
+				// soap press goods
 				"MizuLeo.ArtisanValley_FloralSoap": "Floral Soap/150/-300/Artisan_Goods -26/Floral Soap/A scented bar of artisanal soap. It smells floral.////168/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_FruitSoap": "Fruit Soap/150/-300/Artisan_Goods -26/Fruit Soap/A scented bar of artisanal soap. It smells like fruit.////169/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PrismaticSoap": "Prismatic Soap/3000/-300/Artisan_Goods -26/Prismatic Soap/A scented bar of artisanal soap. It glows like a rainbow!////173/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_TeaSoap": "Tea Soap/100/-300/Artisan_Goods -26/Tea Soap/A scented bar of artisanal soap. It smells like tea.////172/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Still Goods
+				// still goods
 				"MizuLeo.ArtisanValley_Bitter": "Bitter/150/20/Artisan_Goods -26/Bitter/Drink in moderation.////157/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Bourbon": "Bourbon/300/20/Artisan_Goods -26/Bourbon/Drink in moderation.////158/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Brandy": "Brandy/150/20/Artisan_Goods -26/Brandy/Drink in moderation.////159/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -158,21 +158,19 @@
 				"MizuLeo.ArtisanValley_Vodka": "Vodka/250/20/Artisan_Goods -26/Vodka/Drink in moderation.////180/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Whiskey": "Whiskey/300/20/Artisan_Goods -26/Whiskey/Drink in moderation.////181/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Wax Barrel Goods
+				// wax barrel goods
 				"MizuLeo.ArtisanValley_SnackCheeses": "Snack Cheeses/300/36/Artisan_Goods -26/Snack Cheeses/Small wax-covered cheeses.////217/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_WaxMelts": "Wax Melts/350/-300/Artisan_Goods -26/Wax Melts/Scented wax used for melting in special warmers.////193/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Yogurt Jar Goods
+				// yogurt jar goods
 				"MizuLeo.ArtisanValley_FruitYogurt": "Fruit Yogurt/100/15/Artisan_Goods -26/Fruit Yogurt/Yogurt with the flavor of a fruit.////45/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_GoatSkyr": "Goat Skyr/300/29/Artisan_Goods -26/Goat Skyr/Similar to yogurt, it's strained to give it an extremely tart flavor and creamy consistency.////95/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GoatYogurt": "Goat Yogurt/300/25/Artisan_Goods -26/Goat Yogurt/A tart yogurt that's favored in some lands.////44/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_Skyr": "Skyr/400/27/Artisan_Goods -26/Skyr/Similar to yogurt, it's strained to give it a very tart flavor and creamy consistency.////46/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Yogurt": "Yogurt/175/15/Artisan_Goods -26/Yogurt/Yogurt made from cow's milk. It's plain, with a slightly sweet flavor.////43/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Purchasable Goods
+				// purchasable goods
 				"MizuLeo.ArtisanValley_SesameSeeds": "Sesame Seeds/20/20/Artisan_Goods -26/Sesame Seeds/A bag of sesame seeds.////35/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Custom Forage, Trees, & Misc
+				// custom forage, trees, & misc
 				"MizuLeo.ArtisanValley_ChicleRubber": "Chicle Rubber/100/-300/Artisan_Goods -27/Chicle Rubber/A sticky substance derived from a sopadilla tree. It can be used to make gum.////267/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Peppercorn": "Peppercorn/40/-300/Forage -81/Peppercorn/It's a fresh peppercorn!////218/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SeaSalt": "Sea Salt/60/-300/Mineral -12/Sea Salt/A clumb of salt gathered together as the tide drifted in and out.////219/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -180,7 +178,7 @@
 			}
 		},
 
-		// Add Items (Fruits and Veggies Conditional)
+		// add items (fruits and veggies conditional)
 		{
 			"Action": "EditData",
 			"Target": "Data/ObjectInformation",
@@ -188,12 +186,12 @@
 				"HasMod":"MizuLeo.FruitsVeggies"
 			},
 			"Entries": {
-				// Alembic Goods
+				// alembic goods
 				"MizuLeo.ArtisanValley_AlmondExtract": "Almond Extract/200/-300/Artisan_Goods -26/Almond Extract/Commonly used in baking, it imparts a rich almond flavor.////7/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_HabaneroExtract": "Habanero Extract/240/-300/Artisan_Goods -26/Habanero Extract/The extract from a habanero, it's incredibly potent and spicy.////4/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_JalapenoExtract": "Jalapeño Extract/100/-300/Artisan_Goods -26/Jalapeño Extract/The extract from a jalapeño, good for adding a kick to recipes.////5/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Butter Churn Goods
+				// butter churn goods
 				"MizuLeo.ArtisanValley_AlmondButter": "Almond Butter/230/-300/Artisan_Goods -26/Almond Butter/A gritty butter with bits of almond inside.////108/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CashewButter": "Cashew Butter/250/-300/Artisan_Goods -26/Cashew Butter/A warm butter with bits of cashew inside.////109/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CocoaButter": "Cocoa Butter/250/-300/Artisan_Goods -26/Cocoa Butter/Commonly used in baking, it's oils from a cocoa pod seperated out.////257/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -203,19 +201,19 @@
 				"MizuLeo.ArtisanValley_SoynutButter": "Soynut Butter/230/-300/Artisan_Goods -26/Soynut Butter/A butter made of soybeans for individuals with lactose intolerance////117/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_WalnutButter": "Walnut Butter/230/-300/Artisan_Goods -26/Walnut Butter/A crunchy butter with bits of walnut inside.////119/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Drying Rack Goods
+				// drying rack goods
 				"MizuLeo.ArtisanValley_BarleyMalt": "Barley Malt/80/-300/Artisan_Goods -26/Barley Malt/A roasted cereal grain that's used in processing alcohol.////8/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Espresso Machine Goods
+				// espresso machine goods
 				"MizuLeo.ArtisanValley_CaffeMocha": "Caffè Mocha/450/1/Artisan_Goods -26/Caffè Mocha/Also called a mocaccino, it's chocolately.////243/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Extruder Goods
+				// extruder goods
 				"MizuLeo.ArtisanValley_BuckwheatPasta": "Buckwheat Pasta/200/-300/Artisan_Goods -26/Buckwheat Pasta/A bag of coarse, earthy-flavored noodles.////224/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SemolinaPasta": "Semolina Pasta/250/-300/Artisan_Goods -26/Semolina Pasta/A bag of whole grain noodles used for authentic dishes.////226/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_TapiocaPearls": "Tapioca Pearls/225/-300/Artisan_Goods -26/Tapioca Pearls/A gelatin-like substance that has a chewy texture.////61/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Zoodles": "Zoodles/275/-300/Artisan_Goods -26/Zoodles/A bag of spiralized zucchini noodles good for those with gluten allergies.////227/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Foreign Jar Goods
+				// foreign jar goods
 				"MizuLeo.ArtisanValley_CucumberKimchi": "Cucumber Kimchi/250/-300/Artisan_Goods -26/Cucumber Kimchi/A combination of sliced cucumbers and spicy seasonings.////85/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Kimchi": "Kimchi/300/-300/Artisan_Goods -26/Kimchi/Most commonly made from cabbage mixed with spicy seasonings.////84/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_MisoPaste": "Miso Paste/275/-300/Artisan_Goods -26/Miso Paste/A paste made from soybeans. Used to make soup.////87/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -223,13 +221,13 @@
 				"MizuLeo.ArtisanValley_Sauerkraut": "Sauerkraut/450/-300/Artisan_Goods -26/Sauerkraut/Shredded cabbage with a distinct sour flavor.////92/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SoySauce": "Soy Sauce/300/-300/Artisan_Goods -26/Soy Sauce/A versatile sauce with a strong umami flavor.////91/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Grinder Goods
+				// grinder goods
 				"MizuLeo.ArtisanValley_LemonPeel": "Lemon Peel/100/-300/Basic/Lemon Peel/The zest of a lemon.////65/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_LimePeel": "Lime Peel/100/-300/Basic/Lime Peel/The zest of a lime.////64/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Paprika": "Paprika/150/-300/Artisan_Goods -26/Paprika/A jar of ground bell peppers, it has a smoky taste.////71/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_WasabiPaste": "Wasabi Paste/330/-300/Artisan_Goods -26/Wasabi Paste/When made fresh, it doesn't last for long.////63/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Ice Cream Machine Goods
+				// ice cream machine goods
 				"MizuLeo.ArtisanValley_AmarenaIceCream": "Amarena Ice Cream/550/-300/Artisan_Goods -26/Amarena Ice Cream/Sweet ice cream with amaretto syurp and cherries swirled throughout.////48/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_ChocolateIceCream": "Chocolate Ice Cream/300/-300/Artisan_Goods -26/Chocolate Ice Cream/Rich chocolate ice cream.////53/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_ChunkyMonkeyIceCream": "Chunky Monkey Ice Cream/550/-300/Artisan_Goods -26/Chunky Monkey Ice Cream/Banana ice cream with chocolate chunks and walnuts mixed throughout.////54/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -239,14 +237,14 @@
 				"MizuLeo.ArtisanValley_RainbowSherbert": "Rainbow Sherbert/550/-300/Artisan_Goods -26/Rainbow Sherbert/Orange, lime, and strawberry sherbert all in one tub!////101/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_RumRaisinIceCream": "Rum Raisin Ice Cream/550/-300/Artisan_Goods -26/Rum Raisin Ice Cream/Sweet ice cream with rum caramel and raisins swirled throughout.////98/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Infuser Goods
+				// infuser goods
 				"MizuLeo.ArtisanValley_ChocolateLiqueur": "Chocolate Liqueur/250/5/Artisan_Goods -26/Chocolate Liqueur/Add to beverages to give it a splash of chocolate flavor.////175/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Juicer Goods
+				// juicer goods
 				"MizuLeo.ArtisanValley_Lemonade": "Lemonade/150/30/Artisan_Goods -26/Lemonade/A tart, nutritious beverage.////221/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Limeade": "Limeade/150/30/Artisan_Goods -26/Limeade/A tart, nutritious beverage.////220/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Keg Goods
+				// keg goods
 				"MizuLeo.ArtisanValley_Cauim": "Cauim/175/20/Artisan_Goods -26/Cauim/Drink in moderation.////133/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_DarkAle": "Dark Ale/300/20/Artisan_Goods -26/Dark Ale/Drink in moderation.////134/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_FramboiseLambic": "FramboiseLambic/200/20/Artisan_Goods -26/Framboise Lambic/Drink in moderation.////135/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -256,34 +254,30 @@
 				"MizuLeo.ArtisanValley_Stout": "Stout/250/20/Artisan_Goods -26/Stout/Drink in moderation.////153/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Umeshu": "Umeshu/275/20/Artisan_Goods -26/Umeshu/A sweet wine made from plum. ////154/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Loom Goods
+				// loom goods
 				"MizuLeo.ArtisanValley_Thread": "Thread/175/-300/Artisan_Goods -26/Thread/A spool of fine cotton thread.////60/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Yarn": "Yarn/250/-300/Artisan_Goods -26/Yarn/A ball of soft yarn made from many threads spun together.////59/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Mayonnaise Machine Goods
+				// mayonnaise machine goods
 				"MizuLeo.ArtisanValley_AvocadoMayonnaise": "Avocado Mayonnaise/300/-300/Artisan_Goods -26/Avocado Mayonnaise/It's a buttery and smooth mayonnaise.////17/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_OliveOilMayonnaise": "Olive Oil Mayonnaise/220/-300/Artisan_Goods -26/Olive Oil Mayonnaise/It's a light and creamy mayonnaise.////18/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_WasabiMayonnaise": "Wasabi Mayonnaise/275/-300/Artisan_Goods -26/Wasabi Mayonnaise/It's a mayonnaise with a powerful kick!////21/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Mill Goods
+				// mill goods
 				"MizuLeo.ArtisanValley_BuckwheatFlour": "Buckwheat Flour/50/5/Basic/Buckwheat Flour/A cooking ingredient made from crushed buckwheat seeds.////200/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SemolinaFlour": "Semolina Flour/50/5/Basic/Semolina Flour/A cooking ingredient made from milled durum.////202/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_TapiocaFlour": "Tapioca Flour/125/5/Basic/Tapioca Flour/A cooking ingredient made from crushed cassava.////203/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Oil Maker Goods
+				// oil maker goods
 				"MizuLeo.ArtisanValley_AvocadoOil": "Avocado Oil/400/5/Artisan_Goods -26/Avocado Oil/The oil of the avocado has a high burning point.////32/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CottonseedOil": "Cottonseed Oil/130/5/Artisan_Goods -26/Cottonseed Oil/An oil of cotton seeds often used as a substitution to vegetable oils. ////36/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_OliveOil": "Olive Oil/150/5/Artisan_Goods -26/Olive Oil/A light vegetable oil often used for salads.////39/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PeanutOil": "Peanut Oil/120/5/Artisan_Goods -26/Peanut Oil/An oil generally used in cooking or frying.////40/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Puchasable Goods
-				"MizuLeo.ArtisanValley_MisoStarter": "Miso Starter/50/-300/Basic/Miso Starter/A bacteria starter culture used to encourage miso production.////88/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_NattoStarter": "Natto Starter/50/-300/Basic/Natto Starter/A bacteria starter culture used to encourage natto production.////90/Mods\\MizuLeo.ArtisanValley\\Objects",
-				
-				// Soap Press Goods
+				// soap press goods
 				"MizuLeo.ArtisanValley_NuttySoap": "Nutty Soap/150/-300/Artisan_Goods -26/Nutty Soap/A scented bar of artisanal soap. It smells nutty.////171/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Sorbet Machine Goods
+				// sorbet machine goods
 				"MizuLeo.ArtisanValley_BlueberrySorbet": "Blueberry Sorbet/300/-300/Artisan_Goods -26/Blueberry Sorbet/Purple sorbet with a sweet and tart blueberry flavor.////120/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_DragonFruitSorbet": "Dragon Fruit Sorbet/450/-300/Artisan_Goods -26/Dragon Fruit Sorbet/White sorbet with bits of dragon fruit mixed within.////121/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_MangoSorbet": "Mango Sorbet/250/-300/Artisan_Goods -26/Mango Sorbet/Yellow sorbet with a sweet and tart mango flavor.////122/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -296,7 +290,7 @@
 				"MizuLeo.ArtisanValley_StrawberrySorbet": "Strawberry Sorbet/450/-300/Artisan_Goods -26/Strawberry Sorbet/Pink sorbet with a sweet and tart strawberry flavor.////145/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_YuzuSorbet": "Yuzu Sorbet/300/-300/Artisan_Goods -26/Yuzu Sorbet/White sorbet with a sweet and tart yuzu flavor.////146/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Still Goods
+				// still goods
 				"MizuLeo.ArtisanValley_Amaretto": "Amaretto/350/20/Artisan_Goods -26/Amaretto/Drink in moderation.////156/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Chambord": "Chambord/300/20/Artisan_Goods -26/Chambord/Drink in moderation.////160/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_CremedeCacao": "Creme de Cacao/275/20/Artisan_Goods -26/Creme de Cacao/Drink in moderation.////162/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -307,12 +301,16 @@
 				"MizuLeo.ArtisanValley_Shochu": "Shochu/240/20/Artisan_Goods -26/Shochu/Drink in moderation.////177/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Tequila": "Tequila/500/20/Artisan_Goods -26/Tequila/Drink in moderation.////178/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Wax Barrel Goods
-				"MizuLeo.ArtisanValley_Candles": "Candles/450/-300/Artisan_Goods -26/Candles/A bundle of plain scented candles.////103/Mods\\MizuLeo.ArtisanValley\\Objects"
+				// wax barrel goods
+				"MizuLeo.ArtisanValley_Candles": "Candles/450/-300/Artisan_Goods -26/Candles/A bundle of plain scented candles.////103/Mods\\MizuLeo.ArtisanValley\\Objects",
+				
+				// purchasable goods
+				"MizuLeo.ArtisanValley_MisoStarter": "Miso Starter/50/-300/Basic/Miso Starter/A bacteria starter culture used to encourage miso production.////88/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_NattoStarter": "Natto Starter/50/-300/Basic/Natto Starter/A bacteria starter culture used to encourage natto production.////90/Mods\\MizuLeo.ArtisanValley\\Objects"
 			}
 		},
 
-		// Add Items (Herbs and Flowers Conditional)
+		// add items (herbs and flowers conditional)
 		{
 			"Action": "EditData",
 			"Target": "Data/ObjectInformation",
@@ -320,47 +318,47 @@
 				"HasMod": "MizuLeo.HerbsFlowers"
 			},
 			"Entries": {
-				// Alembic Goods
+				// alembic goods
 				"MizuLeo.ArtisanValley_VanillaExtract": "Vanilla Extract/300/-300/Artisan_Goods -26/Vanilla Extract/Commonly used in baking, it imparts a rich vanilla flavor.////3/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Drying Rack Goods
+				// drying rack goods
 				"MizuLeo.ArtisanValley_DriedHerb": "Dried Herb/100/-300/Artisan_Goods -26/Dried Herb/A bundle of dried herbs.////28/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Espresso Machine Goods
+				// espresso machine goods
 				"MizuLeo.ArtisanValley_Affogato": "Affogato/500/1/Artisan_Goods -26/Affogato/A coffee-based dessert consisting of a scoop of ice cream topped with espresso.////240/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_PeppermintMocha": "Peppermint Mocha/450/1/Artisan_Goods -26/Peppermint Mocha/A moccachino with peppermint and chocolate flavor notes.////248/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_VanillaLatte": "Vanilla Latte/450/1/Artisan_Goods -26/Vanilla Latte/A latte with vanilla flavor notes.////252/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Foreign Jar Goods
+				// foreign jar goods
 				"MizuLeo.ArtisanValley_PerillaKimchi": "Perilla Kimchi/250/-300/Artisan_Goods -26/Perilla Kimchi/A combination of perilla leaves and spicy seasonings.////86/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Grinder Goods
+				// grinder goods
 				"MizuLeo.ArtisanValley_GroundHerb": "Ground Herb/100/-300/Artisan_Goods -26/Ground Herb/A jar of ground herbs.////30/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GroundCumin": "Ground Cumin/150/-300/Artisan_Goods -26/Ground Cumin/A jar of ground cumin, it gives a distinct flavor.////70/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GroundNutmeg": "Ground Nutmeg/200/-300/Artisan_Goods -26/Ground Nutmeg/A jar of ground nutmeg, used in baked goods.////68/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_GroundTurmeric": "Ground Turmeric/200/-300/Artisan_Goods -26/Ground Turmeric/A jar of ground turmeric, used in traditional dishes.////67/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Ice Cream Machine Goods
+				// ice cream machine goods
 				"MizuLeo.ArtisanValley_BananaIceCream": "Banana Ice Cream/300/-300/Artisan_Goods -26/Banana Ice Cream/Tropical banana ice cream.////49/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_BlueMoonIceCream": "Blue Moon Ice Cream/350/-300/Artisan_Goods -26/Blue Moon Ice Cream/Bright blue ice cream with a distinctly berry-like flavor.////50/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_HoneyLavenderIceCream": "Honey Lavender Ice Cream/400/-300/Artisan_Goods -26/Honey Lavender Ice Cream/Purple ice cream with a distinctly floral flavor.////72/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_VanillaIceCream": "Vanilla Ice Cream/400/-300/Artisan_Goods -26/Vanilla Ice Cream/Refreshingly simple homemade vanilla ice cream.////100/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Infuser Goods
+				// infuser goods
 				"MizuLeo.ArtisanValley_MintSchnapps": "Mint Schnapps/250/5/Artisan_Goods -26/Mint Schnapps/Add to beverages to give it a splash of mint flavor.////131/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Mayonnaise Machine Goods
+				// mayonnaise machine goods
 				"MizuLeo.ArtisanValley_DillMayonnaise": "Dill Mayonnaise/200/-300/Artisan_Goods -26/Dill Mayonnaise/It's a strong, green mayonnaise.////23/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Soap Press Goods
+				// soap press goods
 				"MizuLeo.ArtisanValley_HerbalSoap": "Herbal Soap/150/-300/Artisan_Goods -26/Herbal Soap/A scented bar of artisanal soap. It smells herbal.////170/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Still Goods
+				// still goods
 				"MizuLeo.ArtisanValley_Absinthe": "Absinthe/300/20/Artisan_Goods -26/Absinthe/Drink in strict moderation.////155/Mods\\MizuLeo.ArtisanValley\\Objects"
 			}
 		},
 
-		// Add Items (Fruits and Veggies AND Herbs and Flowers Conditional)
+		// add items (fruits and veggies AND herbs and flowers conditional)
 		{
 			"Action": "EditData",
 			"Target": "Data/ObjectInformation",
@@ -369,16 +367,16 @@
 					"HasMod |contains=MizuLeo.HerbsFlowers": true
 			},
 			"Entries": {
-				// Foreign Jar Goods
+				// foreign jar goods
 				"MizuLeo.ArtisanValley_PickledUme": "Pickled Ume/250/-300/Artisan_Goods -26/Pickled Ume/Unripened plums that have been made tart by an acidic fermentation process.////94/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Ice Cream Machine Goods
+				// ice cream machine goods
 				"MizuLeo.ArtisanValley_MintChipIceCream": "Mint Chip Ice Cream/400/-300/Artisan_Goods -26/Mint Chip Ice Cream/Minty ice cream with chocolate chips mixed throughout.////77/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_NeapolitanIceCream": "Neapolitan Ice Cream/550/-300/Artisan_Goods -26/Neapolitan Ice Cream/Chocolate, strawberry, and vanilla all in one tub!////78/Mods\\MizuLeo.ArtisanValley\\Objects"
 			}
 		},
 
-		// Add Items (Recipes Conditional)
+		// add items (recipes conditional)
 		{
 			"Action": "EditData",
 			"Target": "Data/ObjectInformation",
@@ -386,10 +384,10 @@
 				"HasMod": "MizuLeo.MoreRecipes"
 			},
 			"Entries": {
-				// Espresso Machine Goods
+				// espresso machine goods
 				"MizuLeo.ArtisanValley_SaltedCaramelMocha": "Salted Caramel Mocha/450/1/Artisan_Goods -26/Salted Caramel Mocha/A moccachino with salt and caramel flavor notes.////250/Mods\\MizuLeo.ArtisanValley\\Objects",
 				
-				// Glass Jar Goods
+				// glass jar goods
 				"MizuLeo.ArtisanValley_BarleyKombucha": "Barley Kombucha/0/30/Artisan_Goods -26/Barley Kombucha/A tea-flavored kombucha drink.////206/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_BerryFusionKombucha": "Berry Fusion Kombucha/0/30/Artisan_Goods -26/Berry Fusion Kombucha/A tea-flavored kombucha drink.////207/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_BlackKombucha": "Black Kombucha/0/30/Artisan_Goods -26/Black Kombucha/A tea-flavored kombucha drink.////233/Mods\\MizuLeo.ArtisanValley\\Objects",
@@ -411,12 +409,12 @@
 				"MizuLeo.ArtisanValley_StrawberryGrapefruitKombucha": "Strawberry Grapefruit Kombucha/0/30/Artisan_Goods -26/Strawberry Grapefruit Kombucha/A tea-flavored kombucha drink.////232/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_WhiteKombucha": "White Kombucha/0/30/Artisan_Goods -26/White Kombucha/A tea-flavored kombucha drink.////239/Mods\\MizuLeo.ArtisanValley\\Objects",
 
-				// Keg Goods
+				// keg goods
 				"MizuLeo.ArtisanValley_HardAppleCider": "Hard Apple Cider/300/20/Artisan_Goods -26/Hard Apple Cider/Drink in moderation.////136/Mods\\MizuLeo.ArtisanValley\\Objects"
 			}
 		},
 
-		// Add Big Craftables (Base Game)
+		// add big craftables (base game)
 		{
 			"Action": "EditData",
 			"Target": "Data/BigCraftablesInformation",
@@ -443,7 +441,7 @@
 			}
 		},
 
-		// Add Big Craftables (Fruits and Veggies Conditional)
+		// add big craftables (fruits and veggies conditional)
 		{
 			"Action": "EditData",
 			"Target": "Data/BigCraftablesInformation",

@@ -11,6 +11,8 @@
 					"MizuLeo.ArtisanValley_BuckwheatFlour": 
 						{
 							"Id": "MizuLeo.ArtisanValley_BuckwheatFlour",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
 							"RequiredTags": 
 								[
 									"id_o_mizuleo.fruitsveggies_buckwheat"
@@ -21,12 +23,12 @@
 										"ItemId": "(O)MizuLeo.ArtisanValley_BuckwheatFlour"
 									}
 								]
-						}
-				},
-				{
+						},
 					"MizuLeo.ArtisanValley_CornFlour": 
 						{
 							"Id": "MizuLeo.ArtisanValley_CornFlour",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
 							"RequiredTags": 
 								[
 									"id_o_270"
@@ -37,12 +39,12 @@
 										"ItemId": "(O)MizuLeo.ArtisanValley_CornFlour"
 									}
 								]
-						}
-				},
-				{
+						},
 					"MizuLeo.ArtisanValley_RiceFlour": 
 						{
 							"Id": "MizuLeo.ArtisanValley_RiceFlour",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
 							"RequiredTags": 
 								[
 									"id_o_423"
@@ -53,12 +55,12 @@
 										"ItemId": "(O)MizuLeo.ArtisanValley_RiceFlour"
 									}
 								]
-						}
-				},
-				{
+						},
 					"MizuLeo.ArtisanValley_SemolinaFlour": 
 						{
 							"Id": "MizuLeo.ArtisanValley_SemolinaFlour",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
 							"RequiredTags": 
 								[
 									"id_o_mizuleo.fruitsveggies_durum"
@@ -69,12 +71,12 @@
 										"ItemId": "(O)MizuLeo.ArtisanValley_SemolinaFlour"
 									}
 								]
-						}
-				},
-				{
+						},
 					"MizuLeo.ArtisanValley_SugarBeetSugar": 
 						{
 							"Id": "MizuLeo.ArtisanValley_SugarBeetSugar",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
 							"RequiredTags": 
 								[
 									"id_o_mizuleo.fruitsveggies_sugarbeet"
@@ -85,12 +87,12 @@
 										"ItemId": "(O)245"
 									}
 								]
-						}
-				},
-				{
+						},
 					"MizuLeo.ArtisanValley_SugarCaneSugar": 
 						{
 							"Id": "MizuLeo.ArtisanValley_SugarCaneSugar",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
 							"RequiredTags": 
 								[
 									"id_o_mizuleo.fruitsveggies_sugarcane"
@@ -101,12 +103,12 @@
 										"ItemId": "(O)245"
 									}
 								]
-						}
-				},
-				{
+						},
 					"MizuLeo.ArtisanValley_TapiocaFlour": 
 						{
 							"Id": "MizuLeo.ArtisanValley_TapiocaFlour",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
 							"RequiredTags": 
 								[
 									"id_o_mizuleo.fruitsveggies_cassava"
@@ -117,12 +119,12 @@
 										"ItemId": "(O)MizuLeo.ArtisanValley_TapiocaFlour"
 									}
 								]
-						}
-				},
-				{
+						},
 					"MizuLeo.ArtisanValley_TaroFlour": 
 						{
 							"Id": "MizuLeo.ArtisanValley_TaroFlour",
+							"SourceChest": "Input",
+							"DestinationChest": "Output",
 							"RequiredTags": 
 								[
 									"id_o_830"
