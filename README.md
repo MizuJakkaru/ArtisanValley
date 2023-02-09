@@ -15,4 +15,4 @@ The mod could not be a reality without the following people having shared in mak
 * ParadigmNomad, who developed and spearheaded PPJA originally and who permitted my request to develop a spiritual successor to PPJA.
 * PPJA Contributors: ParadigmNomad, SpringsSong, Eemie, and those listed on the PPJA [wiki page](https://github.com/paradigmnomad/PPJA/wiki/Artist-Credits).
 * MCM Contributors: Killerbotto and those listed on the MCM [forum page](https://community.playstarbound.com/threads/more-crops-mod-even-more-crops-mod-updated-20-04.111944/).
-* Other Inspiration/Help: Old friends and contributors from the ancient times of SDV modding, Amburr, xangria, and mystictempest. Also Dr.Drub, dollbae, gamerfluid, Igorius, Platonymous, TenkoKuugen. And tallasse for constantly pushing me to grow.
+* Other Thanks: Old friends from the ancient times of SDV modding, Amburr, xangria, and mystictempest. Also Dr.Drub, dollbae, gamerfluid, Igorius, Platonymous, TenkoKuugen. And tallasse for constantly pushing me to grow.
