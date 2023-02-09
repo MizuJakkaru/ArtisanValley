@@ -10,9 +10,9 @@ Though the entire code has been redone from the ground up to use Content Patcher
 I hope that people also find enjoyment in the updated sprites of Cornucopia. All produce, crops, flowers, and artisan goods are now credited to MizuJakkaru. Should this mod ever stop being supported, a spiritual successor of it can continue using the art assets under insertlicensehere.
 
 ## Credit
-The mod could not be a reality without the following people:
+The mod could not be a reality without the following people having shared in making their own mods or contributations for PPJA and MCM along the way:
 * Pathoschild, who offered endless support during 1.6 developement.
 * ParadigmNomad, who developed and spearheaded PPJA originally and who permitted my request to develop a spiritual successor to PPJA.
 * PPJA Contributors: ParadigmNomad, SpringsSong, Eemie, and those listed on the PPJA [wiki page](https://github.com/paradigmnomad/PPJA/wiki/Artist-Credits).
 * MCM Contributors: Killerbotto and those listed on the MCM [forum page](https://community.playstarbound.com/threads/more-crops-mod-even-more-crops-mod-updated-20-04.111944/).
-* Other Inspirations: Old friends and contributors from the ancient times, Amburr and xangria. Also Dr.Drub, dollbae, gamerfluid, Igorius, mystictempest, Platonymous, TenkoKuugen. And tallasse for constantly pushing me to grow.
+* Other Inspiration/Help: Old friends and contributors from the ancient times of SDV modding, Amburr, xangria, and mystictempest. Also Dr.Drub, dollbae, gamerfluid, Igorius, Platonymous, TenkoKuugen. And tallasse for constantly pushing me to grow.
