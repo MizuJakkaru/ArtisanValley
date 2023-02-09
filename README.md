@@ -9,7 +9,7 @@ Though the entire code has been redone from the ground up to use Content Patcher
 
 I hope that people also find enjoyment in the updated sprites of Cornucopia. All produce, crops, flowers, and artisan goods are now credited to MizuJakkaru. Should this mod ever stop being supported, a spiritual successor of it can continue using the art assets under insertlicensehere.
 
-## Credit
+## Credit & Thanks
 The mod could not be a reality without the following people having shared in making their own mods or contributations for PPJA and MCM along the way:
 * Pathoschild, who offered endless support during 1.6 developement.
 * ParadigmNomad, who developed and spearheaded PPJA originally and who permitted my request to develop a spiritual successor to PPJA.
