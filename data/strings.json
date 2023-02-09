@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "MizuLeo.ArtisanValley_EssentialOil": "{{i18n: essential-oil-flower}}"
+            }
+        }
+	]
+}

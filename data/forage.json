@@ -1,6 +1,6 @@
 {
     "Changes": [
-        // Add Sea Salt (Beach, All Seasons)
+        // add sea salt (all seasons, beach)
         {
             "Action": "EditData",
             "Target": "Data/Locations",
@@ -11,15 +11,95 @@
                 }
             }
         },
-        // Add Peppercorn (Location, Summer)
+		// add sea salt (all seasons, island docks)
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Locations", "IslandSouth", "Forage" ],
+            "Entries": {
+                "(O)MizuLeo.ArtisanValley_SeaSalt": {
+                    "ItemId": "(O)MizuLeo.ArtisanValley_SeaSalt"
+                }
+            }
+        },
+        // add peppercorn (summer, cindersap forest)
         {
         	"Action": "EditData",
         	"Target": "Data/Locations",
-        	"TargetField": [ "Locations", "Default", "Forage" ],
+        	"TargetField": [ "Locations", "Forest", "Forage" ],
         	"Entries": {
                 "(O)MizuLeo.ArtisanValley_Peppercorn": {
                 	"ItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
                 	"Season": "summer"
+                }
+        	}
+        },
+		// add peppercorn (summer, backwoods)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Locations", "Backwoods", "Forage" ],
+        	"Entries": {
+                "(O)MizuLeo.ArtisanValley_Peppercorn": {
+                	"ItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
+                	"Season": "summer"
+                }
+        	}
+        },
+		// add peppercorn (summer, mountain)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Locations", "Mountain", "Forage" ],
+        	"Entries": {
+                "(O)MizuLeo.ArtisanValley_Peppercorn": {
+                	"ItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
+                	"Season": "summer"
+                }
+        	}
+        },
+		// add peppercorn (summer, bus stop)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Locations", "BusStop", "Forage" ],
+        	"Entries": {
+                "(O)MizuLeo.ArtisanValley_Peppercorn": {
+                	"ItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
+                	"Season": "summer"
+                }
+        	}
+        },
+		// add peppercorn (all seasons, island west)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Locations", "IslandWest", "Forage" ],
+        	"Entries": {
+                "(O)MizuLeo.ArtisanValley_Peppercorn": {
+                	"ItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
+                }
+        	}
+        },
+		// add peppercorn (all seasons, island north)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Locations", "IslandNorth", "Forage" ],
+        	"Entries": {
+                "(O)MizuLeo.ArtisanValley_Peppercorn": {
+                	"ItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
+                }
+        	}
+        },
+		// add peppercorn (all seasons, island east)
+        {
+        	"Action": "EditData",
+        	"Target": "Data/Locations",
+        	"TargetField": [ "Locations", "IslandEast", "Forage" ],
+        	"Entries": {
+                "(O)MizuLeo.ArtisanValley_Peppercorn": {
+                	"ItemId": "(O)MizuLeo.ArtisanValley_Peppercorn",
                 }
         	}
         }

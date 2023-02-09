@@ -104,7 +104,7 @@
 											[
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
-													"Name": "{0} Essential Oil",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_EssentialOil %DISPLAY_NAME]",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[

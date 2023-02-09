@@ -173,7 +173,7 @@
 				// custom forage, trees, & misc
 				"MizuLeo.ArtisanValley_ChicleRubber": "Chicle Rubber/100/-300/Artisan_Goods -27/Chicle Rubber/A sticky substance derived from a sopadilla tree. It can be used to make gum.////267/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_Peppercorn": "Peppercorn/40/-300/Forage -81/Peppercorn/It's a fresh peppercorn!////218/Mods\\MizuLeo.ArtisanValley\\Objects",
-				"MizuLeo.ArtisanValley_SeaSalt": "Sea Salt/60/-300/Mineral -12/Sea Salt/A clumb of salt gathered together as the tide drifted in and out.////219/Mods\\MizuLeo.ArtisanValley\\Objects",
+				"MizuLeo.ArtisanValley_SeaSalt": "Sea Salt/60/-300/Mineral -12/Sea Salt/A clump of salt gathered together as the tide drifted in and out.////219/Mods\\MizuLeo.ArtisanValley\\Objects",
 				"MizuLeo.ArtisanValley_SopadillaSeed": "Sopadilla Seed/50/-300/Basic -74/Sopadilla Seed/This can be planted to grow a sopadilla tree.////266/Mods\\MizuLeo.ArtisanValley\\Objects",
 			}
 		},
@@ -463,7 +463,7 @@
 		// add subfiles
 		{
 			"Action": "Include",
-			"FromFile": "data/craftingrecipes.json, data/objectcontexttags.json, data/shops.json, machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/keg.json, machines/loom.json, machines/mayonnaisemachine.json, machines/oilmaker.json, machines/smoker.json, machines/soappress.json, machines/still.json, machines/vinegarkeg.json, machines/waxbarrel.json, machines/yogurtjar.json, data/forage.json"
+			"FromFile": "data/craftingrecipes.json, data/objectcontexttags.json, data/shops.json, data/strings.json, i18n/default.json, machines/alembic.json, machines/butterchurn.json, machines/canningmachine.json, machines/dehydrator.json, machines/dryingrack.json, machines/espressomachine.json, machines/extruder.json, machines/glassjar.json, machines/grinder.json, machines/infuser.json, machines/juicer.json, machines/keg.json, machines/loom.json, machines/mayonnaisemachine.json, machines/oilmaker.json, machines/smoker.json, machines/soappress.json, machines/still.json, machines/vinegarkeg.json, machines/waxbarrel.json, machines/yogurtjar.json, data/forage.json"
 		},
     ]
 }
