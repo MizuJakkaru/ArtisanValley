@@ -1,0 +1,42 @@
+{
+	"Changes": [
+		// add big craftables (base game)
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftablesInformation",
+			"Entries": {
+				"MizuLeo.ArtisanValley_Alembic": "Alembic/0/-300/Crafting -9/Distills flowers, fruits, herbs, and vegetables into essential oils or extracts./true/true/0//Alembic/0/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_ButterChurn": "Butter Churn/0/-300/Crafting -9/Turns milk or nuts into butter./true/true/0//Butter Churn/1/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_CanningMachine": "Canning Machine/0/-300/Crafting -9/Used for canning produce./true/true/0//Canning Machine/2/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_Dehydrator": "Dehydrator/0/-300/Crafting -9/Dehydrates fruits, mushrooms, and vegetables./true/true/0//Dehydrator/3/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_DryingRack": "Drying Rack/0/-300/Crafting -9/Used to to dry out various flowers and herbs./true/true/0//Drying Rack/20/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_EspressoMachine": "Espresso Machine/0/-300/Crafting -9/Infuse coffee into different beverages./true/true/0//Espresso Machine/5/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_Extruder": "Extruder/0/-300/Crafting -9/Turns flour into noodles and honey into wax!/true/true/0//Extruder/6/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_ForeignJar": "Foreign Jar/0/-300/Crafting -9/This stone jar is of a foreign design. It's used for a different fermentation process./true/true/0//Foreign Jar/7/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_GlassJar": "Glass Jar/0/-300/Crafting -9/A jar to ferment non-alcoholic beverages. Turns mushrooms and tea into kombucha./true/true/0//Glass Jar/8/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_Grinder": "Grinder/0/-300/Crafting -9/Use it to grind produce into valuable goods and spices./true/true/0//Grinder/9/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_IceCreamMachine": "Ice Cream Machine/0/-300/Crafting -9/A machine for making homemade ice cream./true/true/0//Ice Cream Machine/10/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_Infuser": "Infuser/0/-300/Crafting -9/A chemical apparatus for infusing liquers and schnapps./true/true/0//Infuser/11/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_Juicer": "Juicer/0/-300/Crafting -9/Turns fruit into delicious juice!/true/true/0//Juicer/21/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_Smoker": "Smoker/0/-300/Crafting -9/Use it to smoke meat and fish./true/true/0//Smoker/12/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_SoapPress": "Soap Press/0/-300/Crafting -9/A machine that can be used to press soap blocks of various kinds./true/true/0//Soap Press/14/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_Still": "Still/0/-300/Crafting -9/A distillation system used to make liquor./true/true/0//Still/16/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_VinegarKeg": "Vinegar Keg/0/-300/Crafting -9/A smaller keg used to make tart vinegars./true/true/0//Vinegar Keg/17/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_WaxBarrel": "Wax Barrel/0/-300/Crafting -9/A barrel for dipping candles./true/true/0//Wax Barrel/18/Mods\\MizuLeo.ArtisanValley\\Craftables",
+				"MizuLeo.ArtisanValley_YogurtJar": "Yogurt Jar/0/-300/Crafting -9/A jar to allow milk to ferment into yogurt./true/true/0//Yogurt Jar/19/Mods\\MizuLeo.ArtisanValley\\Craftables"
+			}
+		},
+
+		// add big craftables (fruits and veggies conditional)
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftablesInformation",
+			"When": {
+				"HasMod": "MizuLeo.FruitsVeggies"
+			},
+			"Entries": {
+				"MizuLeo.ArtisanValley_SorbetMachine": "Sorbet Machine/0/-300/Crafting -9/A machine for making homemade sorbet./true/true/0//Sorbet Machine/15/Mods\\MizuLeo.ArtisanValley\\Craftables"
+			}
+		},
+    ]
+}
