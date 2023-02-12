@@ -72,6 +72,8 @@
 												{
 													"ItemId": "MizuLeo.ArtisanValley_FruitJuice",
 													"Name": "{0} Juice",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_FruitJuice %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[

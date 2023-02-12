@@ -4,7 +4,33 @@
             "Action": "EditData",
             "Target": "Strings/Objects",
             "Entries": {
-                "MizuLeo.ArtisanValley_EssentialOil": "{{i18n: essential-oil-flower}}"
+                "MizuLeo.ArtisanValley_Bitter": "{{i18n: bitter}}",
+				"MizuLeo.ArtisanValley_CannedFish": "{{i18n: canned-fish}}",
+				"MizuLeo.ArtisanValley_CannedFruit": "{{i18n: canned-fruit}}",
+				"MizuLeo.ArtisanValley_CannedShellfish": "{{i18n: canned-shellfish}}",
+				"MizuLeo.ArtisanValley_CannedVegetables": "{{i18n: canned-vegetables}}",
+				"MizuLeo.ArtisanValley_DriedFlower": "{{i18n: dried-flower}}",
+				"MizuLeo.ArtisanValley_DriedFruit": "{{i18n: dried-fruit}}",
+				"MizuLeo.ArtisanValley_DriedHerb": "{{i18n: dried-herb}}",
+				"MizuLeo.ArtisanValley_DriedMushrooms": "{{i18n: dried-mushrooms}}",
+				"MizuLeo.ArtisanValley_DriedVegetable": "{{i18n: dried-vegetable}}",
+				"MizuLeo.ArtisanValley_EssentialOil": "{{i18n: essential-oil}}",
+				"MizuLeo.ArtisanValley_FruitJuice": "{{i18n: fruit-juice}}",
+				"MizuLeo.ArtisanValley_GroundHerb": "{{i18n: ground-herb}}",
+				"MizuLeo.ArtisanValley_GroundVegetable": "{{i18n: ground-vegetable}}",
+				"MizuLeo.ArtisanValley_Schnapps": "{{i18n: schnapps}}",
+				"MizuLeo.ArtisanValley_SmokedFish": "{{i18n: smoked-fish}}",
+				"MizuLeo.ArtisanValley_FloralSoap": "{{i18n: floral-soap}}",
+				"MizuLeo.ArtisanValley_FruitSoap": "{{i18n: fruit-soap}}",
+				"MizuLeo.ArtisanValley_HerbalSoap": "{{i18n: herbal-soap}}",
+				"MizuLeo.ArtisanValley_HerbalSoapCamphor": "{{i18n: herbal-soap-camphor}}",
+				"MizuLeo.ArtisanValley_HerbalSoapEucalyptus": "{{i18n: herbal-soap-eucalyptus}}",
+				"MizuLeo.ArtisanValley_HerbalSoapMelaleuca": "{{i18n: herbal-soap-melaleuca}}",
+				"MizuLeo.ArtisanValley_NuttySoap": "{{i18n: nutty-soap}}",
+				"MizuLeo.ArtisanValley_NuttySoapCinnamon": "{{i18n: nutty-soap-cinnamon}}",
+				"MizuLeo.ArtisanValley_NuttySoapCocoa": "{{i18n: nutty-soap-cocoa}}",
+				"MizuLeo.ArtisanValley_NuttySoapOat": "{{i18n: nutty-soap-oat}}",
+				"MizuLeo.ArtisanValley_FruitYogurt": "{{i18n: fruit-yogurt}}"
             }
         }
 	]

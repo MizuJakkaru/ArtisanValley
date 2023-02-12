@@ -304,5 +304,61 @@
 				"Sopadilla Seed": "color_dark_brown", 
 			}
 		},
+		
+		// add custom context tags, vanilla items
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectContextTags",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Ginger"],
+					"Value": "herb_item, herb_soap_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Hazelnut"],
+					"Value": "nut_soap_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Chanterelle"],
+					"Value": "mushroom_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Common Mushroom"],
+					"Value": "mushroom_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Magma Cap"],
+					"Value": "mushroom_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Morel"],
+					"Value": "mushroom_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Purple Mushroom"],
+					"Value": "mushroom_item",
+					"Delimiter": ", "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Red Mushroom"],
+					"Value": "mushroom_item",
+					"Delimiter": ", "
+				}
+			]
+		}
 	]
 }

@@ -104,6 +104,8 @@
 												{
 													"ItemId": "MizuLeo.ArtisanValley_SmokedFish",
 													"Name": "Smoked {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_SmokedFish %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[

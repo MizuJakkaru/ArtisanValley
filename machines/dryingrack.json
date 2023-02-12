@@ -107,6 +107,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_DriedFlower",
 													"Name": "Dried {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_DriedFlower %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -133,6 +135,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_DriedHerb",
 													"Name": "Dried {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_DriedHerb %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[

@@ -56,6 +56,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_DriedFruit",
 													"Name": "Dried {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_DriedFruit %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -70,23 +72,25 @@
 										"MinutesUntilReady": 1440,
 									},
 									{
-										"Id": "MizuLeo.ArtisanValley_DriedMushroom",
+										"Id": "MizuLeo.ArtisanValley_DriedMushrooms",
 										"Triggers": 
 											[
 												{
-													"RequiredTags":[ "forage_item_mines" ],
+													"RequiredTags":[ "mushroom_item" ],
 												}
 											],
 										"OutputItem":
 											[
 												{
-													"ItemId": "(O)MizuLeo.ArtisanValley_DriedMushroom",
+													"ItemId": "(O)MizuLeo.ArtisanValley_DriedMushrooms",
 													"Name": "Dried {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_DriedMushrooms %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
 															{
-																"Id": "DriedMushroom",
+																"Id": "DriedMushrooms",
 																"Modification": "Multiply",
 																"Amount": 1.75,
 															}
@@ -108,6 +112,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_DriedVegetable",
 													"Name": "Dried {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_DriedVegetable %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[

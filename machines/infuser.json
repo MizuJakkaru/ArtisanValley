@@ -105,6 +105,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_Schnapps",
 													"Name": "{0} Schnapps",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_Schnapps %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[

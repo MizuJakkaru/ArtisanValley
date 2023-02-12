@@ -90,6 +90,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_FruitYogurt",
 													"Name": "{0} Yogurt",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_FruitYogurt %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[

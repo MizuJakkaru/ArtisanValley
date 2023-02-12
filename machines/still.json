@@ -299,6 +299,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_Bitter",
 													"Name": "{0} Bitter",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_Bitter %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[

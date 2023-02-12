@@ -24,6 +24,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_FloralSoap",
 													"Name": "{0} Soap",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_FloralSoap %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -50,6 +52,8 @@
 												{
 												"ItemId": "(O)MizuLeo.ArtisanValley_FruitSoap",
 												"Name": "{0} Soap",
+												"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_FruitSoap %PRESERVED_DISPLAY_NAME]",
+												"PreserveId": "DROP_IN",
 												"CopyPrice": true,
 												"PriceModifiers":
 													[
@@ -76,6 +80,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
 													"Name": "{0} Soap",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_HerbalSoap %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -102,6 +108,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
 													"Name": "Camphor Soap",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_HerbalSoapCamphor]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -128,6 +136,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
 													"Name": "Eucalyptus Soap",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_HerbalSoapEucalyptus]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -154,6 +164,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_HerbalSoap",
 													"Name": "Melaleuca Soap",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_HerbalSoapMelaleuca]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -180,6 +192,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
 													"Name": "{0} Soap",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_NuttySoap %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -206,6 +220,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
 													"Name": "Cinnamon Soap",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_NuttySoapCinnamon]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -232,6 +248,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
 													"Name": "Cocoa Soap",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_NuttySoapCocoa]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -259,6 +277,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_NuttySoap",
 													"Name": "Oat Soap",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_NuttySoapOat]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[

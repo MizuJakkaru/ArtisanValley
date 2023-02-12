@@ -104,7 +104,9 @@
 											[
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
-													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_EssentialOil %DISPLAY_NAME]",
+													"Name": "{0} Essential Oil",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_EssentialOil %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -131,6 +133,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
 													"Name": "{0} Essential Oil",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_EssentialOil %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -157,6 +161,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_EssentialOil",
 													"Name": "{0} Essential Oil",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_EssentialOil %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[

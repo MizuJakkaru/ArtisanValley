@@ -248,6 +248,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_GroundHerb",
 													"Name": "Ground {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_GroundHerb %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
@@ -274,6 +276,8 @@
 												{
 													"ItemId": "(O)MizuLeo.ArtisanValley_GroundVegetable",
 													"Name": "Ground {0}",
+													"ObjectDisplayName": "[LocalizedText Strings/Objects:MizuLeo.ArtisanValley_GroundVegetable %PRESERVED_DISPLAY_NAME]",
+													"PreserveId": "DROP_IN",
 													"CopyPrice": true,
 													"PriceModifiers":
 														[
