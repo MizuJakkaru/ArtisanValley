@@ -22,7 +22,8 @@
 									{
 										"ItemId": "(O)MizuLeo.ArtisanValley_BuckwheatFlour"
 									}
-								]
+								],
+							"MaxDailyConversions": -1
 						},
 					"MizuLeo.ArtisanValley_CornFlour": 
 						{
@@ -38,7 +39,8 @@
 									{
 										"ItemId": "(O)MizuLeo.ArtisanValley_CornFlour"
 									}
-								]
+								],
+							"MaxDailyConversions": -1
 						},
 					"MizuLeo.ArtisanValley_RiceFlour": 
 						{
@@ -54,7 +56,8 @@
 									{
 										"ItemId": "(O)MizuLeo.ArtisanValley_RiceFlour"
 									}
-								]
+								],
+							"MaxDailyConversions": -1
 						},
 					"MizuLeo.ArtisanValley_SemolinaFlour": 
 						{
@@ -70,7 +73,8 @@
 									{
 										"ItemId": "(O)MizuLeo.ArtisanValley_SemolinaFlour"
 									}
-								]
+								],
+							"MaxDailyConversions": -1
 						},
 					"MizuLeo.ArtisanValley_SugarBeetSugar": 
 						{
@@ -86,7 +90,8 @@
 									{
 										"ItemId": "(O)245"
 									}
-								]
+								],
+							"MaxDailyConversions": -1
 						},
 					"MizuLeo.ArtisanValley_SugarCaneSugar": 
 						{
@@ -102,7 +107,8 @@
 									{
 										"ItemId": "(O)245"
 									}
-								]
+								],
+							"MaxDailyConversions": -1
 						},
 					"MizuLeo.ArtisanValley_TapiocaFlour": 
 						{
@@ -118,7 +124,8 @@
 									{
 										"ItemId": "(O)MizuLeo.ArtisanValley_TapiocaFlour"
 									}
-								]
+								],
+							"MaxDailyConversions": -1
 						},
 					"MizuLeo.ArtisanValley_TaroFlour": 
 						{
@@ -134,7 +141,8 @@
 									{
 										"ItemId": "(O)MizuLeo.ArtisanValley_TaroFlour"
 									}
-								]
+								],
+							"MaxDailyConversions": -1
 						}
 				}
 		}
